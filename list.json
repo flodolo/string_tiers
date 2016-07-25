@@ -1,595 +1,595 @@
 [
   {
     "file": "browser/branding/official/brand.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/branding/official/brand.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutAccounts.dtd",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutDialog.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutHealthReport.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutHome.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutPrivateBrowsing.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutPrivateBrowsing.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutRobots.dtd",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/aboutSearchReset.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutSessionRestore.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutSyncTabs.dtd",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/aboutTabCrashed.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/accounts.properties",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/baseMenuOverlay.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/browser.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "Would be good to split this in smaller logical pieces",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/browser.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "Would be good to split this in smaller logical pieces",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/customizableui/customizableWidgets.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/downloads/downloads.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/downloads/downloads.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/engineManager.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/feeds/subscribe.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/feeds/subscribe.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/lightweightThemes.properties",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/loop/loop.properties",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/migration/migration.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/migration/migration.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/newTab.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/newTab.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/pageInfo.dtd",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/pageInfo.properties",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/places/bookmarkProperties.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/places/editBookmarkOverlay.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/places/moveBookmarks.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/places/places.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/places/places.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/advanced.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/applicationManager.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/applicationManager.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/applications.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/blocklists.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/colors.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/connection.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/content.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/cookies.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/donottrack.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/fonts.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/languages.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/main.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/permissions.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/preferences.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/preferences.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/privacy.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/search.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/security.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/selectBookmark.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/sync.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/tabs.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/preferences/translation.dtd",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/quitDialog.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/safebrowsing/report-phishing.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/safeMode.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/sanitize.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/search.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/searchbar.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/setDesktopBackground.dtd",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/shellservice.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/sitePermissions.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncBrand.dtd",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncCustomize.dtd",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncGenericChange.properties",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncKey.dtd",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncQuota.dtd",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncQuota.properties",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncSetup.dtd",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/syncSetup.properties",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/tabbrowser.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/taskbar.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser/translation.dtd",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/translation.properties",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/chrome/browser/webrtcIndicator.properties",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/browser-region/region.properties",
-    "module": "productization",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/overrides/appstrings.properties",
-    "module": "browser_error_messages",
+    "module": "browser/user_error_messages",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/overrides/netError.dtd",
-    "module": "browser_error_messages",
+    "module": "browser/user_error_messages",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/overrides/settingsChange.dtd",
-    "module": "browser_error_messages",
+    "module": "browser/user_error_messages",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/crashreporter/crashreporter-override.ini",
-    "module": "crashreporter",
+    "module": "browser/crashreporter",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/defines.inc",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/extensions/pocket/pocket.properties",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/firefox-l10n.js",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/installer/custom.properties",
-    "module": "browser_installer",
+    "module": "browser/installer",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/installer/mui.properties",
-    "module": "browser_installer",
+    "module": "browser/installer",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/installer/nsisstrings.properties",
-    "module": "browser_installer",
+    "module": "browser/installer",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/installer/override.properties",
-    "module": "browser_installer",
+    "module": "browser/installer",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/pdfviewer/chrome.properties",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/pdfviewer/viewer.properties",
-    "module": "browser_opt",
+    "module": "browser/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "browser/profile/bookmarks.inc",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/searchplugins/list.txt",
-    "module": "productization",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/updater/updater.ini",
-    "module": "browser_main",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
@@ -979,1183 +979,1183 @@
   },
   {
     "file": "dom/chrome/accessibility/AccessFu.properties",
-    "module": "accessibility",
+    "module": "dom/accessibility",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/accessibility/mac/accessible.properties",
-    "module": "accessibility",
+    "module": "dom/accessibility",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/accessibility/unix/accessible.properties",
-    "module": "accessibility",
+    "module": "dom/accessibility",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/accessibility/win/accessible.properties",
-    "module": "accessibility",
+    "module": "dom/accessibility",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/appstrings.properties",
-    "module": "shared_error_messages",
+    "module": "toolkit/user_error_messages",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/dom/dom.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "Need to split end-users messages, example slow script warning, form validation",
     "tier": "3"
   },
   {
     "file": "dom/chrome/global-strres.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/global.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/layout/css.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/HtmlForm.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "Need to split end-users messages",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/htmlparser.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/layout_errors.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/MediaDocument.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/layout/printing.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/layout/xbl.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/xmlparser.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/xul.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/mathml/mathml.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/netError.dtd",
-    "module": "shared_error_messages",
+    "module": "toolkit/user_error_messages",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/netErrorApp.dtd",
-    "module": "shared_error_messages",
+    "module": "toolkit/user_error_messages",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/nsWebBrowserPersist.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/plugins.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/security/caps.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/security/csp.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/security/security.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/svg/svg.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/xml/prettyprint.dtd",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/xslt/xslt.properties",
-    "module": "developer_error_messages",
+    "module": "dom/developer_error_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "mobile/android/base/android_strings.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/base/search_strings.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/base/sync_strings.dtd",
-    "module": "mobile_sync",
+    "module": "mobile/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/about.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutAccounts.dtd",
-    "module": "mobile_sync",
+    "module": "mobile/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutAccounts.properties",
-    "module": "mobile_sync",
+    "module": "mobile/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutAddons.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutAddons.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutCertError.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutDevices.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutDownloads.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutDownloads.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutHealthReport.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutHome.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutHome.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutLogins.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutLogins.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/aboutPrivateBrowsing.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/browser.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/checkbox.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/config.dtd",
-    "module": "mobile_opt",
+    "module": "mobile/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "mobile/android/chrome/config.properties",
-    "module": "mobile_opt",
+    "module": "mobile/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "mobile/android/chrome/devicePrompt.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/feedback.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/handling.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/localepicker.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/notification.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/phishing.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/pippki.properties",
-    "module": "mobile_opt",
+    "module": "mobile/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "mobile/android/chrome/prompt.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/sync.dtd",
-    "module": "mobile_sync",
+    "module": "mobile/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/sync.properties",
-    "module": "mobile_sync",
+    "module": "mobile/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/android/chrome/webcompatReporter.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/chrome/region.properties",
-    "module": "productization",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/overrides/appstrings.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/overrides/netError.dtd",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/overrides/passwordmgr.properties",
-    "module": "mobile_main",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "mobile/searchplugins/list.txt",
-    "module": "productization",
+    "module": "mobile/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "netwerk/necko.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "security/manager/chrome/pipnss/nsserrors.properties",
-    "module": "security_opt",
+    "module": "security/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "security/manager/chrome/pipnss/pipnss.properties",
-    "module": "security_opt",
+    "module": "security/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "security/manager/chrome/pippki/certManager.dtd",
-    "module": "security_main",
+    "module": "security/user_messages",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "security/manager/chrome/pippki/deviceManager.dtd",
-    "module": "security_main",
+    "module": "security/user_messages",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "security/manager/chrome/pippki/pippki.dtd",
-    "module": "security_main",
+    "module": "security/user_messages",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "security/manager/chrome/pippki/pippki.properties",
-    "module": "security_main",
+    "module": "security/user_messages",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "services/sync/errors.properties",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "services/sync/sync.properties",
-    "module": "browser_sync",
+    "module": "browser/sync",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/alerts/alert.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/alerts/alert.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/autoconfig/autoconfig.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/cookie/cookieAcceptDialog.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/cookie/cookieAcceptDialog.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/formautofill/requestAutocomplete.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "File is empty",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/about.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/aboutAbout.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/aboutNetworking.dtd",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/aboutProfiles.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/aboutProfiles.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/aboutReader.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/aboutRights.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/aboutServiceWorkers.dtd",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/aboutServiceWorkers.properties",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/aboutSupport.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/aboutSupport.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/aboutTelemetry.dtd",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/aboutTelemetry.properties",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/aboutWebrtc.properties",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/appPicker.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/autocomplete.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/browser.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/charsetMenu.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/charsetMenu.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/commonDialog.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/commonDialogs.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/config.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/config.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/console.dtd",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/console.properties",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/contentAreaCommands.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/customizeToolbar.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/customizeToolbar.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/dateFormat.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/datetimepicker.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/dialog.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/dialogOverlay.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/editMenuOverlay.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/extensions.properties",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/fallbackMenubar.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/filefield.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/filepicker.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/filepicker.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/findbar.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/findbar.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/finddialog.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/finddialog.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/globalKeys.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/headsUpDisplay.properties",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/intl.css",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/intl.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/keys.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/languageNames.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/mozilla.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/narrate.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/notification.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/nsTreeSorting.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/preferences.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/printdialog.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/printdialog.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/printjoboptions.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/printPageSetup.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/printPreview.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/printPreviewProgress.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/printProgress.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/regionNames.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/resetProfile.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/resetProfile.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/textcontext.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/tree.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/videocontrols.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global/viewSource.dtd",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/viewSource.properties",
-    "module": "shared_dev",
+    "module": "toolkit/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "toolkit/chrome/global/webapps.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/wizard.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global/wizard.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/global-platform/mac/intl.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global-platform/mac/platformKeys.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global-platform/unix/intl.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global-platform/unix/platformKeys.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global-platform/win/intl.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/global-platform/win/platformKeys.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/downloads.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/downloads.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/settingsChange.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/unknownContentType.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/unknownContentType.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/about.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/blocklist.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/extensions.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/extensions.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/newaddon.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/newaddon.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/update.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/update.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/handling/handling.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/handling/handling.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/help/help-toc.rdf",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/mozapps/help/help.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/mozapps/help/help.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/mozapps/help/welcome.xhtml",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/mozapps/preferences/changemp.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/preferences/preferences.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/preferences/removemp.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/profile/createProfileWizard.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/profile/profileSelection.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/profile/profileSelection.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/mozapps/update/history.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/mozapps/update/updates.dtd",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/mozapps/update/updates.properties",
-    "module": "shared_opt",
+    "module": "toolkit/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "toolkit/chrome/passwordmgr/passwordManager.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/passwordmgr/passwordmgr.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/places/places.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/pluginproblem/pluginproblem.dtd",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/chrome/search/search.properties",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/crashreporter/crashes.dtd",
-    "module": "crashreporter",
+    "module": "toolkit/crashreporter",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/crashreporter/crashes.properties",
-    "module": "crashreporter",
+    "module": "toolkit/crashreporter",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/crashreporter/crashreporter.ini",
-    "module": "crashreporter",
+    "module": "toolkit/crashreporter",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "toolkit/defines.inc",
-    "module": "shared_main",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   }
