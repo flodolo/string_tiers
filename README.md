@@ -4,23 +4,21 @@
 | ----------- | ---- | ----- |
 | browser/crashreporter | 1 | 1 |
 | browser/installer | 1 | 4 |
-| browser/main | 1 | 68 |
+| browser/main | 1 | 71 |
 | browser/opt | 2 | 12 |
 | browser/sync | 1 | 13 |
-| browser/user_error_messages | 1 | 3 |
 | devtools | 3 | 64 |
 | dom/accessibility | 1 | 4 |
-| dom/developer_error_messages | 3 | 15 |
+| dom/developer_messages | 3 | 15 |
 | mobile/main | 1 | 30 |
 | mobile/opt | 2 | 3 |
 | mobile/sync | 1 | 5 |
 | security/developer_messages | 3 | 2 |
-| security/user_messages | 2 | 4 |
+| security/opt | 2 | 4 |
 | toolkit/crashreporter | 1 | 3 |
 | toolkit/developer_messages | 3 | 12 |
-| toolkit/main | 1 | 87 |
+| toolkit/main | 1 | 90 |
 | toolkit/opt | 2 | 27 |
-| toolkit/user_error_messages | 1 | 3 |
 
 ## Modules details
 
@@ -95,6 +93,9 @@
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/taskbar.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/webrtcIndicator.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser-region/region.properties</sub> | <sub></sub> |
+| <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/appstrings.properties</sub> | <sub></sub> |
+| <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/netError.dtd</sub> | <sub></sub> |
+| <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/settingsChange.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/firefox-l10n.js</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/profile/bookmarks.inc</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/searchplugins/list.txt</sub> | <sub></sub> |
@@ -124,9 +125,6 @@
 | <sub>browser/sync</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncSetup.properties</sub> | <sub></sub> |
 | <sub>browser/sync</sub> | <sub>1</sub> | <sub>services/sync/errors.properties</sub> | <sub></sub> |
 | <sub>browser/sync</sub> | <sub>1</sub> | <sub>services/sync/sync.properties</sub> | <sub></sub> |
-| <sub>browser/user_error_messages</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/appstrings.properties</sub> | <sub></sub> |
-| <sub>browser/user_error_messages</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/netError.dtd</sub> | <sub></sub> |
-| <sub>browser/user_error_messages</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/settingsChange.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/animationinspector.dtd</sub> | <sub></sub> |
@@ -195,21 +193,21 @@
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/mac/accessible.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/unix/accessible.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/win/accessible.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/dom/dom.properties</sub> | <sub>Need to split end-users messages, example slow script warning, form validation</sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/css.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/HtmlForm.properties</sub> | <sub>Need to split end-users messages</sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/htmlparser.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/layout_errors.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/xbl.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/xmlparser.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/xul.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/mathml/mathml.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/security/caps.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/security/csp.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/security/security.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/svg/svg.properties</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xml/prettyprint.dtd</sub> | <sub></sub> |
-| <sub>dom/developer_error_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xslt/xslt.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/dom/dom.properties</sub> | <sub>Need to split end-users messages, example slow script warning, form validation</sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/css.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/HtmlForm.properties</sub> | <sub>Need to split end-users messages</sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/htmlparser.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/layout_errors.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/xbl.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/xmlparser.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/xul.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/mathml/mathml.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/security/caps.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/security/csp.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/security/security.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/svg/svg.properties</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xml/prettyprint.dtd</sub> | <sub></sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xslt/xslt.properties</sub> | <sub></sub> |
 | <sub>mobile/main</sub> | <sub>1</sub> | <sub>mobile/android/base/android_strings.dtd</sub> | <sub></sub> |
 | <sub>mobile/main</sub> | <sub>1</sub> | <sub>mobile/android/base/search_strings.dtd</sub> | <sub></sub> |
 | <sub>mobile/main</sub> | <sub>1</sub> | <sub>mobile/android/chrome/about.dtd</sub> | <sub></sub> |
@@ -250,10 +248,10 @@
 | <sub>mobile/sync</sub> | <sub>1</sub> | <sub>mobile/android/chrome/sync.properties</sub> | <sub></sub> |
 | <sub>security/developer_messages</sub> | <sub>3</sub> | <sub>security/manager/chrome/pipnss/nsserrors.properties</sub> | <sub></sub> |
 | <sub>security/developer_messages</sub> | <sub>3</sub> | <sub>security/manager/chrome/pipnss/pipnss.properties</sub> | <sub></sub> |
-| <sub>security/user_messages</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/certManager.dtd</sub> | <sub></sub> |
-| <sub>security/user_messages</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/deviceManager.dtd</sub> | <sub></sub> |
-| <sub>security/user_messages</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/pippki.dtd</sub> | <sub></sub> |
-| <sub>security/user_messages</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/pippki.properties</sub> | <sub></sub> |
+| <sub>security/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/certManager.dtd</sub> | <sub></sub> |
+| <sub>security/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/deviceManager.dtd</sub> | <sub></sub> |
+| <sub>security/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/pippki.dtd</sub> | <sub></sub> |
+| <sub>security/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/pippki.properties</sub> | <sub></sub> |
 | <sub>toolkit/crashreporter</sub> | <sub>1</sub> | <sub>toolkit/crashreporter/crashes.dtd</sub> | <sub></sub> |
 | <sub>toolkit/crashreporter</sub> | <sub>1</sub> | <sub>toolkit/crashreporter/crashes.properties</sub> | <sub></sub> |
 | <sub>toolkit/crashreporter</sub> | <sub>1</sub> | <sub>toolkit/crashreporter/crashreporter.ini</sub> | <sub></sub> |
@@ -269,10 +267,13 @@
 | <sub>toolkit/developer_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/headsUpDisplay.properties</sub> | <sub></sub> |
 | <sub>toolkit/developer_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/viewSource.dtd</sub> | <sub></sub> |
 | <sub>toolkit/developer_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/viewSource.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/appstrings.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/global-strres.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/global.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/layout/MediaDocument.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/layout/printing.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/netError.dtd</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/netErrorApp.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/nsWebBrowserPersist.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/plugins.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/alerts/alert.dtd</sub> | <sub></sub> |
@@ -383,6 +384,3 @@
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/history.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/updates.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/updates.properties</sub> | <sub></sub> |
-| <sub>toolkit/user_error_messages</sub> | <sub>1</sub> | <sub>dom/chrome/appstrings.properties</sub> | <sub></sub> |
-| <sub>toolkit/user_error_messages</sub> | <sub>1</sub> | <sub>dom/chrome/netError.dtd</sub> | <sub></sub> |
-| <sub>toolkit/user_error_messages</sub> | <sub>1</sub> | <sub>dom/chrome/netErrorApp.dtd</sub> | <sub></sub> |

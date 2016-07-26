@@ -499,19 +499,19 @@
   },
   {
     "file": "browser/chrome/overrides/appstrings.properties",
-    "module": "browser/user_error_messages",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/overrides/netError.dtd",
-    "module": "browser/user_error_messages",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "browser/chrome/overrides/settingsChange.dtd",
-    "module": "browser/user_error_messages",
+    "module": "browser/main",
     "notes": "",
     "tier": "1"
   },
@@ -1003,13 +1003,13 @@
   },
   {
     "file": "dom/chrome/appstrings.properties",
-    "module": "toolkit/user_error_messages",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/dom/dom.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "Need to split end-users messages, example slow script warning, form validation",
     "tier": "3"
   },
@@ -1027,25 +1027,25 @@
   },
   {
     "file": "dom/chrome/layout/css.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/HtmlForm.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "Need to split end-users messages",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/htmlparser.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/layout_errors.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
@@ -1063,37 +1063,37 @@
   },
   {
     "file": "dom/chrome/layout/xbl.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/xmlparser.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/layout/xul.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/mathml/mathml.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/netError.dtd",
-    "module": "toolkit/user_error_messages",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
   {
     "file": "dom/chrome/netErrorApp.dtd",
-    "module": "toolkit/user_error_messages",
+    "module": "toolkit/main",
     "notes": "",
     "tier": "1"
   },
@@ -1111,37 +1111,37 @@
   },
   {
     "file": "dom/chrome/security/caps.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/security/csp.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/security/security.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/svg/svg.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/xml/prettyprint.dtd",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
   {
     "file": "dom/chrome/xslt/xslt.properties",
-    "module": "dom/developer_error_messages",
+    "module": "dom/developer_messages",
     "notes": "",
     "tier": "3"
   },
@@ -1393,25 +1393,25 @@
   },
   {
     "file": "security/manager/chrome/pippki/certManager.dtd",
-    "module": "security/user_messages",
+    "module": "security/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "security/manager/chrome/pippki/deviceManager.dtd",
-    "module": "security/user_messages",
+    "module": "security/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "security/manager/chrome/pippki/pippki.dtd",
-    "module": "security/user_messages",
+    "module": "security/opt",
     "notes": "",
     "tier": "2"
   },
   {
     "file": "security/manager/chrome/pippki/pippki.properties",
-    "module": "security/user_messages",
+    "module": "security/opt",
     "notes": "",
     "tier": "2"
   },
