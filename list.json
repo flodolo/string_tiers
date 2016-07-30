@@ -144,12 +144,6 @@
     "tier": "2"
   },
   {
-    "file": "browser/chrome/browser/loop/loop.properties",
-    "module": "browser/opt",
-    "notes": "",
-    "tier": "2"
-  },
-  {
     "file": "browser/chrome/browser/migration/migration.dtd",
     "module": "browser/main",
     "notes": "",

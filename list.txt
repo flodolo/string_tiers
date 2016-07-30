@@ -22,7 +22,6 @@ browser/chrome/browser/engineManager.properties
 browser/chrome/browser/feeds/subscribe.dtd
 browser/chrome/browser/feeds/subscribe.properties
 browser/chrome/browser/lightweightThemes.properties
-browser/chrome/browser/loop/loop.properties
 browser/chrome/browser/migration/migration.dtd
 browser/chrome/browser/migration/migration.properties
 browser/chrome/browser/newTab.dtd
