@@ -27,6 +27,14 @@ def main():
         if current_module not in modules:
             modules[current_module] = element['tier']
             module_names.append(current_module)
+        # Sanity checks
+        if element['tier'] != modules[current_module]:
+            print '{0} has a different tier'.format(element['file'])
+        if current_module == '':
+            print '{0} has no module'.format(element['file'])
+        if element['tier'] == '':
+            print '{0} has an empty tier'.format(element['file'])
+
     module_names.sort()
     new_content['modules'] = modules
 
