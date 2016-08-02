@@ -5,7 +5,7 @@
 | browser/crashreporter | 1 | 1 |
 | browser/installer | 1 | 4 |
 | browser/main | 1 | 71 |
-| browser/opt | 2 | 12 |
+| browser/opt | 2 | 11 |
 | browser/sync | 1 | 13 |
 | devtools | 3 | 64 |
 | dom/accessibility | 1 | 4 |
@@ -31,6 +31,7 @@
 | <sub>browser/installer</sub> | <sub>1</sub> | <sub>browser/installer/override.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.properties</sub> | <sub></sub> |
+| <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser-region/region.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutDialog.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHealthReport.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHome.dtd</sub> | <sub></sub> |
@@ -80,9 +81,9 @@
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/sync.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/tabs.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/quitDialog.properties</sub> | <sub></sub> |
+| <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safeMode.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safebrowsing/report-phishing.dtd</sub> | <sub></sub> |
-| <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safeMode.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/sanitize.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/search.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/searchbar.dtd</sub> | <sub></sub> |
@@ -92,7 +93,6 @@
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/tabbrowser.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/taskbar.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser/webrtcIndicator.properties</sub> | <sub></sub> |
-| <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/browser-region/region.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/appstrings.properties</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/netError.dtd</sub> | <sub></sub> |
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/settingsChange.dtd</sub> | <sub></sub> |
@@ -102,7 +102,6 @@
 | <sub>browser/main</sub> | <sub>1</sub> | <sub>browser/updater/updater.ini</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/aboutRobots.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/lightweightThemes.properties</sub> | <sub></sub> |
-| <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/loop/loop.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/pageInfo.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/pageInfo.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/preferences/translation.dtd</sub> | <sub></sub> |
@@ -125,6 +124,7 @@
 | <sub>browser/sync</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncSetup.properties</sub> | <sub></sub> |
 | <sub>browser/sync</sub> | <sub>1</sub> | <sub>services/sync/errors.properties</sub> | <sub></sub> |
 | <sub>browser/sync</sub> | <sub>1</sub> | <sub>services/sync/sync.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/VariablesView.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/animationinspector.dtd</sub> | <sub></sub> |
@@ -176,10 +176,9 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/styleinspector.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/toolbox.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/toolbox.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/VariablesView.dtd</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webConsole.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webaudioeditor.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webaudioeditor.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webConsole.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webconsole.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webide.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webide.properties</sub> | <sub></sub> |
@@ -194,8 +193,8 @@
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/unix/accessible.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/win/accessible.properties</sub> | <sub></sub> |
 | <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/dom/dom.properties</sub> | <sub>Need to split end-users messages, example slow script warning, form validation</sub> |
-| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/css.properties</sub> | <sub></sub> |
 | <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/HtmlForm.properties</sub> | <sub>Need to split end-users messages</sub> |
+| <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/css.properties</sub> | <sub></sub> |
 | <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/htmlparser.properties</sub> | <sub></sub> |
 | <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/layout_errors.properties</sub> | <sub></sub> |
 | <sub>dom/developer_messages</sub> | <sub>3</sub> | <sub>dom/chrome/layout/xbl.properties</sub> | <sub></sub> |
@@ -278,6 +277,12 @@
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>dom/chrome/plugins.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/alerts/alert.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/alerts/alert.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/mac/intl.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/mac/platformKeys.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/unix/intl.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/unix/platformKeys.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/win/intl.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/win/platformKeys.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutReader.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutRights.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutSupport.dtd</sub> | <sub></sub> |
@@ -311,23 +316,17 @@
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/keys.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/notification.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/preferences.dtd</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printdialog.dtd</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printdialog.properties</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printjoboptions.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printPageSetup.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printPreview.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printPreviewProgress.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printProgress.dtd</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printdialog.dtd</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printdialog.properties</sub> | <sub></sub> |
+| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printjoboptions.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/resetProfile.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/resetProfile.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/textcontext.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/videocontrols.dtd</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/mac/intl.properties</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/mac/platformKeys.properties</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/unix/intl.properties</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/unix/platformKeys.properties</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/win/intl.properties</sub> | <sub></sub> |
-| <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/win/platformKeys.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/downloads.dtd</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/downloads.properties</sub> | <sub></sub> |
 | <sub>toolkit/main</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/settingsChange.dtd</sub> | <sub></sub> |
