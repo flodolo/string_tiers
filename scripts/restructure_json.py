@@ -4,11 +4,16 @@
 Create list_meta.json from list.json.
 '''
 
+import os
 import json
 
 
 def main():
-    with open('list.json') as data_file:
+
+    data_folder = os.path.abspath(os.path.join(
+        os.path.dirname(__file__), os.pardir, 'data'))
+
+    with open(os.path.join(data_folder, 'list.json')) as data_file:
         json_data = json.load(data_file)
 
     new_content = {
@@ -52,7 +57,7 @@ def main():
             'tier': element['tier'],
         }
 
-    with open('list_meta.json', 'w') as f:
+    with open(os.path.join(data_folder, 'list_meta.json'), 'w') as f:
         f.write(json.dumps(new_content, sort_keys=True, indent=2))
 
 

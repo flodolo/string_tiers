@@ -4,11 +4,16 @@
 Extract information from list.json and store it as index.md
 '''
 
+import os
 import json
 
 
 def main():
-    with open('list_meta.json') as data_file:
+    main_folder = os.path.abspath(os.path.join(
+        os.path.dirname(__file__), os.pardir))
+    data_folder = os.path.join(main_folder, 'data')
+
+    with open(os.path.join(data_folder, 'list_meta.json')) as data_file:
         json_data = json.load(data_file)
 
 
@@ -46,7 +51,7 @@ def main():
                 module_name, json_data['modules'][module_name],
                 file_name, json_data['files'][file_name]['notes']))
 
-    with open('README.md', 'w') as f:
+    with open(os.path.join(main_folder, 'README.md'), 'w') as f:
         f.write('\n'.join(file_content))
 
 

@@ -6,12 +6,17 @@ with to a JSON structure
 find browser devtools dom mobile netwerk security services toolkit -type f > list.txt
 '''
 
+import os
 import json
 
 
 def main():
     json_data = []
-    file_list = open('list.txt', 'r').read().splitlines()
+
+    data_folder = os.path.abspath(os.path.join(
+        os.path.dirname(__file__), os.pardir, 'data'))
+
+    file_list = open(os.path.join(data_folder, 'list.txt'), 'r').read().splitlines()
 
     for file_name in file_list:
         if file_name.startswith('devtools/'):
@@ -28,7 +33,7 @@ def main():
         }
         json_data.append(record)
 
-    f = open('list.json', 'w')
+    f = open(os.path.join(data_folder, 'list.json'), 'w')
     f.write(json.dumps(json_data, sort_keys=True, indent=2))
     f.close()
 

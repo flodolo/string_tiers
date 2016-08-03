@@ -1,0 +1,9 @@
+{
+    "name": "String Tiers",
+    "dependencies": {
+        "bootstrap": "~3.3.7",
+        "DataTables": "~1.10.12",
+        "jquery": "~1.12.4"
+    },
+    "private": true
+}
