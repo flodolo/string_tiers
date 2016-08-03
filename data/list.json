@@ -2022,30 +2022,6 @@
     "tier": "1"
   },
   {
-    "file": "toolkit/chrome/mozapps/help/help-toc.rdf",
-    "module": "toolkit/opt",
-    "notes": "",
-    "tier": "2"
-  },
-  {
-    "file": "toolkit/chrome/mozapps/help/help.dtd",
-    "module": "toolkit/opt",
-    "notes": "",
-    "tier": "2"
-  },
-  {
-    "file": "toolkit/chrome/mozapps/help/help.properties",
-    "module": "toolkit/opt",
-    "notes": "",
-    "tier": "2"
-  },
-  {
-    "file": "toolkit/chrome/mozapps/help/welcome.xhtml",
-    "module": "toolkit/opt",
-    "notes": "",
-    "tier": "2"
-  },
-  {
     "file": "toolkit/chrome/mozapps/preferences/changemp.dtd",
     "module": "toolkit/main",
     "notes": "",

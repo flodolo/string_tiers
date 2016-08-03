@@ -342,10 +342,6 @@ toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd
 toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties
 toolkit/chrome/mozapps/handling/handling.dtd
 toolkit/chrome/mozapps/handling/handling.properties
-toolkit/chrome/mozapps/help/help-toc.rdf
-toolkit/chrome/mozapps/help/help.dtd
-toolkit/chrome/mozapps/help/help.properties
-toolkit/chrome/mozapps/help/welcome.xhtml
 toolkit/chrome/mozapps/preferences/changemp.dtd
 toolkit/chrome/mozapps/preferences/preferences.properties
 toolkit/chrome/mozapps/preferences/removemp.dtd

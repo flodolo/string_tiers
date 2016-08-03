@@ -18,7 +18,7 @@
 | toolkit/crashreporter | 1 | 3 |
 | toolkit/developer_messages | 3 | 12 |
 | toolkit/main | 1 | 90 |
-| toolkit/opt | 2 | 27 |
+| toolkit/opt | 2 | 23 |
 
 ## Modules details
 
@@ -376,10 +376,6 @@
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/webapps.properties</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/wizard.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/wizard.properties</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/help/help-toc.rdf</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/help/help.dtd</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/help/help.properties</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/help/welcome.xhtml</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/history.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/updates.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/updates.properties</sub> | <sub></sub> |
