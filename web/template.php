@@ -14,14 +14,15 @@
 </head>
 <body>
   <div class="container">
-    <div class="list locale_list">
+	<h1>String Tiers - Experimental Dashboard</h1>
+	<p>See the <a href="https://github.com/flodolo/string_tiers/">GitHub repository</a> for background information.</p>
+    <h2>Locale: <?php echo $locale; ?></h2>
+	<div class="list locale_list">
       <p>
         Display localization status for a specific locale<br/>
         <?php echo $html_supported_locales; ?>
       </p>
-   </div>
-
-    <h1>Locale: <?php echo $locale; ?></h1>
+    </div>
 
     <h2>Details</h2>
     <table class="table table-bordered">
