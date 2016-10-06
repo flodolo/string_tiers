@@ -58,6 +58,8 @@
     </table>
 
     <h2>Tiers Data - Identical Strings</h2>
+	<p>Accesskeys and shortcuts are ignored in the count of identical strings by excluding string IDs
+		including <code>.key</code>, <code>.accesskey</code>, and <code>.commandkey</code>.</p>
     <table class="table table-bordered ">
       <thead>
         <tr>

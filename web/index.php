@@ -1,7 +1,7 @@
 <?php
 
 // Get locale
-$supported_locales = ['ach', 'af', 'an', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn-BD', 'bn-IN', 'br', 'brx', 'bs', 'ca', 'cak', 'cs', 'cy', 'da', 'de', 'dsb', 'el', 'en-GB', 'en-ZA', 'eo', 'es-AR', 'es-CL', 'es-ES', 'es-MX', 'et', 'eu', 'fa', 'ff', 'fi', 'fr', 'fy-NL', 'ga-IE', 'gd', 'gl', 'gn', 'gu-IN', 'he', 'hi-IN', 'hr', 'hsb', 'hu', 'hy-AM', 'id', 'is', 'it', 'ja', 'ja-JP-mac', 'ka', 'kk', 'km', 'kn', 'ko', 'kok', 'ks', 'lij', 'lo', 'lt', 'ltg', 'lv', 'mai', 'mk', 'ml', 'mr', 'ms', 'my', 'nb-NO', 'ne-NP', 'nl', 'nn-NO', 'or', 'pa-IN', 'pl', 'pt-BR', 'pt-PT', 'rm', 'ro', 'ru', 'sat', 'si', 'sk', 'sl', 'son', 'sq', 'sr', 'sv-SE', 'ta', 'te', 'th', 'tr', 'tsz', 'uk', 'ur', 'uz', 'vi', 'wo', 'xh', 'zh-CN', 'zh-TW',];
+$supported_locales = ['ach', 'af', 'an', 'ar', 'as', 'ast', 'az', 'be', 'bg', 'bn-BD', 'bn-IN', 'br', 'brx', 'bs', 'ca', 'cak', 'cs', 'cy', 'da', 'de', 'dsb', 'el', 'en-GB', 'en-ZA', 'eo', 'es-AR', 'es-CL', 'es-ES', 'es-MX', 'et', 'eu', 'fa', 'ff', 'fi', 'fr', 'fy-NL', 'ga-IE', 'gd', 'gl', 'gn', 'gu-IN', 'he', 'hi-IN', 'hr', 'hsb', 'hu', 'hy-AM', 'id', 'is', 'it', 'ja', 'ja-JP-mac', 'ka', 'kk', 'km', 'kn', 'ko', 'kok', 'ks', 'lij', 'lo', 'lt', 'ltg', 'lv', 'mai', 'mk', 'ml', 'mr', 'ms', 'my', 'nb-NO', 'ne-NP', 'nl', 'nn-NO', 'or', 'pa-IN', 'pl', 'pt-BR', 'pt-PT', 'rm', 'ro', 'ru', 'sat', 'si', 'sk', 'sl', 'son', 'sq', 'sr', 'sv-SE', 'ta', 'te', 'th', 'tr', 'tsz', 'uk', 'ur', 'uz', 'vi', 'wo', 'xh', 'zh-CN', 'zh-TW'];
 
 $locale = isset($_REQUEST['locale']) ? htmlspecialchars($_REQUEST['locale']) : 'it';
 if (! in_array($locale, $supported_locales)) {
@@ -9,7 +9,6 @@ if (! in_array($locale, $supported_locales)) {
 }
 
 // Include en-US and remove some strings
-
 if (! file_exists('../config/settings.inc.php')) {
     exit('File config/settings.inc.php is missing');
 }
@@ -35,6 +34,15 @@ function startsWith($haystack, $needles)
     }
 
     return false;
+}
+
+function inString($haystack, $needles)
+{
+    foreach ((array) $needles as $needle) {
+        if (mb_strpos($haystack, $needle, $offset = 0, 'UTF-8') !== false) {
+            return true;
+        }
+    }
 }
 
 // Remove components and region.properties
@@ -82,6 +90,11 @@ $json_file = file_get_contents('../data/list_meta.json');
 $tiers_data = json_decode($json_file, true);
 
 $results = [];
+$identical_exclusions = [
+    '.key',
+    '.accesskey',
+    '.commandkey',
+];
 foreach ($tmx_reference as $reference_id => $reference_translation) {
     $file_name = explode(':', $reference_id)[0];
     if (! isset($tiers_data['files'][$file_name])) {
@@ -105,7 +118,7 @@ foreach ($tmx_reference as $reference_id => $reference_translation) {
             $results[$module]['missing'] += 1;
         } else {
             $results[$module]['translated'] += 1;
-            if ($tmx_locale[$reference_id] == $reference_translation) {
+            if ($tmx_locale[$reference_id] == $reference_translation && ! inString($reference_id, $identical_exclusions)) {
                 $results[$module]['identical'] += 1;
             }
         }
@@ -148,20 +161,20 @@ foreach ($results as $module_name => $data) {
     $component = explode('/', $module_name)[0];
     if (! isset($overall_stats[$component])) {
         $overall_stats[$component] = [];
-        for ($i=1; $i < 4; $i++) {
+        for ($i = 1; $i < 4; $i++) {
             $overall_stats[$component][$i] = [
-                'total'      => 0,
-                'translated' => 0,
-                'percentage' => 0,
-                'identical'  => 0,
+                'total'                => 0,
+                'translated'           => 0,
+                'percentage'           => 0,
+                'identical'            => 0,
                 'percentage_identical' => 0,
             ];
         }
         $overall_stats[$component]['all'] = [
-            'total'      => 0,
-            'translated' => 0,
-            'percentage' => 0,
-            'identical'  => 0,
+            'total'                => 0,
+            'translated'           => 0,
+            'percentage'           => 0,
+            'identical'            => 0,
             'percentage_identical' => 0,
         ];
     }
@@ -171,15 +184,15 @@ foreach ($results as $module_name => $data) {
     $overall_stats[$component][$module_tier]['total'] += $data['total'];
     $overall_stats[$component][$module_tier]['translated'] += $data['translated'];
     $overall_stats[$component][$module_tier]['identical'] += $data['identical'];
-    $overall_stats[$component][$module_tier]['percentage'] = round ($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
-    $overall_stats[$component][$module_tier]['percentage_identical'] = round ($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
+    $overall_stats[$component][$module_tier]['percentage'] = round($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
+    $overall_stats[$component][$module_tier]['percentage_identical'] = round($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
 
     // Increment component data
     $overall_stats[$component]['all']['total'] += $data['total'];
     $overall_stats[$component]['all']['translated'] += $data['translated'];
     $overall_stats[$component]['all']['identical'] += $data['identical'];
-    $overall_stats[$component]['all']['percentage'] = round ($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
-    $overall_stats[$component]['all']['percentage_identical'] = round ($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
+    $overall_stats[$component]['all']['percentage'] = round($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
+    $overall_stats[$component]['all']['percentage_identical'] = round($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0);
 }
 
 $html_translated_body = '';
