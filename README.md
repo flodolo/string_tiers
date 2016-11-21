@@ -2,16 +2,16 @@
 
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
-| browser/opt | 2 | 11 |
+| browser/opt | 2 | 10 |
 | browser/user | 1 | 89 |
-| devtools | 3 | 64 |
+| devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/opt | 2 | 3 |
-| mobile/user | 1 | 35 |
+| mobile/user | 1 | 29 |
 | security/opt | 2 | 4 |
 | security/technical_messages | 3 | 2 |
-| toolkit/opt | 2 | 23 |
+| toolkit/opt | 2 | 22 |
 | toolkit/technical_messages | 3 | 12 |
 | toolkit/user | 1 | 93 |
 
@@ -27,7 +27,6 @@
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/defines.inc</sub> | <sub></sub> |
-| <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/extensions/pocket/pocket.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/pdfviewer/chrome.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/pdfviewer/viewer.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.dtd</sub> | <sub></sub> |
@@ -44,7 +43,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSyncTabs.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutTabCrashed.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/accounts.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/baseMenuOverlay.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/browser.dtd</sub> | <sub>Would be good to split this in smaller logical pieces</sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/browser.properties</sub> | <sub>Would be good to split this in smaller logical pieces</sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/customizableui/customizableWidgets.properties</sub> | <sub></sub> |
@@ -69,6 +67,8 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/blocklists.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/colors.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/connection.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/containers.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/containers.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/content.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/cookies.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/donottrack.dtd</sub> | <sub></sub> |
@@ -115,17 +115,16 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/installer/nsisstrings.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/installer/override.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/profile/bookmarks.inc</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/searchplugins/list.txt</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/updater/updater.ini</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>services/sync/errors.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>services/sync/sync.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/VariablesView.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/animationinspector.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/animationinspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/app-manager.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/appcacheutils.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/boxmodel.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/canvasdebugger.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/canvasdebugger.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/components.properties</sub> | <sub></sub> |
@@ -137,24 +136,20 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/dom.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/eyedropper.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/filterwidget.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/font-inspector.dtd</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/font-inspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/graphs.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/har.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/inspector.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/inspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/jit-optimizations.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/jsonview.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/layoutview.dtd</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/layout.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/markers.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/memory.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/menus.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/netmonitor.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/netmonitor.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/projecteditor.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/promisedebugger.dtd</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/promisedebugger.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/responsive.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/responsiveUI.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/scratchpad.dtd</sub> | <sub></sub> |
@@ -164,11 +159,11 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/shared.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/sourceeditor.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/sourceeditor.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/startup.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/storage.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/storage.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/styleeditor.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/styleeditor.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/styleinspector.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/toolbox.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/toolbox.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webConsole.dtd</sub> | <sub></sub> |
@@ -182,6 +177,7 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/debugger.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/gcli.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/gclicommands.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/shared.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/styleinspector.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/AccessFu.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/mac/accessible.properties</sub> | <sub></sub> |
@@ -226,20 +222,14 @@
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/browser.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/checkbox.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/devicePrompt.properties</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/feedback.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/handling.properties</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/localepicker.properties</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/notification.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/phishing.dtd</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/prompt.dtd</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/sync.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/sync.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/webcompatReporter.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/chrome/region.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/overrides/appstrings.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/overrides/netError.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/overrides/passwordmgr.properties</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/searchplugins/list.txt</sub> | <sub></sub> |
 | <sub>security/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/certManager.dtd</sub> | <sub></sub> |
 | <sub>security/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/deviceManager.dtd</sub> | <sub></sub> |
 | <sub>security/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/pippki.dtd</sub> | <sub></sub> |
@@ -263,7 +253,6 @@
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/nsTreeSorting.properties</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/regionNames.properties</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/tree.dtd</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/webapps.properties</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/wizard.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/wizard.properties</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/history.dtd</sub> | <sub></sub> |

@@ -83,11 +83,6 @@
       "notes": "", 
       "tier": "1"
     }, 
-    "browser/chrome/browser/baseMenuOverlay.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "tier": "1"
-    }, 
     "browser/chrome/browser/browser.dtd": {
       "module": "browser/user", 
       "notes": "Would be good to split this in smaller logical pieces", 
@@ -219,6 +214,16 @@
       "tier": "1"
     }, 
     "browser/chrome/browser/preferences/connection.dtd": {
+      "module": "browser/user", 
+      "notes": "", 
+      "tier": "1"
+    }, 
+    "browser/chrome/browser/preferences/containers.dtd": {
+      "module": "browser/user", 
+      "notes": "", 
+      "tier": "1"
+    }, 
+    "browser/chrome/browser/preferences/containers.properties": {
       "module": "browser/user", 
       "notes": "", 
       "tier": "1"
@@ -443,11 +448,6 @@
       "notes": "", 
       "tier": "2"
     }, 
-    "browser/extensions/pocket/pocket.properties": {
-      "module": "browser/opt", 
-      "notes": "", 
-      "tier": "2"
-    }, 
     "browser/firefox-l10n.js": {
       "module": "browser/user", 
       "notes": "", 
@@ -488,11 +488,6 @@
       "notes": "", 
       "tier": "1"
     }, 
-    "browser/searchplugins/list.txt": {
-      "module": "browser/user", 
-      "notes": "", 
-      "tier": "1"
-    }, 
     "browser/updater/updater.ini": {
       "module": "browser/user", 
       "notes": "", 
@@ -513,11 +508,6 @@
       "notes": "", 
       "tier": "3"
     }, 
-    "devtools/client/animationinspector.dtd": {
-      "module": "devtools", 
-      "notes": "", 
-      "tier": "3"
-    }, 
     "devtools/client/animationinspector.properties": {
       "module": "devtools", 
       "notes": "", 
@@ -529,6 +519,11 @@
       "tier": "3"
     }, 
     "devtools/client/appcacheutils.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "tier": "3"
+    }, 
+    "devtools/client/boxmodel.properties": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -588,7 +583,7 @@
       "notes": "", 
       "tier": "3"
     }, 
-    "devtools/client/font-inspector.dtd": {
+    "devtools/client/font-inspector.properties": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -599,11 +594,6 @@
       "tier": "3"
     }, 
     "devtools/client/har.properties": {
-      "module": "devtools", 
-      "notes": "", 
-      "tier": "3"
-    }, 
-    "devtools/client/inspector.dtd": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -623,7 +613,7 @@
       "notes": "", 
       "tier": "3"
     }, 
-    "devtools/client/layoutview.dtd": {
+    "devtools/client/layout.properties": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -639,11 +629,6 @@
       "tier": "3"
     }, 
     "devtools/client/menus.properties": {
-      "module": "devtools", 
-      "notes": "", 
-      "tier": "3"
-    }, 
-    "devtools/client/netmonitor.dtd": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -664,16 +649,6 @@
       "tier": "3"
     }, 
     "devtools/client/projecteditor.properties": {
-      "module": "devtools", 
-      "notes": "", 
-      "tier": "3"
-    }, 
-    "devtools/client/promisedebugger.dtd": {
-      "module": "devtools", 
-      "notes": "", 
-      "tier": "3"
-    }, 
-    "devtools/client/promisedebugger.properties": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -723,6 +698,11 @@
       "notes": "", 
       "tier": "3"
     }, 
+    "devtools/client/startup.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "tier": "3"
+    }, 
     "devtools/client/storage.dtd": {
       "module": "devtools", 
       "notes": "", 
@@ -739,11 +719,6 @@
       "tier": "3"
     }, 
     "devtools/client/styleeditor.properties": {
-      "module": "devtools", 
-      "notes": "", 
-      "tier": "3"
-    }, 
-    "devtools/client/styleinspector.dtd": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -809,6 +784,11 @@
       "tier": "3"
     }, 
     "devtools/shared/gclicommands.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "tier": "3"
+    }, 
+    "devtools/shared/shared.properties": {
       "module": "devtools", 
       "notes": "", 
       "tier": "3"
@@ -1073,22 +1053,7 @@
       "notes": "", 
       "tier": "1"
     }, 
-    "mobile/android/chrome/feedback.dtd": {
-      "module": "mobile/user", 
-      "notes": "", 
-      "tier": "1"
-    }, 
     "mobile/android/chrome/handling.properties": {
-      "module": "mobile/user", 
-      "notes": "", 
-      "tier": "1"
-    }, 
-    "mobile/android/chrome/localepicker.properties": {
-      "module": "mobile/user", 
-      "notes": "", 
-      "tier": "1"
-    }, 
-    "mobile/android/chrome/notification.dtd": {
       "module": "mobile/user", 
       "notes": "", 
       "tier": "1"
@@ -1102,16 +1067,6 @@
       "module": "mobile/opt", 
       "notes": "", 
       "tier": "2"
-    }, 
-    "mobile/android/chrome/prompt.dtd": {
-      "module": "mobile/user", 
-      "notes": "", 
-      "tier": "1"
-    }, 
-    "mobile/android/chrome/sync.dtd": {
-      "module": "mobile/user", 
-      "notes": "", 
-      "tier": "1"
     }, 
     "mobile/android/chrome/sync.properties": {
       "module": "mobile/user", 
@@ -1139,11 +1094,6 @@
       "tier": "1"
     }, 
     "mobile/overrides/passwordmgr.properties": {
-      "module": "mobile/user", 
-      "notes": "", 
-      "tier": "1"
-    }, 
-    "mobile/searchplugins/list.txt": {
       "module": "mobile/user", 
       "notes": "", 
       "tier": "1"
@@ -1592,11 +1542,6 @@
       "module": "toolkit/technical_messages", 
       "notes": "", 
       "tier": "3"
-    }, 
-    "toolkit/chrome/global/webapps.properties": {
-      "module": "toolkit/opt", 
-      "notes": "", 
-      "tier": "2"
     }, 
     "toolkit/chrome/global/wizard.dtd": {
       "module": "toolkit/opt", 
