@@ -84,6 +84,12 @@
     "tier": "1"
   },
   {
+    "file": "browser/chrome/browser/baseMenuOverlay.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "tier": "1"
+  },
+  {
     "file": "browser/chrome/browser/browser.dtd",
     "module": "browser/user",
     "notes": "Would be good to split this in smaller logical pieces",
@@ -331,6 +337,12 @@
   },
   {
     "file": "browser/chrome/browser/preferences/selectBookmark.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "tier": "1"
+  },
+  {
+    "file": "browser/chrome/browser/preferences/siteDataSettings.dtd",
     "module": "browser/user",
     "notes": "",
     "tier": "1"
@@ -1380,24 +1392,6 @@
     "tier": "2"
   },
   {
-    "file": "toolkit/chrome/cookie/cookieAcceptDialog.dtd",
-    "module": "toolkit/opt",
-    "notes": "",
-    "tier": "2"
-  },
-  {
-    "file": "toolkit/chrome/cookie/cookieAcceptDialog.properties",
-    "module": "toolkit/opt",
-    "notes": "",
-    "tier": "2"
-  },
-  {
-    "file": "toolkit/chrome/formautofill/requestAutocomplete.dtd",
-    "module": "toolkit/opt",
-    "notes": "File is empty",
-    "tier": "2"
-  },
-  {
     "file": "toolkit/chrome/global/about.dtd",
     "module": "toolkit/opt",
     "notes": "",
@@ -1849,12 +1843,6 @@
   },
   {
     "file": "toolkit/chrome/global-platform/win/platformKeys.properties",
-    "module": "toolkit/user",
-    "notes": "",
-    "tier": "1"
-  },
-  {
-    "file": "toolkit/chrome/mozapps/downloads/downloads.dtd",
     "module": "toolkit/user",
     "notes": "",
     "tier": "1"

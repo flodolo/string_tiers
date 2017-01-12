@@ -12,6 +12,7 @@ browser/chrome/browser/aboutSessionRestore.dtd
 browser/chrome/browser/aboutSyncTabs.dtd
 browser/chrome/browser/aboutTabCrashed.dtd
 browser/chrome/browser/accounts.properties
+browser/chrome/browser/baseMenuOverlay.dtd
 browser/chrome/browser/browser.dtd
 browser/chrome/browser/browser.properties
 browser/chrome/browser/customizableui/customizableWidgets.properties
@@ -54,6 +55,7 @@ browser/chrome/browser/preferences/privacy.dtd
 browser/chrome/browser/preferences/search.dtd
 browser/chrome/browser/preferences/security.dtd
 browser/chrome/browser/preferences/selectBookmark.dtd
+browser/chrome/browser/preferences/siteDataSettings.dtd
 browser/chrome/browser/preferences/sync.dtd
 browser/chrome/browser/preferences/tabs.dtd
 browser/chrome/browser/preferences/translation.dtd
@@ -228,9 +230,6 @@ services/sync/sync.properties
 toolkit/chrome/alerts/alert.dtd
 toolkit/chrome/alerts/alert.properties
 toolkit/chrome/autoconfig/autoconfig.properties
-toolkit/chrome/cookie/cookieAcceptDialog.dtd
-toolkit/chrome/cookie/cookieAcceptDialog.properties
-toolkit/chrome/formautofill/requestAutocomplete.dtd
 toolkit/chrome/global/about.dtd
 toolkit/chrome/global/aboutAbout.dtd
 toolkit/chrome/global/aboutNetworking.dtd
@@ -307,7 +306,6 @@ toolkit/chrome/global-platform/unix/intl.properties
 toolkit/chrome/global-platform/unix/platformKeys.properties
 toolkit/chrome/global-platform/win/intl.properties
 toolkit/chrome/global-platform/win/platformKeys.properties
-toolkit/chrome/mozapps/downloads/downloads.dtd
 toolkit/chrome/mozapps/downloads/downloads.properties
 toolkit/chrome/mozapps/downloads/settingsChange.dtd
 toolkit/chrome/mozapps/downloads/unknownContentType.dtd

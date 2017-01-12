@@ -3,7 +3,7 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 10 |
-| browser/user | 1 | 89 |
+| browser/user | 1 | 91 |
 | devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
@@ -11,9 +11,9 @@
 | mobile/user | 1 | 29 |
 | security/opt | 2 | 4 |
 | security/technical_messages | 3 | 2 |
-| toolkit/opt | 2 | 22 |
+| toolkit/opt | 2 | 19 |
 | toolkit/technical_messages | 3 | 12 |
-| toolkit/user | 1 | 93 |
+| toolkit/user | 1 | 92 |
 
 ## Modules details
 
@@ -43,6 +43,7 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSyncTabs.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutTabCrashed.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/accounts.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/baseMenuOverlay.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/browser.dtd</sub> | <sub>Would be good to split this in smaller logical pieces</sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/browser.properties</sub> | <sub>Would be good to split this in smaller logical pieces</sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/customizableui/customizableWidgets.properties</sub> | <sub></sub> |
@@ -82,6 +83,7 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/search.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/security.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/selectBookmark.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/siteDataSettings.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/sync.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/tabs.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/quitDialog.properties</sub> | <sub></sub> |
@@ -238,9 +240,6 @@
 | <sub>security/technical_messages</sub> | <sub>3</sub> | <sub>security/manager/chrome/pipnss/pipnss.properties</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>netwerk/necko.properties</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/autoconfig/autoconfig.properties</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/cookie/cookieAcceptDialog.dtd</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/cookie/cookieAcceptDialog.properties</sub> | <sub></sub> |
-| <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/formautofill/requestAutocomplete.dtd</sub> | <sub>File is empty</sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/about.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/aboutAbout.dtd</sub> | <sub></sub> |
 | <sub>toolkit/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/aboutProfiles.dtd</sub> | <sub></sub> |
@@ -331,7 +330,6 @@
 | <sub>toolkit/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/resetProfile.properties</sub> | <sub></sub> |
 | <sub>toolkit/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/textcontext.dtd</sub> | <sub></sub> |
 | <sub>toolkit/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/videocontrols.dtd</sub> | <sub></sub> |
-| <sub>toolkit/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/downloads.dtd</sub> | <sub></sub> |
 | <sub>toolkit/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/downloads.properties</sub> | <sub></sub> |
 | <sub>toolkit/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/settingsChange.dtd</sub> | <sub></sub> |
 | <sub>toolkit/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/unknownContentType.dtd</sub> | <sub></sub> |
