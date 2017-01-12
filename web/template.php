@@ -23,6 +23,16 @@
         <?php echo $html_supported_locales; ?>
       </p>
     </div>
+	<h2>Product: <?php echo $supported_products[$product]; ?></h2>
+	<div class="list product_list">
+      <p>
+        Display localization status for a specific product<br/>
+        <a href="?product=all&amp;locale=<?=$locale?>">All Products</a>
+        <a href="?product=mobile&amp;locale=<?=$locale?>">Firefox for Android</a>
+        <a href="?product=desktop&amp;locale=<?=$locale?>">Firefox Desktop</a>
+      </p>
+    </div>
+
 
     <h2>Details</h2>
     <table class="table table-bordered">

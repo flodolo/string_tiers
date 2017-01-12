@@ -55,6 +55,7 @@ def main():
             'module': element['module'],
             'notes': element['notes'],
             'tier': element['tier'],
+            'products': element['products'],
         }
 
     with open(os.path.join(data_folder, 'list_meta.json'), 'w') as f:
