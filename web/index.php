@@ -150,8 +150,8 @@ foreach ($tmx_reference as $reference_id => $reference_translation) {
 
 $html_supported_locales = '';
 foreach ($supported_locales as $supported_locale) {
-    $supported_locale = str_replace('-', '&#8209;', $supported_locale);
-    $html_supported_locales .= "<a href=\"?product={$product}&amp;locale={$supported_locale}\">{$supported_locale}</a> ";
+    $supported_locale_label = str_replace('-', '&#8209;', $supported_locale);
+    $html_supported_locales .= "<a href=\"?product={$product}&amp;locale={$supported_locale}\">{$supported_locale_label}</a> ";
 }
 
 $html_detail_body = '';
