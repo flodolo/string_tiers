@@ -1478,7 +1478,7 @@
   },
   {
     "file": "dom/chrome/appstrings.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -1497,7 +1497,7 @@
   },
   {
     "file": "dom/chrome/global-strres.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -1506,7 +1506,7 @@
   },
   {
     "file": "dom/chrome/global.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -1552,7 +1552,7 @@
   },
   {
     "file": "dom/chrome/layout/MediaDocument.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -1561,7 +1561,7 @@
   },
   {
     "file": "dom/chrome/layout/printing.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -1606,7 +1606,7 @@
   },
   {
     "file": "dom/chrome/netError.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -1615,7 +1615,7 @@
   },
   {
     "file": "dom/chrome/netErrorApp.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -1624,7 +1624,7 @@
   },
   {
     "file": "dom/chrome/nsWebBrowserPersist.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -1633,7 +1633,7 @@
   },
   {
     "file": "dom/chrome/plugins.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -1985,7 +1985,7 @@
   },
   {
     "file": "netwerk/necko.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -1994,7 +1994,7 @@
   },
   {
     "file": "security/manager/chrome/pipnss/nsserrors.properties",
-    "module": "security/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2003,7 +2003,7 @@
   },
   {
     "file": "security/manager/chrome/pipnss/pipnss.properties",
-    "module": "security/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2012,7 +2012,7 @@
   },
   {
     "file": "security/manager/chrome/pippki/certManager.dtd",
-    "module": "security/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2021,7 +2021,7 @@
   },
   {
     "file": "security/manager/chrome/pippki/deviceManager.dtd",
-    "module": "security/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2030,7 +2030,7 @@
   },
   {
     "file": "security/manager/chrome/pippki/pippki.dtd",
-    "module": "security/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2039,7 +2039,7 @@
   },
   {
     "file": "security/manager/chrome/pippki/pippki.properties",
-    "module": "security/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2066,7 +2066,7 @@
   },
   {
     "file": "toolkit/chrome/alerts/alert.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2075,7 +2075,7 @@
   },
   {
     "file": "toolkit/chrome/alerts/alert.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2084,7 +2084,7 @@
   },
   {
     "file": "toolkit/chrome/autoconfig/autoconfig.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2093,7 +2093,7 @@
   },
   {
     "file": "toolkit/chrome/global/about.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop",
@@ -2103,7 +2103,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutAbout.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop",
@@ -2113,7 +2113,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutNetworking.dtd",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2122,7 +2122,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutProfiles.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2131,7 +2131,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutProfiles.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2140,7 +2140,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutReader.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2150,7 +2150,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutRights.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2160,7 +2160,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutServiceWorkers.dtd",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2169,7 +2169,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutServiceWorkers.properties",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2178,7 +2178,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutSupport.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2188,7 +2188,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutSupport.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2198,7 +2198,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutTelemetry.dtd",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop",
@@ -2208,7 +2208,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutTelemetry.properties",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop",
@@ -2218,7 +2218,7 @@
   },
   {
     "file": "toolkit/chrome/global/aboutWebrtc.properties",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop",
@@ -2228,7 +2228,7 @@
   },
   {
     "file": "toolkit/chrome/global/appPicker.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2237,7 +2237,7 @@
   },
   {
     "file": "toolkit/chrome/global/autocomplete.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2246,7 +2246,7 @@
   },
   {
     "file": "toolkit/chrome/global/browser.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2255,7 +2255,7 @@
   },
   {
     "file": "toolkit/chrome/global/charsetMenu.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2264,7 +2264,7 @@
   },
   {
     "file": "toolkit/chrome/global/charsetMenu.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2274,7 +2274,7 @@
   },
   {
     "file": "toolkit/chrome/global/commonDialog.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2283,7 +2283,7 @@
   },
   {
     "file": "toolkit/chrome/global/commonDialogs.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2293,7 +2293,7 @@
   },
   {
     "file": "toolkit/chrome/global/config.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2302,7 +2302,7 @@
   },
   {
     "file": "toolkit/chrome/global/config.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2311,7 +2311,7 @@
   },
   {
     "file": "toolkit/chrome/global/console.dtd",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2320,7 +2320,7 @@
   },
   {
     "file": "toolkit/chrome/global/console.properties",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2329,7 +2329,7 @@
   },
   {
     "file": "toolkit/chrome/global/contentAreaCommands.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2338,7 +2338,7 @@
   },
   {
     "file": "toolkit/chrome/global/customizeToolbar.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2347,7 +2347,7 @@
   },
   {
     "file": "toolkit/chrome/global/customizeToolbar.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2356,7 +2356,7 @@
   },
   {
     "file": "toolkit/chrome/global/dateFormat.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2365,7 +2365,7 @@
   },
   {
     "file": "toolkit/chrome/global/datetimepicker.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2374,7 +2374,7 @@
   },
   {
     "file": "toolkit/chrome/global/dialog.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2383,7 +2383,7 @@
   },
   {
     "file": "toolkit/chrome/global/dialogOverlay.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2392,7 +2392,7 @@
   },
   {
     "file": "toolkit/chrome/global/editMenuOverlay.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2401,7 +2401,7 @@
   },
   {
     "file": "toolkit/chrome/global/extensions.properties",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2410,7 +2410,7 @@
   },
   {
     "file": "toolkit/chrome/global/fallbackMenubar.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2419,7 +2419,7 @@
   },
   {
     "file": "toolkit/chrome/global/filefield.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2428,7 +2428,7 @@
   },
   {
     "file": "toolkit/chrome/global/filepicker.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2437,7 +2437,7 @@
   },
   {
     "file": "toolkit/chrome/global/filepicker.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2446,7 +2446,7 @@
   },
   {
     "file": "toolkit/chrome/global/findbar.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2455,7 +2455,7 @@
   },
   {
     "file": "toolkit/chrome/global/findbar.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2464,7 +2464,7 @@
   },
   {
     "file": "toolkit/chrome/global/finddialog.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2473,7 +2473,7 @@
   },
   {
     "file": "toolkit/chrome/global/finddialog.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2482,7 +2482,7 @@
   },
   {
     "file": "toolkit/chrome/global/globalKeys.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2491,7 +2491,7 @@
   },
   {
     "file": "toolkit/chrome/global/headsUpDisplay.properties",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2500,7 +2500,7 @@
   },
   {
     "file": "toolkit/chrome/global/intl.css",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2510,7 +2510,7 @@
   },
   {
     "file": "toolkit/chrome/global/intl.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -2520,7 +2520,7 @@
   },
   {
     "file": "toolkit/chrome/global/keys.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2529,7 +2529,7 @@
   },
   {
     "file": "toolkit/chrome/global/languageNames.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2538,7 +2538,7 @@
   },
   {
     "file": "toolkit/chrome/global/mozilla.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop",
@@ -2548,7 +2548,7 @@
   },
   {
     "file": "toolkit/chrome/global/narrate.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2557,7 +2557,7 @@
   },
   {
     "file": "toolkit/chrome/global/notification.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2566,7 +2566,7 @@
   },
   {
     "file": "toolkit/chrome/global/nsTreeSorting.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2575,7 +2575,7 @@
   },
   {
     "file": "toolkit/chrome/global/preferences.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2584,7 +2584,7 @@
   },
   {
     "file": "toolkit/chrome/global/printdialog.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2593,7 +2593,7 @@
   },
   {
     "file": "toolkit/chrome/global/printdialog.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2602,7 +2602,7 @@
   },
   {
     "file": "toolkit/chrome/global/printjoboptions.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2611,7 +2611,7 @@
   },
   {
     "file": "toolkit/chrome/global/printPageSetup.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2620,7 +2620,7 @@
   },
   {
     "file": "toolkit/chrome/global/printPreview.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2629,7 +2629,7 @@
   },
   {
     "file": "toolkit/chrome/global/printPreviewProgress.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2638,7 +2638,7 @@
   },
   {
     "file": "toolkit/chrome/global/printProgress.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2647,7 +2647,7 @@
   },
   {
     "file": "toolkit/chrome/global/regionNames.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2656,7 +2656,7 @@
   },
   {
     "file": "toolkit/chrome/global/resetProfile.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2665,7 +2665,7 @@
   },
   {
     "file": "toolkit/chrome/global/resetProfile.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2674,7 +2674,7 @@
   },
   {
     "file": "toolkit/chrome/global/textcontext.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2683,7 +2683,7 @@
   },
   {
     "file": "toolkit/chrome/global/tree.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2692,7 +2692,7 @@
   },
   {
     "file": "toolkit/chrome/global/videocontrols.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2701,7 +2701,7 @@
   },
   {
     "file": "toolkit/chrome/global/viewSource.dtd",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2710,7 +2710,7 @@
   },
   {
     "file": "toolkit/chrome/global/viewSource.properties",
-    "module": "toolkit/technical_messages",
+    "module": "shared/technical_messages",
     "notes": "",
     "products": [
       "desktop"
@@ -2719,7 +2719,7 @@
   },
   {
     "file": "toolkit/chrome/global/wizard.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2728,7 +2728,7 @@
   },
   {
     "file": "toolkit/chrome/global/wizard.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2737,7 +2737,7 @@
   },
   {
     "file": "toolkit/chrome/global-platform/mac/intl.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2746,7 +2746,7 @@
   },
   {
     "file": "toolkit/chrome/global-platform/mac/platformKeys.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2755,7 +2755,7 @@
   },
   {
     "file": "toolkit/chrome/global-platform/unix/intl.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2764,7 +2764,7 @@
   },
   {
     "file": "toolkit/chrome/global-platform/unix/platformKeys.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2773,7 +2773,7 @@
   },
   {
     "file": "toolkit/chrome/global-platform/win/intl.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2782,7 +2782,7 @@
   },
   {
     "file": "toolkit/chrome/global-platform/win/platformKeys.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2791,7 +2791,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/downloads.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2800,7 +2800,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/settingsChange.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2809,7 +2809,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/unknownContentType.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2818,7 +2818,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/downloads/unknownContentType.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2827,7 +2827,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/about.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2836,7 +2836,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/blocklist.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2845,7 +2845,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/extensions.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2854,7 +2854,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/extensions.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2863,7 +2863,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/newaddon.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2872,7 +2872,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/newaddon.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2881,7 +2881,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/update.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2890,7 +2890,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/update.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2899,7 +2899,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2908,7 +2908,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2917,7 +2917,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/handling/handling.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2926,7 +2926,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/handling/handling.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2935,7 +2935,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/preferences/changemp.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2944,7 +2944,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/preferences/preferences.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2953,7 +2953,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/preferences/removemp.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2962,7 +2962,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/profile/createProfileWizard.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2971,7 +2971,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/profile/profileSelection.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2980,7 +2980,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/profile/profileSelection.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -2989,7 +2989,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/update/history.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -2998,7 +2998,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/update/updates.dtd",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -3007,7 +3007,7 @@
   },
   {
     "file": "toolkit/chrome/mozapps/update/updates.properties",
-    "module": "toolkit/opt",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
@@ -3016,7 +3016,7 @@
   },
   {
     "file": "toolkit/chrome/passwordmgr/passwordManager.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -3025,7 +3025,7 @@
   },
   {
     "file": "toolkit/chrome/passwordmgr/passwordmgr.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -3035,7 +3035,7 @@
   },
   {
     "file": "toolkit/chrome/places/places.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -3044,7 +3044,7 @@
   },
   {
     "file": "toolkit/chrome/pluginproblem/pluginproblem.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -3054,7 +3054,7 @@
   },
   {
     "file": "toolkit/chrome/search/search.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -3064,7 +3064,7 @@
   },
   {
     "file": "toolkit/crashreporter/crashes.dtd",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -3074,7 +3074,7 @@
   },
   {
     "file": "toolkit/crashreporter/crashes.properties",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop",
@@ -3084,7 +3084,7 @@
   },
   {
     "file": "toolkit/crashreporter/crashreporter.ini",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
@@ -3093,7 +3093,7 @@
   },
   {
     "file": "toolkit/defines.inc",
-    "module": "toolkit/user",
+    "module": "shared/user",
     "notes": "",
     "products": [
       "desktop"
