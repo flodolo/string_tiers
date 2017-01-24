@@ -7,8 +7,7 @@
 | devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
-| mobile/opt | 2 | 3 |
-| mobile/user | 1 | 29 |
+| mobile/user | 1 | 32 |
 | shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 14 |
 | shared/user | 1 | 92 |
@@ -198,9 +197,6 @@
 | <sub>dom/technical_messages</sub> | <sub>3</sub> | <sub>dom/chrome/svg/svg.properties</sub> | <sub></sub> |
 | <sub>dom/technical_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xml/prettyprint.dtd</sub> | <sub></sub> |
 | <sub>dom/technical_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xslt/xslt.properties</sub> | <sub></sub> |
-| <sub>mobile/opt</sub> | <sub>2</sub> | <sub>mobile/android/chrome/config.dtd</sub> | <sub></sub> |
-| <sub>mobile/opt</sub> | <sub>2</sub> | <sub>mobile/android/chrome/config.properties</sub> | <sub></sub> |
-| <sub>mobile/opt</sub> | <sub>2</sub> | <sub>mobile/android/chrome/pippki.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/base/android_strings.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/base/search_strings.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/base/sync_strings.dtd</sub> | <sub></sub> |
@@ -221,9 +217,12 @@
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutPrivateBrowsing.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/browser.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/checkbox.dtd</sub> | <sub></sub> |
+| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/config.dtd</sub> | <sub></sub> |
+| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/config.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/devicePrompt.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/handling.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/phishing.dtd</sub> | <sub></sub> |
+| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/pippki.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/sync.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/webcompatReporter.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/chrome/region.properties</sub> | <sub></sub> |

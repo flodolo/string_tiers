@@ -1676,20 +1676,20 @@
       "tier": "1"
     }, 
     "mobile/android/chrome/config.dtd": {
-      "module": "mobile/opt", 
+      "module": "mobile/user", 
       "notes": "", 
       "products": [
         "mobile"
       ], 
-      "tier": "2"
+      "tier": "1"
     }, 
     "mobile/android/chrome/config.properties": {
-      "module": "mobile/opt", 
+      "module": "mobile/user", 
       "notes": "", 
       "products": [
         "mobile"
       ], 
-      "tier": "2"
+      "tier": "1"
     }, 
     "mobile/android/chrome/devicePrompt.properties": {
       "module": "mobile/user", 
@@ -1716,12 +1716,12 @@
       "tier": "1"
     }, 
     "mobile/android/chrome/pippki.properties": {
-      "module": "mobile/opt", 
+      "module": "mobile/user", 
       "notes": "", 
       "products": [
         "mobile"
       ], 
-      "tier": "2"
+      "tier": "1"
     }, 
     "mobile/android/chrome/sync.properties": {
       "module": "mobile/user", 
@@ -2773,7 +2773,6 @@
     "devtools": "3", 
     "dom/accessibility": "1", 
     "dom/technical_messages": "3", 
-    "mobile/opt": "2", 
     "mobile/user": "1", 
     "shared/opt": "2", 
     "shared/technical_messages": "3", 
