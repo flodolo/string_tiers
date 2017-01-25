@@ -7,15 +7,18 @@
 import os
 import json
 
+
 def diff(a, b):
     b = set(b)
     return [aa for aa in a if aa not in b]
 
+
 def print_array(list):
-	if list:
-		print ', '.join(list)
-	else:
-		print '(no files)'
+    if list:
+        print(', '.join(list))
+    else:
+        print('(no files)')
+
 
 def main():
     data_folder = os.path.abspath(os.path.join(
@@ -24,7 +27,8 @@ def main():
     with open(os.path.join(data_folder, 'list.json'), 'r') as f:
         json_data = json.load(f)
 
-    file_list = open(os.path.join(data_folder, 'list.txt'), 'r').read().splitlines()
+    filename = os.path.join(data_folder, 'list.txt')
+    file_list = open(filename, 'r').read().splitlines()
     json_list = [item['file'] for item in json_data]
 
     print('\nList of files available in list.txt but missing in list.json')

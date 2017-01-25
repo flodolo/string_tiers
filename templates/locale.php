@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
 	<meta charset=utf-8>
-	<title>Tiers Experiment</title>
+	<title>Tiers Experiment - Locale View</title>
     <link rel="stylesheet" href="assets/bower/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/bower/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/bower/DataTables/media/css/dataTables.bootstrap.min.css" type="text/css" media="all" />
@@ -32,9 +32,15 @@
         <a href="?product=desktop&amp;locale=<?=$locale?>">Firefox Desktop</a>
       </p>
     </div>
+	<h2>Module: <?php echo $requested_module; ?></h2>
+	<div class="list module_list">
+      <p>
+        Display localization status for a specific module<br/>
+        <?php echo $html_supported_modules; ?>
+      </p>
+    </div>
 
-
-    <h2>Details</h2>
+    <h2>Module Details</h2>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -52,11 +58,11 @@
       </tbody>
     </table>
 
-    <h2>Tiers Data - Translated strings</h2>
+    <h2>Tiers and Root Modules - Translated Strings</h2>
     <table class="table table-bordered ">
       <thead>
         <tr>
-            <th>Component</th>
+            <th>Root Module</th>
             <th>Tier</th>
             <th>Total</th>
             <th>% Translated</th>
@@ -67,7 +73,7 @@
       </tbody>
     </table>
 
-    <h2>Tiers Data - Identical Strings</h2>
+    <h2>Tiers and Root Modules - Identical Strings</h2>
 	<p>Accesskeys and shortcuts are ignored in the count of identical strings by excluding string IDs
 		including <code>.key</code>, <code>.accesskey</code>, and <code>.commandkey</code>.</p>
     <table class="table table-bordered ">

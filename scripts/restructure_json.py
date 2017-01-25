@@ -17,7 +17,6 @@ def main():
         json_data = json.load(data_file)
 
     new_content = {
-        'components': [],
         'files': {},
         'modules': {}
     }
@@ -34,21 +33,14 @@ def main():
             module_names.append(current_module)
         # Sanity checks
         if element['tier'] != modules[current_module]:
-            print '{0} has a different tier'.format(element['file'])
+            print('{0} has a different tier'.format(element['file']))
         if current_module == '':
-            print '{0} has no module'.format(element['file'])
+            print('{0} has no module'.format(element['file']))
         if element['tier'] == '':
-            print '{0} has an empty tier'.format(element['file'])
+            print('{0} has an empty tier'.format(element['file']))
 
     module_names.sort()
     new_content['modules'] = modules
-
-    for module_name in module_names:
-        component_name = module_name.split('/')[0]
-        if component_name not in component_names:
-            component_names.append(component_name)
-    component_names.sort()
-    new_content['components'] = component_names
 
     for element in json_data:
         new_content['files'][element['file']] = {

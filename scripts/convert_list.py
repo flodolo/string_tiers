@@ -16,7 +16,8 @@ def main():
     data_folder = os.path.abspath(os.path.join(
         os.path.dirname(__file__), os.pardir, 'data'))
 
-    file_list = open(os.path.join(data_folder, 'list.txt'), 'r').read().splitlines()
+    filename = os.path.join(data_folder, 'list.txt')
+    file_list = open(filename, 'r').read().splitlines()
 
     for file_name in file_list:
         if file_name.startswith('devtools/'):

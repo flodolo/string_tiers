@@ -16,7 +16,6 @@ def main():
     with open(os.path.join(data_folder, 'list_meta.json')) as data_file:
         json_data = json.load(data_file)
 
-
     # Store all file names contained in each module
     modules = {}
     for file_name, file_data in json_data['files'].iteritems():

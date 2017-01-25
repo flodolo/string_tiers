@@ -1,11 +1,4 @@
 {
-  "components": [
-    "browser", 
-    "devtools", 
-    "dom", 
-    "mobile", 
-    "shared"
-  ], 
   "files": {
     "browser/branding/official/brand.dtd": {
       "module": "browser/user", 
@@ -13,7 +6,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/branding/official/brand.properties": {
       "module": "browser/user", 
@@ -21,7 +14,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser-region/region.properties": {
       "module": "browser/user", 
@@ -29,7 +22,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutAccounts.dtd": {
       "module": "browser/user", 
@@ -37,7 +30,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutDialog.dtd": {
       "module": "browser/user", 
@@ -45,7 +38,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutHealthReport.dtd": {
       "module": "browser/user", 
@@ -53,7 +46,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutHome.dtd": {
       "module": "browser/user", 
@@ -61,7 +54,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutPrivateBrowsing.dtd": {
       "module": "browser/user", 
@@ -69,7 +62,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutPrivateBrowsing.properties": {
       "module": "browser/user", 
@@ -77,7 +70,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutRobots.dtd": {
       "module": "browser/opt", 
@@ -85,7 +78,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/chrome/browser/aboutSearchReset.dtd": {
       "module": "browser/user", 
@@ -93,7 +86,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutSessionRestore.dtd": {
       "module": "browser/user", 
@@ -101,7 +94,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutSyncTabs.dtd": {
       "module": "browser/user", 
@@ -109,7 +102,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/aboutTabCrashed.dtd": {
       "module": "browser/user", 
@@ -117,7 +110,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/accounts.properties": {
       "module": "browser/user", 
@@ -125,7 +118,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/baseMenuOverlay.dtd": {
       "module": "browser/user", 
@@ -133,7 +126,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/browser.dtd": {
       "module": "browser/user", 
@@ -141,7 +134,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/browser.properties": {
       "module": "browser/user", 
@@ -149,7 +142,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/customizableui/customizableWidgets.properties": {
       "module": "browser/user", 
@@ -157,7 +150,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/downloads/downloads.dtd": {
       "module": "browser/user", 
@@ -165,7 +158,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/downloads/downloads.properties": {
       "module": "browser/user", 
@@ -173,7 +166,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/engineManager.properties": {
       "module": "browser/user", 
@@ -181,7 +174,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/feeds/subscribe.dtd": {
       "module": "browser/user", 
@@ -189,7 +182,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/feeds/subscribe.properties": {
       "module": "browser/user", 
@@ -197,7 +190,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/lightweightThemes.properties": {
       "module": "browser/opt", 
@@ -205,7 +198,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/chrome/browser/migration/migration.dtd": {
       "module": "browser/user", 
@@ -213,7 +206,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/migration/migration.properties": {
       "module": "browser/user", 
@@ -221,7 +214,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/newTab.dtd": {
       "module": "browser/user", 
@@ -229,7 +222,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/newTab.properties": {
       "module": "browser/user", 
@@ -237,7 +230,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/pageInfo.dtd": {
       "module": "browser/opt", 
@@ -245,7 +238,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/chrome/browser/pageInfo.properties": {
       "module": "browser/opt", 
@@ -253,7 +246,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/chrome/browser/places/bookmarkProperties.properties": {
       "module": "browser/user", 
@@ -261,7 +254,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/places/editBookmarkOverlay.dtd": {
       "module": "browser/user", 
@@ -269,7 +262,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/places/moveBookmarks.dtd": {
       "module": "browser/user", 
@@ -277,7 +270,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/places/places.dtd": {
       "module": "browser/user", 
@@ -285,7 +278,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/places/places.properties": {
       "module": "browser/user", 
@@ -293,7 +286,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/advanced.dtd": {
       "module": "browser/user", 
@@ -301,7 +294,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/applicationManager.dtd": {
       "module": "browser/user", 
@@ -309,7 +302,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/applicationManager.properties": {
       "module": "browser/user", 
@@ -317,7 +310,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/applications.dtd": {
       "module": "browser/user", 
@@ -325,7 +318,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/blocklists.dtd": {
       "module": "browser/user", 
@@ -333,7 +326,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/colors.dtd": {
       "module": "browser/user", 
@@ -341,7 +334,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/connection.dtd": {
       "module": "browser/user", 
@@ -349,7 +342,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/containers.dtd": {
       "module": "browser/user", 
@@ -357,7 +350,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/containers.properties": {
       "module": "browser/user", 
@@ -365,7 +358,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/content.dtd": {
       "module": "browser/user", 
@@ -373,7 +366,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/cookies.dtd": {
       "module": "browser/user", 
@@ -381,7 +374,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/donottrack.dtd": {
       "module": "browser/user", 
@@ -389,7 +382,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/fonts.dtd": {
       "module": "browser/user", 
@@ -397,7 +390,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/languages.dtd": {
       "module": "browser/user", 
@@ -405,7 +398,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/main.dtd": {
       "module": "browser/user", 
@@ -413,7 +406,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/permissions.dtd": {
       "module": "browser/user", 
@@ -421,7 +414,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/preferences.dtd": {
       "module": "browser/user", 
@@ -429,7 +422,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/preferences.properties": {
       "module": "browser/user", 
@@ -437,7 +430,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/privacy.dtd": {
       "module": "browser/user", 
@@ -445,7 +438,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/search.dtd": {
       "module": "browser/user", 
@@ -453,7 +446,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/security.dtd": {
       "module": "browser/user", 
@@ -461,7 +454,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/selectBookmark.dtd": {
       "module": "browser/user", 
@@ -469,7 +462,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/siteDataSettings.dtd": {
       "module": "browser/user", 
@@ -477,7 +470,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/sync.dtd": {
       "module": "browser/user", 
@@ -485,7 +478,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/tabs.dtd": {
       "module": "browser/user", 
@@ -493,7 +486,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/preferences/translation.dtd": {
       "module": "browser/opt", 
@@ -501,7 +494,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/chrome/browser/quitDialog.properties": {
       "module": "browser/user", 
@@ -509,7 +502,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/safeMode.dtd": {
       "module": "browser/user", 
@@ -517,7 +510,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd": {
       "module": "browser/user", 
@@ -525,7 +518,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/safebrowsing/report-phishing.dtd": {
       "module": "browser/user", 
@@ -533,7 +526,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/sanitize.dtd": {
       "module": "browser/user", 
@@ -541,7 +534,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/search.properties": {
       "module": "browser/user", 
@@ -549,7 +542,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/searchbar.dtd": {
       "module": "browser/user", 
@@ -557,7 +550,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/setDesktopBackground.dtd": {
       "module": "browser/user", 
@@ -565,7 +558,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/shellservice.properties": {
       "module": "browser/user", 
@@ -573,7 +566,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/sitePermissions.properties": {
       "module": "browser/user", 
@@ -581,7 +574,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncBrand.dtd": {
       "module": "browser/user", 
@@ -589,7 +582,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncCustomize.dtd": {
       "module": "browser/user", 
@@ -597,7 +590,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncGenericChange.properties": {
       "module": "browser/user", 
@@ -605,7 +598,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncKey.dtd": {
       "module": "browser/user", 
@@ -613,7 +606,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncQuota.dtd": {
       "module": "browser/user", 
@@ -621,7 +614,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncQuota.properties": {
       "module": "browser/user", 
@@ -629,7 +622,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncSetup.dtd": {
       "module": "browser/user", 
@@ -637,7 +630,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/syncSetup.properties": {
       "module": "browser/user", 
@@ -645,7 +638,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/tabbrowser.properties": {
       "module": "browser/user", 
@@ -653,7 +646,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/taskbar.properties": {
       "module": "browser/user", 
@@ -661,7 +654,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/browser/translation.dtd": {
       "module": "browser/opt", 
@@ -669,7 +662,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/chrome/browser/translation.properties": {
       "module": "browser/opt", 
@@ -677,7 +670,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/chrome/browser/webrtcIndicator.properties": {
       "module": "browser/user", 
@@ -685,7 +678,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/overrides/appstrings.properties": {
       "module": "browser/user", 
@@ -693,7 +686,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/overrides/netError.dtd": {
       "module": "browser/user", 
@@ -701,7 +694,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/chrome/overrides/settingsChange.dtd": {
       "module": "browser/user", 
@@ -709,7 +702,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/crashreporter/crashreporter-override.ini": {
       "module": "browser/user", 
@@ -717,7 +710,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/defines.inc": {
       "module": "browser/opt", 
@@ -725,7 +718,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/firefox-l10n.js": {
       "module": "browser/user", 
@@ -733,7 +726,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/installer/custom.properties": {
       "module": "browser/user", 
@@ -741,7 +734,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/installer/mui.properties": {
       "module": "browser/user", 
@@ -749,7 +742,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/installer/nsisstrings.properties": {
       "module": "browser/user", 
@@ -757,7 +750,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/installer/override.properties": {
       "module": "browser/user", 
@@ -765,7 +758,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/pdfviewer/chrome.properties": {
       "module": "browser/opt", 
@@ -773,7 +766,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/pdfviewer/viewer.properties": {
       "module": "browser/opt", 
@@ -781,7 +774,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "browser/profile/bookmarks.inc": {
       "module": "browser/user", 
@@ -789,7 +782,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "browser/updater/updater.ini": {
       "module": "browser/user", 
@@ -797,7 +790,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "devtools/client/VariablesView.dtd": {
       "module": "devtools", 
@@ -805,7 +798,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/aboutdebugging.dtd": {
       "module": "devtools", 
@@ -813,7 +806,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/aboutdebugging.properties": {
       "module": "devtools", 
@@ -821,7 +814,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/animationinspector.properties": {
       "module": "devtools", 
@@ -829,7 +822,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/app-manager.properties": {
       "module": "devtools", 
@@ -837,7 +830,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/appcacheutils.properties": {
       "module": "devtools", 
@@ -845,7 +838,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/boxmodel.properties": {
       "module": "devtools", 
@@ -853,7 +846,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/canvasdebugger.dtd": {
       "module": "devtools", 
@@ -861,7 +854,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/canvasdebugger.properties": {
       "module": "devtools", 
@@ -869,7 +862,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/components.properties": {
       "module": "devtools", 
@@ -877,7 +870,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/connection-screen.dtd": {
       "module": "devtools", 
@@ -885,7 +878,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/connection-screen.properties": {
       "module": "devtools", 
@@ -893,7 +886,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/debugger.dtd": {
       "module": "devtools", 
@@ -901,7 +894,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/debugger.properties": {
       "module": "devtools", 
@@ -909,7 +902,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/device.properties": {
       "module": "devtools", 
@@ -917,7 +910,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/dom.properties": {
       "module": "devtools", 
@@ -925,7 +918,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/eyedropper.properties": {
       "module": "devtools", 
@@ -933,7 +926,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/filterwidget.properties": {
       "module": "devtools", 
@@ -941,7 +934,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/font-inspector.properties": {
       "module": "devtools", 
@@ -949,7 +942,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/graphs.properties": {
       "module": "devtools", 
@@ -957,7 +950,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/har.properties": {
       "module": "devtools", 
@@ -965,7 +958,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/inspector.properties": {
       "module": "devtools", 
@@ -973,7 +966,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/jit-optimizations.properties": {
       "module": "devtools", 
@@ -981,7 +974,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/jsonview.properties": {
       "module": "devtools", 
@@ -989,7 +982,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/layout.properties": {
       "module": "devtools", 
@@ -997,7 +990,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/markers.properties": {
       "module": "devtools", 
@@ -1005,7 +998,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/memory.properties": {
       "module": "devtools", 
@@ -1013,7 +1006,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/menus.properties": {
       "module": "devtools", 
@@ -1021,7 +1014,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/netmonitor.properties": {
       "module": "devtools", 
@@ -1029,7 +1022,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/performance.dtd": {
       "module": "devtools", 
@@ -1037,7 +1030,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/performance.properties": {
       "module": "devtools", 
@@ -1045,7 +1038,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/projecteditor.properties": {
       "module": "devtools", 
@@ -1053,7 +1046,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/responsive.properties": {
       "module": "devtools", 
@@ -1061,7 +1054,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/responsiveUI.properties": {
       "module": "devtools", 
@@ -1069,7 +1062,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/scratchpad.dtd": {
       "module": "devtools", 
@@ -1077,7 +1070,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/scratchpad.properties": {
       "module": "devtools", 
@@ -1085,7 +1078,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/shadereditor.dtd": {
       "module": "devtools", 
@@ -1093,7 +1086,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/shadereditor.properties": {
       "module": "devtools", 
@@ -1101,7 +1094,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/shared.properties": {
       "module": "devtools", 
@@ -1109,7 +1102,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/sourceeditor.dtd": {
       "module": "devtools", 
@@ -1117,7 +1110,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/sourceeditor.properties": {
       "module": "devtools", 
@@ -1125,7 +1118,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/startup.properties": {
       "module": "devtools", 
@@ -1133,7 +1126,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/storage.dtd": {
       "module": "devtools", 
@@ -1141,7 +1134,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/storage.properties": {
       "module": "devtools", 
@@ -1149,7 +1142,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/styleeditor.dtd": {
       "module": "devtools", 
@@ -1157,7 +1150,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/styleeditor.properties": {
       "module": "devtools", 
@@ -1165,7 +1158,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/toolbox.dtd": {
       "module": "devtools", 
@@ -1173,7 +1166,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/toolbox.properties": {
       "module": "devtools", 
@@ -1181,7 +1174,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/webConsole.dtd": {
       "module": "devtools", 
@@ -1189,7 +1182,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/webaudioeditor.dtd": {
       "module": "devtools", 
@@ -1197,7 +1190,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/webaudioeditor.properties": {
       "module": "devtools", 
@@ -1205,7 +1198,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/webconsole.properties": {
       "module": "devtools", 
@@ -1213,7 +1206,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/webide.dtd": {
       "module": "devtools", 
@@ -1221,7 +1214,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/client/webide.properties": {
       "module": "devtools", 
@@ -1229,7 +1222,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/shared/csscoverage.dtd": {
       "module": "devtools", 
@@ -1237,7 +1230,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/shared/csscoverage.properties": {
       "module": "devtools", 
@@ -1245,7 +1238,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/shared/debugger.properties": {
       "module": "devtools", 
@@ -1253,7 +1246,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/shared/gcli.properties": {
       "module": "devtools", 
@@ -1261,7 +1254,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/shared/gclicommands.properties": {
       "module": "devtools", 
@@ -1269,7 +1262,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/shared/shared.properties": {
       "module": "devtools", 
@@ -1277,7 +1270,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "devtools/shared/styleinspector.properties": {
       "module": "devtools", 
@@ -1285,7 +1278,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/accessibility/AccessFu.properties": {
       "module": "dom/accessibility", 
@@ -1294,7 +1287,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/accessibility/mac/accessible.properties": {
       "module": "dom/accessibility", 
@@ -1302,7 +1295,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/accessibility/unix/accessible.properties": {
       "module": "dom/accessibility", 
@@ -1310,7 +1303,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/accessibility/win/accessible.properties": {
       "module": "dom/accessibility", 
@@ -1318,7 +1311,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/appstrings.properties": {
       "module": "shared/user", 
@@ -1326,7 +1319,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/dom/dom.properties": {
       "module": "dom/technical_messages", 
@@ -1335,7 +1328,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/global-strres.properties": {
       "module": "shared/user", 
@@ -1343,7 +1336,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/global.dtd": {
       "module": "shared/user", 
@@ -1352,7 +1345,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/layout/HtmlForm.properties": {
       "module": "dom/technical_messages", 
@@ -1360,7 +1353,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/layout/MediaDocument.properties": {
       "module": "shared/user", 
@@ -1368,7 +1361,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/layout/css.properties": {
       "module": "dom/technical_messages", 
@@ -1376,7 +1369,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/layout/htmlparser.properties": {
       "module": "dom/technical_messages", 
@@ -1384,7 +1377,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/layout/layout_errors.properties": {
       "module": "dom/technical_messages", 
@@ -1392,7 +1385,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/layout/printing.properties": {
       "module": "shared/user", 
@@ -1400,7 +1393,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/layout/xbl.properties": {
       "module": "dom/technical_messages", 
@@ -1408,7 +1401,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/layout/xmlparser.properties": {
       "module": "dom/technical_messages", 
@@ -1416,7 +1409,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/layout/xul.properties": {
       "module": "dom/technical_messages", 
@@ -1424,7 +1417,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/mathml/mathml.properties": {
       "module": "dom/technical_messages", 
@@ -1432,7 +1425,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/netError.dtd": {
       "module": "shared/user", 
@@ -1440,7 +1433,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/netErrorApp.dtd": {
       "module": "shared/user", 
@@ -1448,7 +1441,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/nsWebBrowserPersist.properties": {
       "module": "shared/user", 
@@ -1456,7 +1449,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/plugins.properties": {
       "module": "shared/user", 
@@ -1465,7 +1458,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "dom/chrome/security/caps.properties": {
       "module": "dom/technical_messages", 
@@ -1473,7 +1466,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/security/csp.properties": {
       "module": "dom/technical_messages", 
@@ -1481,7 +1474,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/security/security.properties": {
       "module": "dom/technical_messages", 
@@ -1489,7 +1482,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/svg/svg.properties": {
       "module": "dom/technical_messages", 
@@ -1497,7 +1490,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/xml/prettyprint.dtd": {
       "module": "dom/technical_messages", 
@@ -1505,7 +1498,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "dom/chrome/xslt/xslt.properties": {
       "module": "dom/technical_messages", 
@@ -1513,7 +1506,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "mobile/android/base/android_strings.dtd": {
       "module": "mobile/user", 
@@ -1521,7 +1514,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/base/search_strings.dtd": {
       "module": "mobile/user", 
@@ -1529,7 +1522,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/base/sync_strings.dtd": {
       "module": "mobile/user", 
@@ -1537,7 +1530,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/about.dtd": {
       "module": "mobile/user", 
@@ -1545,7 +1538,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutAccounts.dtd": {
       "module": "mobile/user", 
@@ -1553,7 +1546,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutAccounts.properties": {
       "module": "mobile/user", 
@@ -1561,7 +1554,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutAddons.dtd": {
       "module": "mobile/user", 
@@ -1569,7 +1562,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutAddons.properties": {
       "module": "mobile/user", 
@@ -1577,7 +1570,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutCertError.dtd": {
       "module": "mobile/user", 
@@ -1585,7 +1578,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutDevices.dtd": {
       "module": "mobile/user", 
@@ -1593,7 +1586,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutDownloads.dtd": {
       "module": "mobile/user", 
@@ -1601,7 +1594,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutDownloads.properties": {
       "module": "mobile/user", 
@@ -1609,7 +1602,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutHealthReport.dtd": {
       "module": "mobile/user", 
@@ -1617,7 +1610,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutHome.dtd": {
       "module": "mobile/user", 
@@ -1625,7 +1618,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutHome.properties": {
       "module": "mobile/user", 
@@ -1633,7 +1626,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutLogins.dtd": {
       "module": "mobile/user", 
@@ -1641,7 +1634,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutLogins.properties": {
       "module": "mobile/user", 
@@ -1649,7 +1642,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/aboutPrivateBrowsing.dtd": {
       "module": "mobile/user", 
@@ -1657,7 +1650,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/browser.properties": {
       "module": "mobile/user", 
@@ -1665,7 +1658,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/checkbox.dtd": {
       "module": "mobile/user", 
@@ -1673,7 +1666,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/config.dtd": {
       "module": "mobile/user", 
@@ -1681,7 +1674,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/config.properties": {
       "module": "mobile/user", 
@@ -1689,7 +1682,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/devicePrompt.properties": {
       "module": "mobile/user", 
@@ -1697,7 +1690,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/handling.properties": {
       "module": "mobile/user", 
@@ -1705,7 +1698,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/phishing.dtd": {
       "module": "mobile/user", 
@@ -1713,7 +1706,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/pippki.properties": {
       "module": "mobile/user", 
@@ -1721,7 +1714,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/sync.properties": {
       "module": "mobile/user", 
@@ -1729,7 +1722,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/android/chrome/webcompatReporter.properties": {
       "module": "mobile/user", 
@@ -1737,7 +1730,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/chrome/region.properties": {
       "module": "mobile/user", 
@@ -1745,7 +1738,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/overrides/appstrings.properties": {
       "module": "mobile/user", 
@@ -1753,7 +1746,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/overrides/netError.dtd": {
       "module": "mobile/user", 
@@ -1761,7 +1754,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "mobile/overrides/passwordmgr.properties": {
       "module": "mobile/user", 
@@ -1769,7 +1762,7 @@
       "products": [
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "netwerk/necko.properties": {
       "module": "shared/opt", 
@@ -1777,7 +1770,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "security/manager/chrome/pipnss/nsserrors.properties": {
       "module": "shared/technical_messages", 
@@ -1785,7 +1778,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "security/manager/chrome/pipnss/pipnss.properties": {
       "module": "shared/technical_messages", 
@@ -1793,7 +1786,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "security/manager/chrome/pippki/certManager.dtd": {
       "module": "shared/opt", 
@@ -1801,7 +1794,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "security/manager/chrome/pippki/deviceManager.dtd": {
       "module": "shared/opt", 
@@ -1809,7 +1802,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "security/manager/chrome/pippki/pippki.dtd": {
       "module": "shared/opt", 
@@ -1817,7 +1810,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "security/manager/chrome/pippki/pippki.properties": {
       "module": "shared/opt", 
@@ -1825,7 +1818,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "services/sync/errors.properties": {
       "module": "browser/user", 
@@ -1833,7 +1826,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "services/sync/sync.properties": {
       "module": "browser/user", 
@@ -1841,7 +1834,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/alerts/alert.dtd": {
       "module": "shared/user", 
@@ -1849,7 +1842,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/alerts/alert.properties": {
       "module": "shared/user", 
@@ -1857,7 +1850,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/autoconfig/autoconfig.properties": {
       "module": "shared/opt", 
@@ -1865,7 +1858,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global-platform/mac/intl.properties": {
       "module": "shared/user", 
@@ -1873,7 +1866,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global-platform/mac/platformKeys.properties": {
       "module": "shared/user", 
@@ -1881,7 +1874,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global-platform/unix/intl.properties": {
       "module": "shared/user", 
@@ -1889,7 +1882,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global-platform/unix/platformKeys.properties": {
       "module": "shared/user", 
@@ -1897,7 +1890,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global-platform/win/intl.properties": {
       "module": "shared/user", 
@@ -1905,7 +1898,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global-platform/win/platformKeys.properties": {
       "module": "shared/user", 
@@ -1913,7 +1906,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/about.dtd": {
       "module": "shared/opt", 
@@ -1922,7 +1915,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/aboutAbout.dtd": {
       "module": "shared/opt", 
@@ -1931,7 +1924,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/aboutNetworking.dtd": {
       "module": "shared/technical_messages", 
@@ -1939,7 +1932,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/aboutProfiles.dtd": {
       "module": "shared/opt", 
@@ -1947,7 +1940,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/aboutProfiles.properties": {
       "module": "shared/opt", 
@@ -1955,7 +1948,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/aboutReader.properties": {
       "module": "shared/user", 
@@ -1964,7 +1957,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/aboutRights.dtd": {
       "module": "shared/user", 
@@ -1973,7 +1966,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/aboutServiceWorkers.dtd": {
       "module": "shared/technical_messages", 
@@ -1981,7 +1974,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/aboutServiceWorkers.properties": {
       "module": "shared/technical_messages", 
@@ -1989,7 +1982,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/aboutSupport.dtd": {
       "module": "shared/user", 
@@ -1998,7 +1991,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/aboutSupport.properties": {
       "module": "shared/user", 
@@ -2007,7 +2000,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/aboutTelemetry.dtd": {
       "module": "shared/technical_messages", 
@@ -2016,7 +2009,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/aboutTelemetry.properties": {
       "module": "shared/technical_messages", 
@@ -2025,7 +2018,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/aboutWebrtc.properties": {
       "module": "shared/technical_messages", 
@@ -2034,7 +2027,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/appPicker.dtd": {
       "module": "shared/user", 
@@ -2042,7 +2035,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/autocomplete.properties": {
       "module": "shared/user", 
@@ -2050,7 +2043,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/browser.properties": {
       "module": "shared/user", 
@@ -2058,7 +2051,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/charsetMenu.dtd": {
       "module": "shared/user", 
@@ -2066,7 +2059,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/charsetMenu.properties": {
       "module": "shared/user", 
@@ -2075,7 +2068,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/commonDialog.dtd": {
       "module": "shared/user", 
@@ -2083,7 +2076,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/commonDialogs.properties": {
       "module": "shared/user", 
@@ -2092,7 +2085,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/config.dtd": {
       "module": "shared/opt", 
@@ -2100,7 +2093,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/config.properties": {
       "module": "shared/opt", 
@@ -2108,7 +2101,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/console.dtd": {
       "module": "shared/technical_messages", 
@@ -2116,7 +2109,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/console.properties": {
       "module": "shared/technical_messages", 
@@ -2124,7 +2117,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/contentAreaCommands.properties": {
       "module": "shared/user", 
@@ -2132,7 +2125,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/customizeToolbar.dtd": {
       "module": "shared/user", 
@@ -2140,7 +2133,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/customizeToolbar.properties": {
       "module": "shared/user", 
@@ -2148,7 +2141,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/dateFormat.properties": {
       "module": "shared/user", 
@@ -2156,7 +2149,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/datetimepicker.dtd": {
       "module": "shared/user", 
@@ -2164,7 +2157,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/dialog.properties": {
       "module": "shared/user", 
@@ -2172,7 +2165,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/dialogOverlay.dtd": {
       "module": "shared/user", 
@@ -2180,7 +2173,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/editMenuOverlay.dtd": {
       "module": "shared/user", 
@@ -2188,7 +2181,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/extensions.properties": {
       "module": "shared/technical_messages", 
@@ -2196,7 +2189,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/fallbackMenubar.properties": {
       "module": "shared/user", 
@@ -2204,7 +2197,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/filefield.properties": {
       "module": "shared/user", 
@@ -2212,7 +2205,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/filepicker.dtd": {
       "module": "shared/user", 
@@ -2220,7 +2213,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/filepicker.properties": {
       "module": "shared/user", 
@@ -2228,7 +2221,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/findbar.dtd": {
       "module": "shared/user", 
@@ -2236,7 +2229,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/findbar.properties": {
       "module": "shared/user", 
@@ -2244,7 +2237,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/finddialog.dtd": {
       "module": "shared/user", 
@@ -2252,7 +2245,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/finddialog.properties": {
       "module": "shared/user", 
@@ -2260,7 +2253,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/globalKeys.dtd": {
       "module": "shared/user", 
@@ -2268,7 +2261,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/headsUpDisplay.properties": {
       "module": "shared/technical_messages", 
@@ -2276,7 +2269,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/intl.css": {
       "module": "shared/user", 
@@ -2285,7 +2278,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/intl.properties": {
       "module": "shared/user", 
@@ -2294,7 +2287,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/keys.properties": {
       "module": "shared/user", 
@@ -2302,7 +2295,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/languageNames.properties": {
       "module": "shared/opt", 
@@ -2310,7 +2303,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/mozilla.dtd": {
       "module": "shared/opt", 
@@ -2319,7 +2312,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/narrate.properties": {
       "module": "shared/opt", 
@@ -2327,7 +2320,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/notification.dtd": {
       "module": "shared/user", 
@@ -2335,7 +2328,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/nsTreeSorting.properties": {
       "module": "shared/opt", 
@@ -2343,7 +2336,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/preferences.dtd": {
       "module": "shared/user", 
@@ -2351,7 +2344,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/printPageSetup.dtd": {
       "module": "shared/user", 
@@ -2359,7 +2352,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/printPreview.dtd": {
       "module": "shared/user", 
@@ -2367,7 +2360,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/printPreviewProgress.dtd": {
       "module": "shared/user", 
@@ -2375,7 +2368,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/printProgress.dtd": {
       "module": "shared/user", 
@@ -2383,7 +2376,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/printdialog.dtd": {
       "module": "shared/user", 
@@ -2391,7 +2384,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/printdialog.properties": {
       "module": "shared/user", 
@@ -2399,7 +2392,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/printjoboptions.dtd": {
       "module": "shared/user", 
@@ -2407,7 +2400,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/regionNames.properties": {
       "module": "shared/opt", 
@@ -2415,7 +2408,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/resetProfile.dtd": {
       "module": "shared/user", 
@@ -2423,7 +2416,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/resetProfile.properties": {
       "module": "shared/user", 
@@ -2431,7 +2424,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/textcontext.dtd": {
       "module": "shared/user", 
@@ -2439,7 +2432,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/tree.dtd": {
       "module": "shared/opt", 
@@ -2447,7 +2440,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/videocontrols.dtd": {
       "module": "shared/user", 
@@ -2455,7 +2448,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/global/viewSource.dtd": {
       "module": "shared/technical_messages", 
@@ -2463,7 +2456,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/viewSource.properties": {
       "module": "shared/technical_messages", 
@@ -2471,7 +2464,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "3"
+      "tier": 3
     }, 
     "toolkit/chrome/global/wizard.dtd": {
       "module": "shared/opt", 
@@ -2479,7 +2472,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/global/wizard.properties": {
       "module": "shared/opt", 
@@ -2487,7 +2480,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/mozapps/downloads/downloads.properties": {
       "module": "shared/user", 
@@ -2495,7 +2488,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/downloads/settingsChange.dtd": {
       "module": "shared/user", 
@@ -2503,7 +2496,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/downloads/unknownContentType.dtd": {
       "module": "shared/user", 
@@ -2511,7 +2504,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/downloads/unknownContentType.properties": {
       "module": "shared/user", 
@@ -2519,7 +2512,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/about.dtd": {
       "module": "shared/user", 
@@ -2527,7 +2520,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/blocklist.dtd": {
       "module": "shared/user", 
@@ -2535,7 +2528,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/extensions.dtd": {
       "module": "shared/user", 
@@ -2543,7 +2536,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/extensions.properties": {
       "module": "shared/user", 
@@ -2551,7 +2544,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/newaddon.dtd": {
       "module": "shared/user", 
@@ -2559,7 +2552,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/newaddon.properties": {
       "module": "shared/user", 
@@ -2567,7 +2560,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/update.dtd": {
       "module": "shared/user", 
@@ -2575,7 +2568,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/update.properties": {
       "module": "shared/user", 
@@ -2583,7 +2576,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd": {
       "module": "shared/user", 
@@ -2591,7 +2584,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties": {
       "module": "shared/user", 
@@ -2599,7 +2592,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/handling/handling.dtd": {
       "module": "shared/user", 
@@ -2607,7 +2600,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/handling/handling.properties": {
       "module": "shared/user", 
@@ -2615,7 +2608,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/preferences/changemp.dtd": {
       "module": "shared/user", 
@@ -2623,7 +2616,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/preferences/preferences.properties": {
       "module": "shared/user", 
@@ -2631,7 +2624,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/preferences/removemp.dtd": {
       "module": "shared/user", 
@@ -2639,7 +2632,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/profile/createProfileWizard.dtd": {
       "module": "shared/user", 
@@ -2647,7 +2640,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/profile/profileSelection.dtd": {
       "module": "shared/user", 
@@ -2655,7 +2648,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/profile/profileSelection.properties": {
       "module": "shared/user", 
@@ -2663,7 +2656,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/mozapps/update/history.dtd": {
       "module": "shared/opt", 
@@ -2671,7 +2664,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/mozapps/update/updates.dtd": {
       "module": "shared/opt", 
@@ -2679,7 +2672,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/mozapps/update/updates.properties": {
       "module": "shared/opt", 
@@ -2687,7 +2680,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "2"
+      "tier": 2
     }, 
     "toolkit/chrome/passwordmgr/passwordManager.dtd": {
       "module": "shared/user", 
@@ -2695,7 +2688,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/passwordmgr/passwordmgr.properties": {
       "module": "shared/user", 
@@ -2704,7 +2697,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/places/places.properties": {
       "module": "shared/user", 
@@ -2712,7 +2705,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/pluginproblem/pluginproblem.dtd": {
       "module": "shared/user", 
@@ -2721,7 +2714,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/chrome/search/search.properties": {
       "module": "shared/user", 
@@ -2730,7 +2723,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/crashreporter/crashes.dtd": {
       "module": "shared/user", 
@@ -2739,7 +2732,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/crashreporter/crashes.properties": {
       "module": "shared/user", 
@@ -2748,7 +2741,7 @@
         "desktop", 
         "mobile"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/crashreporter/crashreporter.ini": {
       "module": "shared/user", 
@@ -2756,7 +2749,7 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }, 
     "toolkit/defines.inc": {
       "module": "shared/user", 
@@ -2764,18 +2757,18 @@
       "products": [
         "desktop"
       ], 
-      "tier": "1"
+      "tier": 1
     }
   }, 
   "modules": {
-    "browser/opt": "2", 
-    "browser/user": "1", 
-    "devtools": "3", 
-    "dom/accessibility": "1", 
-    "dom/technical_messages": "3", 
-    "mobile/user": "1", 
-    "shared/opt": "2", 
-    "shared/technical_messages": "3", 
-    "shared/user": "1"
+    "browser/opt": 2, 
+    "browser/user": 1, 
+    "devtools": 3, 
+    "dom/accessibility": 1, 
+    "dom/technical_messages": 3, 
+    "mobile/user": 1, 
+    "shared/opt": 2, 
+    "shared/technical_messages": 3, 
+    "shared/user": 1
   }
 }
