@@ -41,7 +41,7 @@
     </div>
 
     <h2>Module Details</h2>
-    <table class="table table-bordered">
+    <table class="table table-bordered" id="locale_details">
       <thead>
         <tr>
             <th>Module</th>
@@ -59,7 +59,7 @@
     </table>
 
     <h2>Tiers and Root Modules - Translated Strings</h2>
-    <table class="table table-bordered ">
+    <table class="table table-bordered" id="locale_root_translated">
       <thead>
         <tr>
             <th>Root Module</th>
@@ -76,7 +76,7 @@
     <h2>Tiers and Root Modules - Identical Strings</h2>
 	<p>Accesskeys and shortcuts are ignored in the count of identical strings by excluding string IDs
 		including <code>.key</code>, <code>.accesskey</code>, and <code>.commandkey</code>.</p>
-    <table class="table table-bordered ">
+    <table class="table table-bordered" id="locale_root_identical">
       <thead>
         <tr>
             <th>Component</th>

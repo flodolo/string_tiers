@@ -41,7 +41,7 @@
     </div>
 
     <h2>Module Details</h2>
-    <table class="table table-bordered">
+    <table class="table table-bordered" id="module_details">
       <thead>
         <tr>
             <th>Locale</th>
