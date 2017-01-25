@@ -1,5 +1,59 @@
 <?php
 
+use Cache\Cache;
+
+// Generate stats per root module
+$cache_id = "overall_stats_{$locale}";
+if (! $overall_stats = Cache::getKey($cache_id)) {
+    $overall_stats = [];
+    foreach ($results[$locale] as $module_name => $data) {
+        $component = explode('/', $module_name)[0];
+        if (! isset($overall_stats[$component])) {
+            $overall_stats[$component] = [];
+            for ($i = 1; $i < 4; $i++) {
+                $overall_stats[$component][$i] = [
+                    'total'                => 0,
+                    'translated'           => 0,
+                    'percentage'           => 0,
+                    'identical'            => 0,
+                    'percentage_identical' => 0,
+                ];
+            }
+            $overall_stats[$component]['all'] = [
+                'total'                => 0,
+                'translated'           => 0,
+                'percentage'           => 0,
+                'identical'            => 0,
+                'percentage_identical' => 0,
+            ];
+        }
+
+        $module_tier = $tiers_data['modules'][$module_name];
+        // Increment tier data
+        $overall_stats[$component][$module_tier]['total'] += $data['total'];
+        $overall_stats[$component][$module_tier]['translated'] += $data['translated'];
+        $overall_stats[$component][$module_tier]['identical'] += $data['identical'];
+        $overall_stats[$component][$module_tier]['percentage'] = $overall_stats[$component][$module_tier]['total'] != 0
+            ? round($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
+            : 0;
+        $overall_stats[$component][$module_tier]['percentage_identical'] = $overall_stats[$component][$module_tier]['total'] != 0
+            ? round($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
+            : 0;
+
+        // Increment component data
+        $overall_stats[$component]['all']['total'] += $data['total'];
+        $overall_stats[$component]['all']['translated'] += $data['translated'];
+        $overall_stats[$component]['all']['identical'] += $data['identical'];
+        $overall_stats[$component]['all']['percentage'] = $overall_stats[$component][$module_tier]['total'] != 0
+            ? round($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
+            : 0;
+        $overall_stats[$component]['all']['percentage_identical'] = $overall_stats[$component][$module_tier]['total'] != 0
+            ? round($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
+            : 0;
+    }
+    Cache::setKey($cache_id, $overall_stats);
+}
+
 $html_detail_body = '';
 foreach ($results[$locale] as $module_name => $data) {
     $module_tier = $tiers_data['modules'][$module_name];

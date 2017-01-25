@@ -40,7 +40,7 @@
       </p>
     </div>
 
-    <h2>Details</h2>
+    <h2>Module Details</h2>
     <table class="table table-bordered">
       <thead>
         <tr>

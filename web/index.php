@@ -27,7 +27,7 @@ $supported_locales = [
 ];
 
 $supported_products = [
-    'all'     => 'All products',
+    'all'     => 'all products',
     'mobile'  => 'Firefox for Android',
     'desktop' => 'Firefox Desktop',
 ];
@@ -37,7 +37,7 @@ if (! in_array($product, array_keys($supported_products))) {
 }
 
 $locale = isset($_REQUEST['locale']) ? htmlspecialchars($_REQUEST['locale']) : 'it';
-if (! in_array($locale, $supported_locales)) {
+if (! in_array($locale, $supported_locales) && $locale != 'all') {
     exit("Locale {$locale} is not supported");
 }
 $html_supported_locales = '';
@@ -66,7 +66,7 @@ if ($requested_module != 'all' && ! in_array($requested_module, $supported_modul
 $html_supported_modules = '';
 foreach ($supported_modules as $supported_module) {
     // Add to module selector
-    $html_supported_modules .= "<a href=\"?module={$supported_module}&amp;locale={$locale}\">{$supported_module}</a> ";
+    $html_supported_modules .= "<a href=\"?module={$supported_module}&amp;locale=all\">{$supported_module}</a> ";
 }
 
 /*
@@ -181,58 +181,6 @@ foreach ($supported_locales as $supported_locale) {
         unset($tmx_locale);
     }
     Cache::setKey($cache_id, $results[$supported_locale]);
-}
-
-// Generate stats per root module
-$cache_id = "overall_stats_{$locale}";
-if (! $overall_stats = Cache::getKey($cache_id)) {
-    $overall_stats = [];
-    foreach ($results[$locale] as $module_name => $data) {
-        $component = explode('/', $module_name)[0];
-        if (! isset($overall_stats[$component])) {
-            $overall_stats[$component] = [];
-            for ($i = 1; $i < 4; $i++) {
-                $overall_stats[$component][$i] = [
-                    'total'                => 0,
-                    'translated'           => 0,
-                    'percentage'           => 0,
-                    'identical'            => 0,
-                    'percentage_identical' => 0,
-                ];
-            }
-            $overall_stats[$component]['all'] = [
-                'total'                => 0,
-                'translated'           => 0,
-                'percentage'           => 0,
-                'identical'            => 0,
-                'percentage_identical' => 0,
-            ];
-        }
-
-        $module_tier = $tiers_data['modules'][$module_name];
-        // Increment tier data
-        $overall_stats[$component][$module_tier]['total'] += $data['total'];
-        $overall_stats[$component][$module_tier]['translated'] += $data['translated'];
-        $overall_stats[$component][$module_tier]['identical'] += $data['identical'];
-        $overall_stats[$component][$module_tier]['percentage'] = $overall_stats[$component][$module_tier]['total'] != 0
-            ? round($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
-            : 0;
-        $overall_stats[$component][$module_tier]['percentage_identical'] = $overall_stats[$component][$module_tier]['total'] != 0
-            ? round($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
-            : 0;
-
-        // Increment component data
-        $overall_stats[$component]['all']['total'] += $data['total'];
-        $overall_stats[$component]['all']['translated'] += $data['translated'];
-        $overall_stats[$component]['all']['identical'] += $data['identical'];
-        $overall_stats[$component]['all']['percentage'] = $overall_stats[$component][$module_tier]['total'] != 0
-            ? round($overall_stats[$component][$module_tier]['translated'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
-            : 0;
-        $overall_stats[$component]['all']['percentage_identical'] = $overall_stats[$component][$module_tier]['total'] != 0
-            ? round($overall_stats[$component][$module_tier]['identical'] / $overall_stats[$component][$module_tier]['total'] * 100, 0)
-            : 0;
-    }
-    Cache::setKey($cache_id, $overall_stats);
 }
 
 $controller = $requested_module != 'all'
