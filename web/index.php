@@ -1,42 +1,37 @@
 <?php
-$root_folder = realpath(__DIR__ . '/../');
-require_once "{$root_folder}/vendor/autoload.php";
+namespace Tiers;
 
 use Cache\Cache;
+use Json\Json;
 
-// Cache class
-if (! defined('CACHE_ENABLED')) {
-    // Allow disabling cache via config
-    define('CACHE_ENABLED', true);
+include realpath(__DIR__ . '/../app/inc/init.php');
+
+// Get supported locales from external service
+$json_object = new Json;
+$cache_id = 'supported_locales';
+if (! $supported_locales = Cache::getKey($cache_id, 60 * 60)) {
+    $response = $json_object
+        ->setURI('https://l10n.mozilla-community.org/~flod/mozilla-l10n-query/?repo=aurora')
+        ->fetchContent();
+    $supported_locales = array_values($response['locales']);
+    Cache::setKey($cache_id, $supported_locales);
 }
-define('CACHE_PATH', "{$root_folder}/cache/");
-define('CACHE_TIME', 7200);
-
-// Get query parameters
-$supported_locales = [
-    'ach', 'af', 'an', 'ar', 'as', 'ast', 'az', 'bg', 'bn-BD', 'bn-IN', 'br',
-    'bs', 'ca', 'cak', 'cs', 'cy', 'da', 'de', 'dsb', 'el', 'en-GB', 'en-ZA',
-    'eo', 'es-AR', 'es-CL', 'es-ES', 'es-MX', 'et', 'eu', 'fa', 'ff', 'fi',
-    'fr', 'fy-NL', 'ga-IE', 'gd', 'gl', 'gn', 'gu-IN', 'he', 'hi-IN', 'hr',
-    'hsb', 'hu', 'hy-AM', 'id', 'is', 'it', 'ja', 'ja-JP-mac', 'ka', 'kab',
-    'kk', 'km', 'kn', 'ko', 'lij', 'lo', 'lt', 'ltg', 'lv', 'mai', 'mk', 'ml',
-    'mr', 'ms', 'my', 'nb-NO', 'ne-NP', 'nl', 'nn-NO', 'or', 'pa-IN', 'pl',
-    'pt-BR', 'pt-PT', 'rm', 'ro', 'ru', 'si', 'sk', 'sl', 'son', 'sq', 'sr',
-    'sv-SE', 'ta', 'te', 'th', 'tl', 'tr', 'tsz', 'uk', 'ur', 'uz', 'vi', 'wo',
-    'xh', 'zh-CN', 'zh-TW',
-];
 
 $supported_products = [
     'all'     => 'all products',
     'mobile'  => 'Firefox for Android',
     'desktop' => 'Firefox Desktop',
 ];
-$product = isset($_REQUEST['product']) ? htmlspecialchars($_REQUEST['product']) : 'all';
+$product = isset($_REQUEST['product'])
+    ? htmlspecialchars($_REQUEST['product'])
+    : 'all';
 if (! in_array($product, array_keys($supported_products))) {
     exit("Product {$product} is not supported");
 }
 
-$locale = isset($_REQUEST['locale']) ? htmlspecialchars($_REQUEST['locale']) : 'it';
+$locale = isset($_REQUEST['locale'])
+    ? htmlspecialchars($_REQUEST['locale'])
+    : Utils::detectLocale($supported_locales, 'it');
 if (! in_array($locale, $supported_locales) && $locale != 'all') {
     exit("Locale {$locale} is not supported");
 }
@@ -47,18 +42,15 @@ foreach ($supported_locales as $supported_locale) {
     $html_supported_locales .= "<a href=\"?product={$product}&amp;locale={$supported_locale}\">{$supported_locale_label}</a> ";
 }
 
-if (! file_exists('../config/settings.inc.php')) {
-    exit('File config/settings.inc.php is missing');
-}
-include '../config/settings.inc.php';
-
-if (! file_exists('../data/list_meta.json')) {
+if (! file_exists("{$root_folder}/app/data/list_meta.json")) {
     exit('Folder list_meta.json does not exist.');
 }
-$json_file = file_get_contents('../data/list_meta.json');
+$json_file = file_get_contents("{$root_folder}/app/data/list_meta.json");
 $tiers_data = json_decode($json_file, true);
 
-$requested_module = isset($_REQUEST['module']) ? htmlspecialchars($_REQUEST['module']) : 'all';
+$requested_module = isset($_REQUEST['module'])
+    ? htmlspecialchars($_REQUEST['module'])
+    : 'all';
 $supported_modules = array_keys($tiers_data['modules']);
 if ($requested_module != 'all' && ! in_array($requested_module, $supported_modules)) {
     exit("Unknown module {$requested_module}");
@@ -80,26 +72,6 @@ include $cache_file;
 $tmx_reference = $tmx;
 unset($tmx);
 
-function startsWith($haystack, $needles)
-{
-    foreach ((array) $needles as $prefix) {
-        if (! strncmp($haystack, $prefix, mb_strlen($prefix))) {
-            return true;
-        }
-    }
-
-    return false;
-}
-
-function inString($haystack, $needles)
-{
-    foreach ((array) $needles as $needle) {
-        if (mb_strpos($haystack, $needle, $offset = 0, 'UTF-8') !== false) {
-            return true;
-        }
-    }
-}
-
 // Remove components and region.properties
 foreach ($tmx_reference as $entity => $translation) {
     $filter = [
@@ -120,7 +92,7 @@ foreach ($tmx_reference as $entity => $translation) {
         'suite/',
     ];
 
-    if (startsWith($entity, $filter)) {
+    if (Utils::startsWith($entity, $filter)) {
         unset($tmx_reference[$entity]);
     } elseif (strpos($entity, 'region.properties') !== false) {
         unset($tmx_reference[$entity]);
@@ -171,7 +143,7 @@ foreach ($supported_locales as $supported_locale) {
                         $results[$supported_locale][$module]['missing'] += 1;
                     } else {
                         $results[$supported_locale][$module]['translated'] += 1;
-                        if ($tmx_locale[$reference_id] == $reference_translation && ! inString($reference_id, $identical_exclusions)) {
+                        if ($tmx_locale[$reference_id] == $reference_translation && ! Utils::inString($reference_id, $identical_exclusions)) {
                             $results[$supported_locale][$module]['identical'] += 1;
                         }
                     }
@@ -187,5 +159,4 @@ $controller = $requested_module != 'all'
     ? 'module'
     : 'locale';
 
-include "../controllers/{$controller}.php";
-include "../templates/{$controller}.php";
+include "{$root_folder}/app/controllers/{$controller}.php";

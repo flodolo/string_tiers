@@ -125,3 +125,5 @@ foreach ($overall_stats as $component_name => $component_data) {
         }
     }
 }
+
+include "{$root_folder}/app/templates/locale.php";

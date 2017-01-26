@@ -24,3 +24,5 @@ foreach ($supported_locales as $supported_locale) {
 	</tr>
 	";
 }
+
+include "{$root_folder}/app/templates/module.php";

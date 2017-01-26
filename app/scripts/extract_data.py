@@ -10,8 +10,8 @@ import json
 
 def main():
     main_folder = os.path.abspath(os.path.join(
-        os.path.dirname(__file__), os.pardir))
-    data_folder = os.path.join(main_folder, 'data')
+        os.path.dirname(__file__), os.pardir, os.pardir))
+    data_folder = os.path.join(main_folder, 'app', 'data')
 
     with open(os.path.join(data_folder, 'list_meta.json')) as data_file:
         json_data = json.load(data_file)

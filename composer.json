@@ -1,13 +1,24 @@
 {
+    "autoload": {
+            "psr-0": {
+            "Tiers": "app/classes/"
+        }
+    },
+
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/mozilla-l10n/phpclass-cache"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mozilla-l10n/phpclass-json"
         }
     ],
 
     "require": {
-        "mozillal10n/cache": "~0.1"
+        "mozillal10n/cache": "~0.1",
+        "mozillal10n/json": "~0.1"
     },
 
     "require-dev": {

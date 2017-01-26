@@ -1,6 +1,6 @@
+app/config/settings.inc.php
 cache/*.cache
 composer.lock
-config/settings.inc.php
 vendor
 web/assets/bower
 web/cache
