@@ -15,11 +15,20 @@ foreach ($supported_locales as $supported_locale) {
     }
     $html_detail_body .= "
 	<tr class=\"{$class}\">
-		<td>{$supported_locale}</td>
+		<td><a href=\"?locale={$supported_locale}\">{$supported_locale}</a></td>
 		<td>{$data['total']}</td>
 		<td>{$data['percentage']}&nbsp;%</td>
 		<td>{$data['translated']}</td>
-		<td>{$data['missing']}</td>
+		<td>";
+
+    // Link to Diff view only if there are missing strings
+    if ($data['missing'] > 0) {
+        $html_detail_body .= "<a href=\"diff.php?locale={$supported_locale}&amp;module={$requested_module}\">{$data['missing']}</a>";
+    } else {
+        $html_detail_body .= $data['missing'];
+    }
+
+    $html_detail_body .= "</td>
 		<td>{$data['identical']}</td>
 	</tr>
 	";

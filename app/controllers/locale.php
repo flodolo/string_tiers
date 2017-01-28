@@ -76,6 +76,7 @@ foreach ($results[$requested_locale] as $module_name => $data) {
 		<td>{$data['translated']}</td>
         <td>";
 
+    // Link to Diff view only if there are missing strings
     if ($data['missing'] > 0) {
         $html_detail_body .= "<a href=\"diff.php?locale={$requested_locale}&amp;module={$module_name}\">{$data['missing']}</a>";
     } else {
