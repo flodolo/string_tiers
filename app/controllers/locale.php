@@ -3,10 +3,10 @@
 use Cache\Cache;
 
 // Generate stats per root module
-$cache_id = "overall_stats_{$locale}";
+$cache_id = "overall_stats_{$requested_locale}";
 if (! $overall_stats = Cache::getKey($cache_id)) {
     $overall_stats = [];
-    foreach ($results[$locale] as $module_name => $data) {
+    foreach ($results[$requested_locale] as $module_name => $data) {
         $component = explode('/', $module_name)[0];
         if (! isset($overall_stats[$component])) {
             $overall_stats[$component] = [];
@@ -55,7 +55,7 @@ if (! $overall_stats = Cache::getKey($cache_id)) {
 }
 
 $html_detail_body = '';
-foreach ($results[$locale] as $module_name => $data) {
+foreach ($results[$requested_locale] as $module_name => $data) {
     $module_tier = $tiers_data['modules'][$module_name];
     $data['percentage'] = $data['total'] != 0
         ? round($data['translated'] / $data['total'] * 100, 0)
@@ -74,8 +74,16 @@ foreach ($results[$locale] as $module_name => $data) {
 		<td>{$data['total']}</td>
 		<td>{$data['percentage']}&nbsp;%</td>
 		<td>{$data['translated']}</td>
-		<td>{$data['missing']}</td>
-		<td>{$data['identical']}</td>
+        <td>";
+
+    if ($data['missing'] > 0) {
+        $html_detail_body .= "<a href=\"diff.php?locale={$requested_locale}&amp;module={$module_name}\">{$data['missing']}</a>";
+    } else {
+        $html_detail_body .= $data['missing'];
+    }
+
+    $html_detail_body .= "</td>
+        <td>{$data['identical']}</td>
 	</tr>
 	";
 }
@@ -126,4 +134,6 @@ foreach ($overall_stats as $component_name => $component_data) {
     }
 }
 
-include "{$root_folder}/app/templates/locale.php";
+$page_title = 'Locale View';
+$selectors_enabled = true;
+$sub_template = 'locale.php';

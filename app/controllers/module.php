@@ -25,4 +25,6 @@ foreach ($supported_locales as $supported_locale) {
 	";
 }
 
-include "{$root_folder}/app/templates/module.php";
+$page_title = 'Module View';
+$selectors_enabled = true;
+$sub_template = 'module.php';
