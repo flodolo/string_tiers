@@ -62,7 +62,7 @@ $locales_list = $requested_module != 'all'
 
 $results = [];
 foreach ($locales_list as $supported_locale) {
-    $cache_id = "results_locale_{$supported_locale}";
+    $cache_id = "results_locale_{$supported_locale}_{$requested_product}";
     if (! $results[$supported_locale] = Cache::getKey($cache_id)) {
         // Include locale cache
         $cache_file = "{$path}{$supported_locale}/cache_{$supported_locale}_aurora.php";
