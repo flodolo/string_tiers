@@ -70,12 +70,6 @@ browser/chrome/browser/setDesktopBackground.dtd
 browser/chrome/browser/shellservice.properties
 browser/chrome/browser/sitePermissions.properties
 browser/chrome/browser/syncBrand.dtd
-browser/chrome/browser/syncCustomize.dtd
-browser/chrome/browser/syncGenericChange.properties
-browser/chrome/browser/syncKey.dtd
-browser/chrome/browser/syncQuota.dtd
-browser/chrome/browser/syncQuota.properties
-browser/chrome/browser/syncSetup.dtd
 browser/chrome/browser/syncSetup.properties
 browser/chrome/browser/tabbrowser.properties
 browser/chrome/browser/taskbar.properties
@@ -88,6 +82,7 @@ browser/chrome/overrides/netError.dtd
 browser/chrome/overrides/settingsChange.dtd
 browser/crashreporter/crashreporter-override.ini
 browser/defines.inc
+browser/extensions/webcompat-reporter/webcompat.properties
 browser/firefox-l10n.js
 browser/installer/custom.properties
 browser/installer/mui.properties
@@ -258,7 +253,6 @@ toolkit/chrome/global/console.properties
 toolkit/chrome/global/contentAreaCommands.properties
 toolkit/chrome/global/customizeToolbar.dtd
 toolkit/chrome/global/customizeToolbar.properties
-toolkit/chrome/global/dateFormat.properties
 toolkit/chrome/global/datetimepicker.dtd
 toolkit/chrome/global/dialog.properties
 toolkit/chrome/global/dialogOverlay.dtd

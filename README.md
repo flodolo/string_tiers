@@ -2,15 +2,15 @@
 
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
-| browser/opt | 2 | 10 |
-| browser/user | 1 | 91 |
+| browser/opt | 2 | 11 |
+| browser/user | 1 | 85 |
 | devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 32 |
 | shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 14 |
-| shared/user | 1 | 92 |
+| shared/user | 1 | 91 |
 
 ## Modules details
 
@@ -24,6 +24,7 @@
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/defines.inc</sub> | <sub></sub> |
+| <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/extensions/webcompat-reporter/webcompat.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/pdfviewer/chrome.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/pdfviewer/viewer.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.dtd</sub> | <sub></sub> |
@@ -94,12 +95,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/shellservice.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/sitePermissions.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncBrand.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncCustomize.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncGenericChange.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncKey.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncQuota.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncQuota.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncSetup.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncSetup.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/tabbrowser.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/taskbar.properties</sub> | <sub></sub> |
@@ -297,7 +292,6 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/contentAreaCommands.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/customizeToolbar.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/customizeToolbar.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dateFormat.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/datetimepicker.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dialog.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dialogOverlay.dtd</sub> | <sub></sub> |

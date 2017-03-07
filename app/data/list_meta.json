@@ -584,54 +584,6 @@
       ], 
       "tier": 1
     }, 
-    "browser/chrome/browser/syncCustomize.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/syncGenericChange.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/syncKey.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/syncQuota.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/syncQuota.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/syncSetup.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "browser/chrome/browser/syncSetup.properties": {
       "module": "browser/user", 
       "notes": "", 
@@ -713,6 +665,14 @@
       "tier": 1
     }, 
     "browser/defines.inc": {
+      "module": "browser/opt", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 2
+    }, 
+    "browser/extensions/webcompat-reporter/webcompat.properties": {
       "module": "browser/opt", 
       "notes": "", 
       "products": [
@@ -2136,14 +2096,6 @@
       "tier": 1
     }, 
     "toolkit/chrome/global/customizeToolbar.properties": {
-      "module": "shared/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "toolkit/chrome/global/dateFormat.properties": {
       "module": "shared/user", 
       "notes": "", 
       "products": [
