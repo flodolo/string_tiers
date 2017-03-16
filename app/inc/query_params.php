@@ -9,7 +9,7 @@ $json_object = new Json;
 $cache_id = 'supported_locales';
 if (! $supported_locales = Cache::getKey($cache_id, 60 * 60)) {
     $response = $json_object
-        ->setURI('https://l10n.mozilla-community.org/~flod/mozilla-l10n-query/?repo=aurora')
+        ->setURI("{$query_service}?repo=aurora")
         ->fetchContent();
     $supported_locales = array_values($response['locales']);
     Cache::setKey($cache_id, $supported_locales);
