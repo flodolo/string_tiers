@@ -13,7 +13,7 @@ if ($requested_locale == 'all' || $requested_module == 'all') {
 }
 
 // Load en-US cache, clean up unwanted strings.
-$cache_file = "{$path}en-US/cache_en-US_aurora.php";
+$cache_file = "{$path}en-US/cache_en-US_central.php";
 if (! file_exists($cache_file)) {
     exit("File {$cache_file} does not exist.");
 }
@@ -52,7 +52,7 @@ $missing_strings = [];
 $cache_id = "missing_locale_{$requested_locale}";
 if (! $missing_strings = Cache::getKey($cache_id)) {
     // Include locale cache
-    $cache_file = "{$path}{$requested_locale}/cache_{$requested_locale}_aurora.php";
+    $cache_file = "{$path}{$requested_locale}/cache_{$requested_locale}_central.php";
     if (! file_exists($cache_file)) {
         exit("File {$cache_file} does not exist.");
     }

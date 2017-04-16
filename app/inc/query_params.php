@@ -9,7 +9,7 @@ $json_object = new Json;
 $cache_id = 'supported_locales';
 if (! $supported_locales = Cache::getKey($cache_id, 60 * 60)) {
     $response = $json_object
-        ->setURI("{$query_service}?repo=aurora")
+        ->setURI("{$query_service}?repo=central")
         ->fetchContent();
     $supported_locales = array_values($response['locales']);
     Cache::setKey($cache_id, $supported_locales);

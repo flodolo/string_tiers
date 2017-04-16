@@ -540,6 +540,123 @@
     "tier": 1
   },
   {
+    "file": "browser/chrome/browser/preferences-old/advanced.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/applications.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/containers.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/containers.properties",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/content.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/main.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/preferences.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/preferences.properties",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/privacy.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/search.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/security.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/sync.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences-old/tabs.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
     "file": "browser/chrome/browser/preferences/translation.dtd",
     "module": "browser/opt",
     "notes": "",
@@ -574,6 +691,15 @@
       "desktop"
     ],
     "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/safebrowsing/safebrowsing.properties",
+    "module": "browser/opt",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 2
   },
   {
     "file": "browser/chrome/browser/safeMode.dtd",
@@ -981,15 +1107,6 @@
     "tier": 3
   },
   {
-    "file": "devtools/client/eyedropper.properties",
-    "module": "devtools",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 3
-  },
-  {
     "file": "devtools/client/filterwidget.properties",
     "module": "devtools",
     "notes": "",
@@ -1351,6 +1468,15 @@
   },
   {
     "file": "devtools/shared/debugger.properties",
+    "module": "devtools",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 3
+  },
+  {
+    "file": "devtools/shared/eyedropper.properties",
     "module": "devtools",
     "notes": "",
     "products": [
@@ -2302,6 +2428,15 @@
   },
   {
     "file": "toolkit/chrome/global/customizeToolbar.properties",
+    "module": "shared/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "toolkit/chrome/global/datetimebox.dtd",
     "module": "shared/user",
     "notes": "",
     "products": [

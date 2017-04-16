@@ -2,15 +2,15 @@
 
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
-| browser/opt | 2 | 11 |
-| browser/user | 1 | 85 |
+| browser/opt | 2 | 12 |
+| browser/user | 1 | 98 |
 | devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 32 |
 | shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 14 |
-| shared/user | 1 | 91 |
+| shared/user | 1 | 92 |
 
 ## Modules details
 
@@ -21,6 +21,7 @@
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/pageInfo.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/pageInfo.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/preferences/translation.dtd</sub> | <sub></sub> |
+| <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/safebrowsing/safebrowsing.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/defines.inc</sub> | <sub></sub> |
@@ -59,6 +60,19 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/moveBookmarks.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/advanced.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/applications.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/containers.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/containers.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/content.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/main.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/preferences.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/preferences.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/privacy.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/search.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/security.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/sync.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/tabs.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/advanced.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.properties</sub> | <sub></sub> |
@@ -128,7 +142,6 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/debugger.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/device.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/dom.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/eyedropper.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/filterwidget.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/font-inspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/graphs.properties</sub> | <sub></sub> |
@@ -169,6 +182,7 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/csscoverage.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/csscoverage.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/debugger.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/eyedropper.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/gcli.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/gclicommands.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/shared.properties</sub> | <sub></sub> |
@@ -292,6 +306,7 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/contentAreaCommands.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/customizeToolbar.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/customizeToolbar.properties</sub> | <sub></sub> |
+| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/datetimebox.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/datetimepicker.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dialog.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dialogOverlay.dtd</sub> | <sub></sub> |

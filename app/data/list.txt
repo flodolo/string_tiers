@@ -59,9 +59,23 @@ browser/chrome/browser/preferences/siteDataSettings.dtd
 browser/chrome/browser/preferences/sync.dtd
 browser/chrome/browser/preferences/tabs.dtd
 browser/chrome/browser/preferences/translation.dtd
+browser/chrome/browser/preferences-old/advanced.dtd
+browser/chrome/browser/preferences-old/applications.dtd
+browser/chrome/browser/preferences-old/containers.dtd
+browser/chrome/browser/preferences-old/containers.properties
+browser/chrome/browser/preferences-old/content.dtd
+browser/chrome/browser/preferences-old/main.dtd
+browser/chrome/browser/preferences-old/preferences.dtd
+browser/chrome/browser/preferences-old/preferences.properties
+browser/chrome/browser/preferences-old/privacy.dtd
+browser/chrome/browser/preferences-old/search.dtd
+browser/chrome/browser/preferences-old/security.dtd
+browser/chrome/browser/preferences-old/sync.dtd
+browser/chrome/browser/preferences-old/tabs.dtd
 browser/chrome/browser/quitDialog.properties
 browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
 browser/chrome/browser/safebrowsing/report-phishing.dtd
+browser/chrome/browser/safebrowsing/safebrowsing.properties
 browser/chrome/browser/safeMode.dtd
 browser/chrome/browser/sanitize.dtd
 browser/chrome/browser/search.properties
@@ -107,7 +121,6 @@ devtools/client/debugger.dtd
 devtools/client/debugger.properties
 devtools/client/device.properties
 devtools/client/dom.properties
-devtools/client/eyedropper.properties
 devtools/client/filterwidget.properties
 devtools/client/font-inspector.properties
 devtools/client/graphs.properties
@@ -149,6 +162,7 @@ devtools/client/webide.properties
 devtools/shared/csscoverage.dtd
 devtools/shared/csscoverage.properties
 devtools/shared/debugger.properties
+devtools/shared/eyedropper.properties
 devtools/shared/gcli.properties
 devtools/shared/gclicommands.properties
 devtools/shared/shared.properties
@@ -253,6 +267,7 @@ toolkit/chrome/global/console.properties
 toolkit/chrome/global/contentAreaCommands.properties
 toolkit/chrome/global/customizeToolbar.dtd
 toolkit/chrome/global/customizeToolbar.properties
+toolkit/chrome/global/datetimebox.dtd
 toolkit/chrome/global/datetimepicker.dtd
 toolkit/chrome/global/dialog.properties
 toolkit/chrome/global/dialogOverlay.dtd

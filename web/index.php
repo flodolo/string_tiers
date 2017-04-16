@@ -7,7 +7,7 @@ include realpath(__DIR__ . '/../app/inc/init.php');
 include "{$root_folder}/app/inc/query_params.php";
 
 // Load en-US cache, clean up unwanted strings.
-$cache_file = "{$path}en-US/cache_en-US_aurora.php";
+$cache_file = "{$path}en-US/cache_en-US_central.php";
 if (! file_exists($cache_file)) {
     exit("File {$cache_file} does not exist.");
 }
@@ -65,7 +65,7 @@ foreach ($locales_list as $supported_locale) {
     $cache_id = "results_locale_{$supported_locale}_{$requested_product}";
     if (! $results[$supported_locale] = Cache::getKey($cache_id)) {
         // Include locale cache
-        $cache_file = "{$path}{$supported_locale}/cache_{$supported_locale}_aurora.php";
+        $cache_file = "{$path}{$supported_locale}/cache_{$supported_locale}_central.php";
         if (! file_exists($cache_file)) {
             exit("File {$cache_file} does not exist.");
         }
