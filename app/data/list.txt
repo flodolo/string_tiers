@@ -9,7 +9,6 @@ browser/chrome/browser/aboutPrivateBrowsing.properties
 browser/chrome/browser/aboutRobots.dtd
 browser/chrome/browser/aboutSearchReset.dtd
 browser/chrome/browser/aboutSessionRestore.dtd
-browser/chrome/browser/aboutSyncTabs.dtd
 browser/chrome/browser/aboutTabCrashed.dtd
 browser/chrome/browser/accounts.properties
 browser/chrome/browser/baseMenuOverlay.dtd
@@ -234,7 +233,6 @@ security/manager/chrome/pippki/certManager.dtd
 security/manager/chrome/pippki/deviceManager.dtd
 security/manager/chrome/pippki/pippki.dtd
 security/manager/chrome/pippki/pippki.properties
-services/sync/errors.properties
 services/sync/sync.properties
 toolkit/chrome/alerts/alert.dtd
 toolkit/chrome/alerts/alert.properties
@@ -252,6 +250,8 @@ toolkit/chrome/global/aboutSupport.dtd
 toolkit/chrome/global/aboutSupport.properties
 toolkit/chrome/global/aboutTelemetry.dtd
 toolkit/chrome/global/aboutTelemetry.properties
+toolkit/chrome/global/aboutUrlClassifier.dtd
+toolkit/chrome/global/aboutUrlClassifier.properties
 toolkit/chrome/global/aboutWebrtc.properties
 toolkit/chrome/global/appPicker.dtd
 toolkit/chrome/global/autocomplete.properties

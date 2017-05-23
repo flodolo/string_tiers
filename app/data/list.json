@@ -99,15 +99,6 @@
     "tier": 1
   },
   {
-    "file": "browser/chrome/browser/aboutSyncTabs.dtd",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "browser/chrome/browser/aboutTabCrashed.dtd",
     "module": "browser/user",
     "notes": "",
@@ -2128,15 +2119,6 @@
     "tier": 2
   },
   {
-    "file": "services/sync/errors.properties",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "services/sync/sync.properties",
     "module": "browser/user",
     "notes": "",
@@ -2289,6 +2271,26 @@
   },
   {
     "file": "toolkit/chrome/global/aboutTelemetry.properties",
+    "module": "shared/technical_messages",
+    "notes": "",
+    "products": [
+      "desktop",
+      "mobile"
+    ],
+    "tier": 3
+  },
+  {
+    "file": "toolkit/chrome/global/aboutUrlClassifier.dtd",
+    "module": "shared/technical_messages",
+    "notes": "",
+    "products": [
+      "desktop",
+      "mobile"
+    ],
+    "tier": 3
+  },
+  {
+    "file": "toolkit/chrome/global/aboutUrlClassifier.properties",
     "module": "shared/technical_messages",
     "notes": "",
     "products": [

@@ -3,13 +3,13 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
-| browser/user | 1 | 98 |
+| browser/user | 1 | 96 |
 | devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 32 |
 | shared/opt | 2 | 23 |
-| shared/technical_messages | 3 | 14 |
+| shared/technical_messages | 3 | 16 |
 | shared/user | 1 | 92 |
 
 ## Modules details
@@ -39,7 +39,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutPrivateBrowsing.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSearchReset.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSessionRestore.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSyncTabs.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutTabCrashed.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/accounts.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/baseMenuOverlay.dtd</sub> | <sub></sub> |
@@ -124,7 +123,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/installer/override.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/profile/bookmarks.inc</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/updater/updater.ini</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>services/sync/errors.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>services/sync/sync.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/VariablesView.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.dtd</sub> | <sub></sub> |
@@ -268,6 +266,8 @@
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/aboutServiceWorkers.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/aboutTelemetry.dtd</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/aboutTelemetry.properties</sub> | <sub></sub> |
+| <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/aboutUrlClassifier.dtd</sub> | <sub></sub> |
+| <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/aboutUrlClassifier.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/aboutWebrtc.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/console.dtd</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/console.properties</sub> | <sub></sub> |
