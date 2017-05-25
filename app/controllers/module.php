@@ -23,7 +23,7 @@ foreach ($supported_locales as $supported_locale) {
 
     // Link to Diff view only if there are missing strings
     if ($data['missing'] > 0) {
-        $html_detail_body .= "<a href=\"diff.php?locale={$supported_locale}&amp;module={$requested_module}\">{$data['missing']}</a>";
+        $html_detail_body .= "<a href=\"diff.php?locale={$supported_locale}&amp;module={$requested_module}&amp;product={$requested_product}\">{$data['missing']}</a>";
     } else {
         $html_detail_body .= $data['missing'];
     }

@@ -49,7 +49,7 @@ foreach ($tmx_reference as $entity => $translation) {
 }
 
 $missing_strings = [];
-$cache_id = "missing_locale_{$requested_locale}";
+$cache_id = "missing_locale_{$requested_locale}_{$requested_product}";
 if (! $missing_strings = Cache::getKey($cache_id)) {
     // Include locale cache
     $cache_file = "{$path}{$requested_locale}/cache_{$requested_locale}_central.php";
@@ -67,12 +67,14 @@ if (! $missing_strings = Cache::getKey($cache_id)) {
         if (! isset($tiers_data['files'][$file_name])) {
             // echo "ERROR: {$file_name} is not defined in list.json\n";
         } else {
-            $module = $tiers_data['files'][$file_name]['module'];
-            if (! isset($tmx_locale[$reference_id])) {
-                if (! isset($missing_strings[$module][$file_name])) {
-                    $missing_strings[$module][$file_name] = [$string_id];
-                } else {
-                    $missing_strings[$module][$file_name][] = $string_id;
+            if ($requested_product == 'all' || in_array($requested_product, $tiers_data['files'][$file_name]['products'])) {
+                $module = $tiers_data['files'][$file_name]['module'];
+                if (! isset($tmx_locale[$reference_id])) {
+                    if (! isset($missing_strings[$module][$file_name])) {
+                        $missing_strings[$module][$file_name] = [$string_id];
+                    } else {
+                        $missing_strings[$module][$file_name][] = $string_id;
+                    }
                 }
             }
         }

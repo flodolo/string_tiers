@@ -27,6 +27,10 @@
         <?php echo $html_supported_locales; ?>
       </p>
     </div>
+	<?php
+		if ($sub_template != 'module.php'):
+		// Don't display products selector if I'm looking at one module
+	?>
 	<h2>Product: <?php echo $supported_products[$requested_product]; ?></h2>
 	<div class="list product_list">
       <p>
@@ -36,6 +40,9 @@
         <a href="?product=desktop&amp;locale=<?=$requested_locale?>">Firefox Desktop</a>
       </p>
     </div>
+	<?php
+		endif;
+	?>
 	<h2>Module: <?php echo $requested_module; ?></h2>
 	<div class="list module_list">
       <p>
@@ -47,7 +54,7 @@
         endif;
     ?>
 
-	<?php include "{$root_folder}/app/templates/$sub_template"; ?>
+	<?php include "{$root_folder}/app/templates/{$sub_template}"; ?>
 
   </div>
 </body>
