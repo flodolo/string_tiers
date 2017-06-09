@@ -1224,15 +1224,6 @@
     "tier": 3
   },
   {
-    "file": "devtools/client/projecteditor.properties",
-    "module": "devtools",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 3
-  },
-  {
     "file": "devtools/client/responsive.properties",
     "module": "devtools",
     "notes": "",

@@ -4,7 +4,7 @@
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
 | browser/user | 1 | 96 |
-| devtools | 3 | 61 |
+| devtools | 3 | 60 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 32 |
@@ -154,7 +154,6 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/netmonitor.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/projecteditor.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/responsive.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/responsiveUI.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/scratchpad.dtd</sub> | <sub></sub> |

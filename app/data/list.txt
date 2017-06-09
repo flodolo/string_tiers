@@ -134,7 +134,6 @@ devtools/client/menus.properties
 devtools/client/netmonitor.properties
 devtools/client/performance.dtd
 devtools/client/performance.properties
-devtools/client/projecteditor.properties
 devtools/client/responsive.properties
 devtools/client/responsiveUI.properties
 devtools/client/scratchpad.dtd
