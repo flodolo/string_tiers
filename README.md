@@ -3,13 +3,13 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
-| browser/user | 1 | 96 |
-| devtools | 3 | 60 |
+| browser/user | 1 | 97 |
+| devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 32 |
 | shared/opt | 2 | 23 |
-| shared/technical_messages | 3 | 16 |
+| shared/technical_messages | 3 | 15 |
 | shared/user | 1 | 92 |
 
 ## Modules details
@@ -103,7 +103,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safebrowsing/report-phishing.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/sanitize.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/search.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/searchbar.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/setDesktopBackground.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/shellservice.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/sitePermissions.properties</sub> | <sub></sub> |
@@ -111,11 +110,13 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncSetup.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/tabbrowser.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/taskbar.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/uiDensity.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/webrtcIndicator.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/appstrings.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/netError.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/overrides/settingsChange.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/crashreporter/crashreporter-override.ini</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/extensions/onboarding/onboarding.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/firefox-l10n.js</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/installer/custom.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/installer/mui.properties</sub> | <sub></sub> |
@@ -147,6 +148,7 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/inspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/jit-optimizations.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/jsonview.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/key-shortcuts.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/layout.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/markers.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/memory.properties</sub> | <sub></sub> |
@@ -271,7 +273,6 @@
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/console.dtd</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/console.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/extensions.properties</sub> | <sub></sub> |
-| <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/headsUpDisplay.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/viewSource.dtd</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/viewSource.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>dom/chrome/appstrings.properties</sub> | <sub></sub> |

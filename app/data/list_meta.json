@@ -648,14 +648,6 @@
       ], 
       "tier": 1
     }, 
-    "browser/chrome/browser/searchbar.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "browser/chrome/browser/setDesktopBackground.dtd": {
       "module": "browser/user", 
       "notes": "", 
@@ -728,6 +720,14 @@
       ], 
       "tier": 2
     }, 
+    "browser/chrome/browser/uiDensity.properties": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
     "browser/chrome/browser/webrtcIndicator.properties": {
       "module": "browser/user", 
       "notes": "", 
@@ -775,6 +775,14 @@
         "desktop"
       ], 
       "tier": 2
+    }, 
+    "browser/extensions/onboarding/onboarding.properties": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
     }, 
     "browser/extensions/webcompat-reporter/webcompat.properties": {
       "module": "browser/opt", 
@@ -1033,6 +1041,14 @@
       "tier": 3
     }, 
     "devtools/client/jsonview.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 3
+    }, 
+    "devtools/client/key-shortcuts.properties": {
       "module": "devtools", 
       "notes": "", 
       "products": [
@@ -2328,14 +2344,6 @@
         "desktop"
       ], 
       "tier": 1
-    }, 
-    "toolkit/chrome/global/headsUpDisplay.properties": {
-      "module": "shared/technical_messages", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 3
     }, 
     "toolkit/chrome/global/intl.css": {
       "module": "shared/user", 

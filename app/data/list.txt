@@ -78,7 +78,6 @@ browser/chrome/browser/safebrowsing/safebrowsing.properties
 browser/chrome/browser/safeMode.dtd
 browser/chrome/browser/sanitize.dtd
 browser/chrome/browser/search.properties
-browser/chrome/browser/searchbar.dtd
 browser/chrome/browser/setDesktopBackground.dtd
 browser/chrome/browser/shellservice.properties
 browser/chrome/browser/sitePermissions.properties
@@ -88,6 +87,7 @@ browser/chrome/browser/tabbrowser.properties
 browser/chrome/browser/taskbar.properties
 browser/chrome/browser/translation.dtd
 browser/chrome/browser/translation.properties
+browser/chrome/browser/uiDensity.properties
 browser/chrome/browser/webrtcIndicator.properties
 browser/chrome/browser-region/region.properties
 browser/chrome/overrides/appstrings.properties
@@ -95,6 +95,7 @@ browser/chrome/overrides/netError.dtd
 browser/chrome/overrides/settingsChange.dtd
 browser/crashreporter/crashreporter-override.ini
 browser/defines.inc
+browser/extensions/onboarding/onboarding.properties
 browser/extensions/webcompat-reporter/webcompat.properties
 browser/firefox-l10n.js
 browser/installer/custom.properties
@@ -127,6 +128,7 @@ devtools/client/har.properties
 devtools/client/inspector.properties
 devtools/client/jit-optimizations.properties
 devtools/client/jsonview.properties
+devtools/client/key-shortcuts.properties
 devtools/client/layout.properties
 devtools/client/markers.properties
 devtools/client/memory.properties
@@ -281,7 +283,6 @@ toolkit/chrome/global/findbar.properties
 toolkit/chrome/global/finddialog.dtd
 toolkit/chrome/global/finddialog.properties
 toolkit/chrome/global/globalKeys.dtd
-toolkit/chrome/global/headsUpDisplay.properties
 toolkit/chrome/global/intl.css
 toolkit/chrome/global/intl.properties
 toolkit/chrome/global/keys.properties
