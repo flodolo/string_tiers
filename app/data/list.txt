@@ -128,7 +128,6 @@ devtools/client/har.properties
 devtools/client/inspector.properties
 devtools/client/jit-optimizations.properties
 devtools/client/jsonview.properties
-devtools/client/key-shortcuts.properties
 devtools/client/layout.properties
 devtools/client/markers.properties
 devtools/client/memory.properties
@@ -167,6 +166,7 @@ devtools/shared/gcli.properties
 devtools/shared/gclicommands.properties
 devtools/shared/shared.properties
 devtools/shared/styleinspector.properties
+devtools/shim/key-shortcuts.properties
 dom/chrome/accessibility/AccessFu.properties
 dom/chrome/accessibility/mac/accessible.properties
 dom/chrome/accessibility/unix/accessible.properties

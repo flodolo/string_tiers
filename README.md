@@ -148,7 +148,6 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/inspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/jit-optimizations.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/jsonview.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/key-shortcuts.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/layout.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/markers.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/memory.properties</sub> | <sub></sub> |
@@ -186,6 +185,7 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/gclicommands.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/shared.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/styleinspector.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shim/key-shortcuts.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/AccessFu.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/mac/accessible.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/unix/accessible.properties</sub> | <sub></sub> |

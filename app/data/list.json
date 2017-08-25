@@ -1170,15 +1170,6 @@
     "tier": 3
   },
   {
-    "file": "devtools/client/key-shortcuts.properties",
-    "module": "devtools",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 3
-  },
-  {
     "file": "devtools/client/layout.properties",
     "module": "devtools",
     "notes": "",
@@ -1513,6 +1504,15 @@
   },
   {
     "file": "devtools/shared/styleinspector.properties",
+    "module": "devtools",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 3
+  },
+  {
+    "file": "devtools/shim/key-shortcuts.properties",
     "module": "devtools",
     "notes": "",
     "products": [
