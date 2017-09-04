@@ -3,11 +3,11 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
-| browser/user | 1 | 97 |
+| browser/user | 1 | 84 |
 | devtools | 3 | 61 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
-| mobile/user | 1 | 32 |
+| mobile/user | 1 | 31 |
 | shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 15 |
 | shared/user | 1 | 92 |
@@ -59,19 +59,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/moveBookmarks.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/advanced.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/applications.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/containers.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/containers.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/content.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/main.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/preferences.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/preferences.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/privacy.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/search.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/security.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/sync.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences-old/tabs.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/advanced.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.properties</sub> | <sub></sub> |
@@ -228,7 +215,7 @@
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/config.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/config.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/devicePrompt.properties</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/handling.properties</sub> | <sub></sub> |
+| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/passwordmgr.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/phishing.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/pippki.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/sync.properties</sub> | <sub></sub> |
@@ -236,7 +223,6 @@
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/chrome/region.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/overrides/appstrings.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/overrides/netError.dtd</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/overrides/passwordmgr.properties</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>netwerk/necko.properties</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/certManager.dtd</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/deviceManager.dtd</sub> | <sub></sub> |

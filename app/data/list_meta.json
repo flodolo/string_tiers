@@ -280,110 +280,6 @@
       ], 
       "tier": 1
     }, 
-    "browser/chrome/browser/preferences-old/advanced.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/applications.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/containers.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/containers.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/content.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/main.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/preferences.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/preferences.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/privacy.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/search.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/security.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/sync.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences-old/tabs.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "browser/chrome/browser/preferences/advanced.dtd": {
       "module": "browser/user", 
       "notes": "", 
@@ -1764,7 +1660,7 @@
       ], 
       "tier": 1
     }, 
-    "mobile/android/chrome/handling.properties": {
+    "mobile/android/chrome/passwordmgr.properties": {
       "module": "mobile/user", 
       "notes": "", 
       "products": [
@@ -1821,14 +1717,6 @@
       "tier": 1
     }, 
     "mobile/overrides/netError.dtd": {
-      "module": "mobile/user", 
-      "notes": "", 
-      "products": [
-        "mobile"
-      ], 
-      "tier": 1
-    }, 
-    "mobile/overrides/passwordmgr.properties": {
       "module": "mobile/user", 
       "notes": "", 
       "products": [

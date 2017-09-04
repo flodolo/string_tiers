@@ -58,19 +58,6 @@ browser/chrome/browser/preferences/siteDataSettings.dtd
 browser/chrome/browser/preferences/sync.dtd
 browser/chrome/browser/preferences/tabs.dtd
 browser/chrome/browser/preferences/translation.dtd
-browser/chrome/browser/preferences-old/advanced.dtd
-browser/chrome/browser/preferences-old/applications.dtd
-browser/chrome/browser/preferences-old/containers.dtd
-browser/chrome/browser/preferences-old/containers.properties
-browser/chrome/browser/preferences-old/content.dtd
-browser/chrome/browser/preferences-old/main.dtd
-browser/chrome/browser/preferences-old/preferences.dtd
-browser/chrome/browser/preferences-old/preferences.properties
-browser/chrome/browser/preferences-old/privacy.dtd
-browser/chrome/browser/preferences-old/search.dtd
-browser/chrome/browser/preferences-old/security.dtd
-browser/chrome/browser/preferences-old/sync.dtd
-browser/chrome/browser/preferences-old/tabs.dtd
 browser/chrome/browser/quitDialog.properties
 browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
 browser/chrome/browser/safebrowsing/report-phishing.dtd
@@ -218,7 +205,7 @@ mobile/android/chrome/checkbox.dtd
 mobile/android/chrome/config.dtd
 mobile/android/chrome/config.properties
 mobile/android/chrome/devicePrompt.properties
-mobile/android/chrome/handling.properties
+mobile/android/chrome/passwordmgr.properties
 mobile/android/chrome/phishing.dtd
 mobile/android/chrome/pippki.properties
 mobile/android/chrome/sync.properties
@@ -226,7 +213,6 @@ mobile/android/chrome/webcompatReporter.properties
 mobile/chrome/region.properties
 mobile/overrides/appstrings.properties
 mobile/overrides/netError.dtd
-mobile/overrides/passwordmgr.properties
 netwerk/necko.properties
 security/manager/chrome/pipnss/nsserrors.properties
 security/manager/chrome/pipnss/pipnss.properties
