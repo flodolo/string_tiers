@@ -10,7 +10,7 @@
 | mobile/user | 1 | 31 |
 | shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 15 |
-| shared/user | 1 | 92 |
+| shared/user | 1 | 91 |
 
 ## Modules details
 
@@ -332,7 +332,6 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/extensions.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/newaddon.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/newaddon.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/update.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/update.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties</sub> | <sub></sub> |

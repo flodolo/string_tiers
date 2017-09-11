@@ -311,7 +311,6 @@ toolkit/chrome/mozapps/extensions/extensions.dtd
 toolkit/chrome/mozapps/extensions/extensions.properties
 toolkit/chrome/mozapps/extensions/newaddon.dtd
 toolkit/chrome/mozapps/extensions/newaddon.properties
-toolkit/chrome/mozapps/extensions/update.dtd
 toolkit/chrome/mozapps/extensions/update.properties
 toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd
 toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties

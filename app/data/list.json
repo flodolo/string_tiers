@@ -2837,15 +2837,6 @@
     "tier": 1
   },
   {
-    "file": "toolkit/chrome/mozapps/extensions/update.dtd",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "toolkit/chrome/mozapps/extensions/update.properties",
     "module": "shared/user",
     "notes": "",
