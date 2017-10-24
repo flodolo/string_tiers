@@ -672,6 +672,14 @@
       ], 
       "tier": 2
     }, 
+    "browser/extensions/formautofill/formautofill.properties": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
     "browser/extensions/onboarding/onboarding.properties": {
       "module": "browser/user", 
       "notes": "", 
@@ -1241,6 +1249,14 @@
       "tier": 3
     }, 
     "devtools/shim/key-shortcuts.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 3
+    }, 
+    "devtools/shim/startup.properties": {
       "module": "devtools", 
       "notes": "", 
       "products": [

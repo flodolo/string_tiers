@@ -3,7 +3,7 @@
 '''
 This script is used to convert a list of files generated in l10n repository
 with to a JSON structure
-find browser devtools dom mobile netwerk security services toolkit -type f > list.txt
+find browser devtools dom mobile netwerk security services toolkit -type f \( -iname "*" ! -iname ".DS_Store" \) > ~/github/string_tiers/app/data/list.txt
 '''
 
 import os

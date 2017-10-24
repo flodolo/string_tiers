@@ -82,6 +82,7 @@ browser/chrome/overrides/netError.dtd
 browser/chrome/overrides/settingsChange.dtd
 browser/crashreporter/crashreporter-override.ini
 browser/defines.inc
+browser/extensions/formautofill/formautofill.properties
 browser/extensions/onboarding/onboarding.properties
 browser/extensions/webcompat-reporter/webcompat.properties
 browser/firefox-l10n.js
@@ -154,6 +155,7 @@ devtools/shared/gclicommands.properties
 devtools/shared/shared.properties
 devtools/shared/styleinspector.properties
 devtools/shim/key-shortcuts.properties
+devtools/shim/startup.properties
 dom/chrome/accessibility/AccessFu.properties
 dom/chrome/accessibility/mac/accessible.properties
 dom/chrome/accessibility/unix/accessible.properties
