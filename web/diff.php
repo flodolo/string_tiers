@@ -13,7 +13,7 @@ if ($requested_locale == 'all' || $requested_module == 'all') {
 }
 
 // Load en-US cache, clean up unwanted strings.
-$cache_file = "{$path}en-US/cache_en-US_central.php";
+$cache_file = "{$path}en-US/cache_en-US_gecko_strings.php";
 if (! file_exists($cache_file)) {
     exit("File {$cache_file} does not exist.");
 }
@@ -52,7 +52,7 @@ $missing_strings = [];
 $cache_id = "missing_locale_{$requested_locale}_{$requested_product}";
 if (! $missing_strings = Cache::getKey($cache_id)) {
     // Include locale cache
-    $cache_file = "{$path}{$requested_locale}/cache_{$requested_locale}_central.php";
+    $cache_file = "{$path}{$requested_locale}/cache_{$requested_locale}_gecko_strings.php";
     if (! file_exists($cache_file)) {
         exit("File {$cache_file} does not exist.");
     }
