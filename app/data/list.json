@@ -18,6 +18,15 @@
     "tier": 1
   },
   {
+    "file": "browser/browser/preferences/main.ftl",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
     "file": "browser/chrome/browser/aboutAccounts.dtd",
     "module": "browser/user",
     "notes": "",
@@ -1402,6 +1411,24 @@
       "desktop"
     ],
     "tier": 3
+  },
+  {
+    "file": "devtools/shim/aboutdevtools.dtd",
+    "module": "devtools/about",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 2
+  },
+  {
+    "file": "+devtools/shim/aboutdevtools.properties",
+    "module": "devtools/about",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 2
   },
   {
     "file": "devtools/shim/key-shortcuts.properties",
