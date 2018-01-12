@@ -27,7 +27,7 @@
     "tier": 1
   },
   {
-    "file": "browser/chrome/browser/aboutAccounts.dtd",
+    "file": "browser/browser/preferences/preferences.ftl",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -1143,15 +1143,6 @@
     "tier": 3
   },
   {
-    "file": "devtools/client/responsiveUI.properties",
-    "module": "devtools",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 3
-  },
-  {
     "file": "devtools/client/scratchpad.dtd",
     "module": "devtools",
     "notes": "",
@@ -1422,7 +1413,7 @@
     "tier": 2
   },
   {
-    "file": "+devtools/shim/aboutdevtools.properties",
+    "file": "devtools/shim/aboutdevtools.properties",
     "module": "devtools/about",
     "notes": "",
     "products": [
@@ -1714,15 +1705,6 @@
     "tier": 1
   },
   {
-    "file": "mobile/android/base/search_strings.dtd",
-    "module": "mobile/user",
-    "notes": "",
-    "products": [
-      "mobile"
-    ],
-    "tier": 1
-  },
-  {
     "file": "mobile/android/base/sync_strings.dtd",
     "module": "mobile/user",
     "notes": "",
@@ -1868,15 +1850,6 @@
   },
   {
     "file": "mobile/android/chrome/browser.properties",
-    "module": "mobile/user",
-    "notes": "",
-    "products": [
-      "mobile"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "mobile/android/chrome/checkbox.dtd",
     "module": "mobile/user",
     "notes": "",
     "products": [
@@ -2585,25 +2558,7 @@
     "tier": 1
   },
   {
-    "file": "toolkit/chrome/global/printdialog.dtd",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "toolkit/chrome/global/printdialog.properties",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "toolkit/chrome/global/printjoboptions.dtd",
     "module": "shared/user",
     "notes": "",
     "products": [

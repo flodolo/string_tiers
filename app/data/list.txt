@@ -1,7 +1,8 @@
 browser/branding/official/brand.dtd
 browser/branding/official/brand.properties
 browser/browser/preferences/main.ftl
-browser/chrome/browser/aboutAccounts.dtd
+browser/browser/preferences/preferences.ftl
+browser/chrome/browser-region/region.properties
 browser/chrome/browser/aboutDialog.dtd
 browser/chrome/browser/aboutHealthReport.dtd
 browser/chrome/browser/aboutHome.dtd
@@ -77,7 +78,6 @@ browser/chrome/browser/translation.dtd
 browser/chrome/browser/translation.properties
 browser/chrome/browser/uiDensity.properties
 browser/chrome/browser/webrtcIndicator.properties
-browser/chrome/browser-region/region.properties
 browser/chrome/overrides/appstrings.properties
 browser/chrome/overrides/netError.dtd
 browser/chrome/overrides/settingsChange.dtd
@@ -125,7 +125,6 @@ devtools/client/netmonitor.properties
 devtools/client/performance.dtd
 devtools/client/performance.properties
 devtools/client/responsive.properties
-devtools/client/responsiveUI.properties
 devtools/client/scratchpad.dtd
 devtools/client/scratchpad.properties
 devtools/client/shadereditor.dtd
@@ -188,7 +187,6 @@ dom/chrome/svg/svg.properties
 dom/chrome/xml/prettyprint.dtd
 dom/chrome/xslt/xslt.properties
 mobile/android/base/android_strings.dtd
-mobile/android/base/search_strings.dtd
 mobile/android/base/sync_strings.dtd
 mobile/android/chrome/about.dtd
 mobile/android/chrome/aboutAccounts.dtd
@@ -206,7 +204,6 @@ mobile/android/chrome/aboutLogins.dtd
 mobile/android/chrome/aboutLogins.properties
 mobile/android/chrome/aboutPrivateBrowsing.dtd
 mobile/android/chrome/browser.properties
-mobile/android/chrome/checkbox.dtd
 mobile/android/chrome/config.dtd
 mobile/android/chrome/config.properties
 mobile/android/chrome/devicePrompt.properties
@@ -229,6 +226,12 @@ services/sync/sync.properties
 toolkit/chrome/alerts/alert.dtd
 toolkit/chrome/alerts/alert.properties
 toolkit/chrome/autoconfig/autoconfig.properties
+toolkit/chrome/global-platform/mac/intl.properties
+toolkit/chrome/global-platform/mac/platformKeys.properties
+toolkit/chrome/global-platform/unix/intl.properties
+toolkit/chrome/global-platform/unix/platformKeys.properties
+toolkit/chrome/global-platform/win/intl.properties
+toolkit/chrome/global-platform/win/platformKeys.properties
 toolkit/chrome/global/about.dtd
 toolkit/chrome/global/aboutAbout.dtd
 toolkit/chrome/global/aboutNetworking.dtd
@@ -283,9 +286,7 @@ toolkit/chrome/global/narrate.properties
 toolkit/chrome/global/notification.dtd
 toolkit/chrome/global/nsTreeSorting.properties
 toolkit/chrome/global/preferences.dtd
-toolkit/chrome/global/printdialog.dtd
 toolkit/chrome/global/printdialog.properties
-toolkit/chrome/global/printjoboptions.dtd
 toolkit/chrome/global/printPageSetup.dtd
 toolkit/chrome/global/printPreview.dtd
 toolkit/chrome/global/printPreviewProgress.dtd
@@ -300,12 +301,6 @@ toolkit/chrome/global/viewSource.dtd
 toolkit/chrome/global/viewSource.properties
 toolkit/chrome/global/wizard.dtd
 toolkit/chrome/global/wizard.properties
-toolkit/chrome/global-platform/mac/intl.properties
-toolkit/chrome/global-platform/mac/platformKeys.properties
-toolkit/chrome/global-platform/unix/intl.properties
-toolkit/chrome/global-platform/unix/platformKeys.properties
-toolkit/chrome/global-platform/win/intl.properties
-toolkit/chrome/global-platform/win/platformKeys.properties
 toolkit/chrome/mozapps/downloads/downloads.properties
 toolkit/chrome/mozapps/downloads/settingsChange.dtd
 toolkit/chrome/mozapps/downloads/unknownContentType.dtd

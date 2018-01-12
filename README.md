@@ -4,14 +4,14 @@
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
 | browser/user | 1 | 86 |
-| devtools | 3 | 62 |
+| devtools | 3 | 61 |
 | devtools/about | 2 | 2 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
-| mobile/user | 1 | 31 |
+| mobile/user | 1 | 29 |
 | shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 15 |
-| shared/user | 1 | 91 |
+| shared/user | 1 | 89 |
 
 ## Modules details
 
@@ -32,8 +32,8 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/main.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/preferences.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser-region/region.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutAccounts.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutDialog.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHealthReport.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHome.dtd</sub> | <sub></sub> |
@@ -146,7 +146,6 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/responsive.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/responsiveUI.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/scratchpad.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/scratchpad.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/shadereditor.dtd</sub> | <sub></sub> |
@@ -177,8 +176,8 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/styleinspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shim/key-shortcuts.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shim/startup.properties</sub> | <sub></sub> |
-| <sub>devtools/about</sub> | <sub>2</sub> | <sub>+devtools/shim/aboutdevtools.properties</sub> | <sub></sub> |
 | <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/shim/aboutdevtools.dtd</sub> | <sub></sub> |
+| <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/shim/aboutdevtools.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/AccessFu.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/mac/accessible.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/unix/accessible.properties</sub> | <sub></sub> |
@@ -199,7 +198,6 @@
 | <sub>dom/technical_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xml/prettyprint.dtd</sub> | <sub></sub> |
 | <sub>dom/technical_messages</sub> | <sub>3</sub> | <sub>dom/chrome/xslt/xslt.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/base/android_strings.dtd</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/base/search_strings.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/base/sync_strings.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/about.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutAccounts.dtd</sub> | <sub></sub> |
@@ -217,7 +215,6 @@
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutLogins.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutPrivateBrowsing.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/browser.properties</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/checkbox.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/config.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/config.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/devicePrompt.properties</sub> | <sub></sub> |
@@ -321,9 +318,7 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printPreview.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printPreviewProgress.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printProgress.dtd</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printdialog.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printdialog.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/printjoboptions.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/resetProfile.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/resetProfile.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/textcontext.dtd</sub> | <sub></sub> |
