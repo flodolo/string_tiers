@@ -3,15 +3,15 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
-| browser/user | 1 | 86 |
+| browser/user | 1 | 89 |
 | devtools | 3 | 61 |
 | devtools/about | 2 | 2 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
-| mobile/user | 1 | 29 |
-| shared/opt | 2 | 23 |
+| mobile/user | 1 | 28 |
+| shared/opt | 2 | 22 |
 | shared/technical_messages | 3 | 15 |
-| shared/user | 1 | 89 |
+| shared/user | 1 | 83 |
 
 ## Modules details
 
@@ -30,12 +30,13 @@
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/pdfviewer/chrome.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/pdfviewer/viewer.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/branding/sync-brand.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/main.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/preferences.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser-region/region.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutDialog.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHealthReport.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHome.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutPrivateBrowsing.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutPrivateBrowsing.properties</sub> | <sub></sub> |
@@ -66,13 +67,14 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applications.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/blocklists.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/clearSiteData.dtd</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/clearSiteData.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/colors.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/connection.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/containers.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/containers.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/content.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/cookies.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/donottrack.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/fonts.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/languages.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/main.dtd</sub> | <sub></sub> |
@@ -94,6 +96,7 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/search.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/setDesktopBackground.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/shellservice.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/siteData.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/sitePermissions.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncBrand.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/syncSetup.properties</sub> | <sub></sub> |
@@ -208,7 +211,6 @@
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutDevices.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutDownloads.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutDownloads.properties</sub> | <sub></sub> |
-| <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutHealthReport.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutHome.dtd</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutHome.properties</sub> | <sub></sub> |
 | <sub>mobile/user</sub> | <sub>1</sub> | <sub>mobile/android/chrome/aboutLogins.dtd</sub> | <sub></sub> |
@@ -232,7 +234,6 @@
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/pippki.dtd</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>security/manager/chrome/pippki/pippki.properties</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/autoconfig/autoconfig.properties</sub> | <sub></sub> |
-| <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/about.dtd</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/aboutAbout.dtd</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/aboutProfiles.dtd</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/global/aboutProfiles.properties</sub> | <sub></sub> |
@@ -293,21 +294,15 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/commonDialog.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/commonDialogs.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/contentAreaCommands.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/customizeToolbar.dtd</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/customizeToolbar.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/datetimebox.dtd</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/datetimepicker.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dialog.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dialogOverlay.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/editMenuOverlay.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/fallbackMenubar.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/filefield.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/filepicker.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/filepicker.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/findbar.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/findbar.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/finddialog.dtd</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/finddialog.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/globalKeys.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/intl.css</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/intl.properties</sub> | <sub></sub> |

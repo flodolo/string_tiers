@@ -9,7 +9,25 @@
     "tier": 1
   },
   {
+    "file": "browser/branding/official/brand.ftl",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
     "file": "browser/branding/official/brand.properties",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/browser/branding/sync-brand.ftl",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -37,15 +55,6 @@
   },
   {
     "file": "browser/chrome/browser/aboutDialog.dtd",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "browser/chrome/browser/aboutHealthReport.dtd",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -360,6 +369,24 @@
     "tier": 1
   },
   {
+    "file": "browser/chrome/browser/preferences/clearSiteData.dtd",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/preferences/clearSiteData.properties",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
     "file": "browser/chrome/browser/preferences/colors.dtd",
     "module": "browser/user",
     "notes": "",
@@ -406,15 +433,6 @@
   },
   {
     "file": "browser/chrome/browser/preferences/cookies.dtd",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "browser/chrome/browser/preferences/donottrack.dtd",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -631,6 +649,15 @@
   },
   {
     "file": "browser/chrome/browser/sitePermissions.properties",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/siteData.properties",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -1795,15 +1822,6 @@
     "tier": 1
   },
   {
-    "file": "mobile/android/chrome/aboutHealthReport.dtd",
-    "module": "mobile/user",
-    "notes": "",
-    "products": [
-      "mobile"
-    ],
-    "tier": 1
-  },
-  {
     "file": "mobile/android/chrome/aboutHome.dtd",
     "module": "mobile/user",
     "notes": "",
@@ -2052,16 +2070,6 @@
     "notes": "",
     "products": [
       "desktop"
-    ],
-    "tier": 2
-  },
-  {
-    "file": "toolkit/chrome/global/about.dtd",
-    "module": "shared/opt",
-    "notes": "",
-    "products": [
-      "desktop",
-      "mobile"
     ],
     "tier": 2
   },
@@ -2321,34 +2329,7 @@
     "tier": 1
   },
   {
-    "file": "toolkit/chrome/global/customizeToolbar.dtd",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "toolkit/chrome/global/customizeToolbar.properties",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "toolkit/chrome/global/datetimebox.dtd",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "toolkit/chrome/global/datetimepicker.dtd",
     "module": "shared/user",
     "notes": "",
     "products": [
@@ -2411,15 +2392,6 @@
     "tier": 1
   },
   {
-    "file": "toolkit/chrome/global/filepicker.dtd",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "toolkit/chrome/global/filepicker.properties",
     "module": "shared/user",
     "notes": "",
@@ -2439,24 +2411,6 @@
   },
   {
     "file": "toolkit/chrome/global/findbar.properties",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "toolkit/chrome/global/finddialog.dtd",
-    "module": "shared/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "toolkit/chrome/global/finddialog.properties",
     "module": "shared/user",
     "notes": "",
     "products": [
