@@ -3,9 +3,9 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
-| browser/user | 1 | 89 |
-| devtools | 3 | 61 |
-| devtools/about | 2 | 2 |
+| browser/user | 1 | 101 |
+| devtools | 3 | 64 |
+| devtools/about | 2 | 4 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 28 |
@@ -33,8 +33,20 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/branding/official/brand.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/branding/sync-brand.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/applicationManager.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/blocklists.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/clearSiteData.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/colors.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/connection.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/containers.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/fonts.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/languages.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/main.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/permissions.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/preferences.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/selectBookmark.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/siteDataSettings.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/translation.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser-region/region.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutDialog.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHome.dtd</sub> | <sub></sub> |
@@ -121,6 +133,7 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/VariablesView.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/aboutdebugging.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/accessibility.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/animationinspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/app-manager.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/appcacheutils.properties</sub> | <sub></sub> |
@@ -179,8 +192,12 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/styleinspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shim/key-shortcuts.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shim/startup.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/startup/key-shortcuts.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/startup/startup.properties</sub> | <sub></sub> |
 | <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/shim/aboutdevtools.dtd</sub> | <sub></sub> |
 | <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/shim/aboutdevtools.properties</sub> | <sub></sub> |
+| <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/startup/aboutdevtools.dtd</sub> | <sub></sub> |
+| <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/startup/aboutdevtools.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/AccessFu.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/mac/accessible.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/unix/accessible.properties</sub> | <sub></sub> |

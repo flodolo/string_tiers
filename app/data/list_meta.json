@@ -32,6 +32,70 @@
       ], 
       "tier": 1
     }, 
+    "browser/browser/preferences/applicationManager.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/blocklists.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/clearSiteData.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/colors.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/connection.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/containers.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/fonts.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/languages.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
     "browser/browser/preferences/main.ftl": {
       "module": "browser/user", 
       "notes": "", 
@@ -40,7 +104,39 @@
       ], 
       "tier": 1
     }, 
+    "browser/browser/preferences/permissions.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
     "browser/browser/preferences/preferences.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/selectBookmark.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/siteDataSettings.ftl": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/browser/preferences/translation.ftl": {
       "module": "browser/user", 
       "notes": "", 
       "products": [
@@ -824,6 +920,14 @@
       ], 
       "tier": 3
     }, 
+    "devtools/client/accessibility.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 3
+    }, 
     "devtools/client/animationinspector.properties": {
       "module": "devtools", 
       "notes": "", 
@@ -1297,6 +1401,38 @@
       "tier": 3
     }, 
     "devtools/shim/startup.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 3
+    }, 
+    "devtools/startup/aboutdevtools.dtd": {
+      "module": "devtools/about", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 2
+    }, 
+    "devtools/startup/aboutdevtools.properties": {
+      "module": "devtools/about", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 2
+    }, 
+    "devtools/startup/key-shortcuts.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 3
+    }, 
+    "devtools/startup/startup.properties": {
       "module": "devtools", 
       "notes": "", 
       "products": [
