@@ -3,14 +3,14 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
-| browser/user | 1 | 101 |
+| browser/user | 1 | 95 |
 | devtools | 3 | 64 |
 | devtools/about | 2 | 4 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 28 |
 | shared/opt | 2 | 22 |
-| shared/technical_messages | 3 | 15 |
+| shared/technical_messages | 3 | 14 |
 | shared/user | 1 | 83 |
 
 ## Modules details
@@ -41,7 +41,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/containers.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/fonts.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/languages.ftl</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/main.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/permissions.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/preferences.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/selectBookmark.ftl</sub> | <sub></sub> |
@@ -67,17 +66,13 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/feeds/subscribe.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/migration/migration.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/migration/migration.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/newTab.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/newTab.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/bookmarkProperties.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/editBookmarkOverlay.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/moveBookmarks.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/advanced.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applications.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/blocklists.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/clearSiteData.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/clearSiteData.properties</sub> | <sub></sub> |
@@ -99,7 +94,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/selectBookmark.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/siteDataSettings.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/sync.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/tabs.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/quitDialog.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safeMode.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd</sub> | <sub></sub> |
@@ -280,7 +274,6 @@
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/console.dtd</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/console.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/extensions.properties</sub> | <sub></sub> |
-| <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/viewSource.dtd</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/viewSource.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>dom/chrome/appstrings.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>dom/chrome/global-strres.properties</sub> | <sub></sub> |

@@ -10,7 +10,6 @@ browser/browser/preferences/connection.ftl
 browser/browser/preferences/containers.ftl
 browser/browser/preferences/fonts.ftl
 browser/browser/preferences/languages.ftl
-browser/browser/preferences/main.ftl
 browser/browser/preferences/permissions.ftl
 browser/browser/preferences/preferences.ftl
 browser/browser/preferences/selectBookmark.ftl
@@ -38,19 +37,15 @@ browser/chrome/browser/feeds/subscribe.properties
 browser/chrome/browser/lightweightThemes.properties
 browser/chrome/browser/migration/migration.dtd
 browser/chrome/browser/migration/migration.properties
-browser/chrome/browser/newTab.dtd
-browser/chrome/browser/newTab.properties
 browser/chrome/browser/pageInfo.dtd
 browser/chrome/browser/pageInfo.properties
 browser/chrome/browser/places/bookmarkProperties.properties
 browser/chrome/browser/places/editBookmarkOverlay.dtd
-browser/chrome/browser/places/moveBookmarks.dtd
 browser/chrome/browser/places/places.dtd
 browser/chrome/browser/places/places.properties
 browser/chrome/browser/preferences/advanced.dtd
 browser/chrome/browser/preferences/applicationManager.dtd
 browser/chrome/browser/preferences/applicationManager.properties
-browser/chrome/browser/preferences/applications.dtd
 browser/chrome/browser/preferences/blocklists.dtd
 browser/chrome/browser/preferences/clearSiteData.dtd
 browser/chrome/browser/preferences/clearSiteData.properties
@@ -72,7 +67,6 @@ browser/chrome/browser/preferences/security.dtd
 browser/chrome/browser/preferences/selectBookmark.dtd
 browser/chrome/browser/preferences/siteDataSettings.dtd
 browser/chrome/browser/preferences/sync.dtd
-browser/chrome/browser/preferences/tabs.dtd
 browser/chrome/browser/preferences/translation.dtd
 browser/chrome/browser/quitDialog.properties
 browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd
@@ -309,7 +303,6 @@ toolkit/chrome/global/resetProfile.properties
 toolkit/chrome/global/textcontext.dtd
 toolkit/chrome/global/tree.dtd
 toolkit/chrome/global/videocontrols.dtd
-toolkit/chrome/global/viewSource.dtd
 toolkit/chrome/global/viewSource.properties
 toolkit/chrome/global/wizard.dtd
 toolkit/chrome/global/wizard.properties

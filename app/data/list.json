@@ -108,15 +108,6 @@
     "tier": 1
   },
   {
-    "file": "browser/browser/preferences/main.ftl",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "browser/browser/preferences/permissions.ftl",
     "module": "browser/user",
     "notes": "",
@@ -351,24 +342,6 @@
     "tier": 1
   },
   {
-    "file": "browser/chrome/browser/newTab.dtd",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "browser/chrome/browser/newTab.properties",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
     "file": "browser/chrome/browser/pageInfo.dtd",
     "module": "browser/opt",
     "notes": "",
@@ -397,15 +370,6 @@
   },
   {
     "file": "browser/chrome/browser/places/editBookmarkOverlay.dtd",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "browser/chrome/browser/places/moveBookmarks.dtd",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -451,15 +415,6 @@
   },
   {
     "file": "browser/chrome/browser/preferences/applicationManager.properties",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "browser/chrome/browser/preferences/applications.dtd",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -649,15 +604,6 @@
   },
   {
     "file": "browser/chrome/browser/preferences/sync.dtd",
-    "module": "browser/user",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 1
-  },
-  {
-    "file": "browser/chrome/browser/preferences/tabs.dtd",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -2762,15 +2708,6 @@
       "desktop"
     ],
     "tier": 1
-  },
-  {
-    "file": "toolkit/chrome/global/viewSource.dtd",
-    "module": "shared/technical_messages",
-    "notes": "",
-    "products": [
-      "desktop"
-    ],
-    "tier": 3
   },
   {
     "file": "toolkit/chrome/global/viewSource.properties",
