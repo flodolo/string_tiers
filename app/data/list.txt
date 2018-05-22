@@ -20,6 +20,7 @@ browser/chrome/browser/aboutDialog.dtd
 browser/chrome/browser/aboutHome.dtd
 browser/chrome/browser/aboutPrivateBrowsing.dtd
 browser/chrome/browser/aboutPrivateBrowsing.properties
+browser/chrome/browser/aboutRestartRequired.dtd
 browser/chrome/browser/aboutRobots.dtd
 browser/chrome/browser/aboutSearchReset.dtd
 browser/chrome/browser/aboutSessionRestore.dtd
@@ -132,6 +133,7 @@ devtools/client/markers.properties
 devtools/client/memory.properties
 devtools/client/menus.properties
 devtools/client/netmonitor.properties
+devtools/client/network-throttling.properties
 devtools/client/performance.dtd
 devtools/client/performance.properties
 devtools/client/responsive.properties
@@ -253,6 +255,7 @@ toolkit/chrome/global/aboutReader.properties
 toolkit/chrome/global/aboutRights.dtd
 toolkit/chrome/global/aboutServiceWorkers.dtd
 toolkit/chrome/global/aboutServiceWorkers.properties
+toolkit/chrome/global/aboutStudies.properties
 toolkit/chrome/global/aboutSupport.dtd
 toolkit/chrome/global/aboutSupport.properties
 toolkit/chrome/global/aboutTelemetry.dtd

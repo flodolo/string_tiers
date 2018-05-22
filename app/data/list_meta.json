@@ -176,6 +176,14 @@
       ], 
       "tier": 1
     }, 
+    "browser/chrome/browser/aboutRestartRequired.dtd": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
     "browser/chrome/browser/aboutRobots.dtd": {
       "module": "browser/opt", 
       "notes": "", 
@@ -1073,6 +1081,14 @@
       "tier": 3
     }, 
     "devtools/client/netmonitor.properties": {
+      "module": "devtools", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 3
+    }, 
+    "devtools/client/network-throttling.properties": {
       "module": "devtools", 
       "notes": "", 
       "products": [
@@ -2046,6 +2062,15 @@
         "desktop"
       ], 
       "tier": 3
+    }, 
+    "toolkit/chrome/global/aboutStudies.properties": {
+      "module": "shared/user", 
+      "notes": "", 
+      "products": [
+        "desktop", 
+        "mobile"
+      ], 
+      "tier": 1
     }, 
     "toolkit/chrome/global/aboutSupport.dtd": {
       "module": "shared/user", 

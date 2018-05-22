@@ -145,12 +145,12 @@
   },
   {
     "file": "browser/browser/preferences/translation.ftl",
-    "module": "browser/user",
+    "module": "browser/opt",
     "notes": "",
     "products": [
       "desktop"
     ],
-    "tier": 1
+    "tier": 2
   },
   {
     "file": "browser/chrome/browser/aboutDialog.dtd",
@@ -181,6 +181,15 @@
   },
   {
     "file": "browser/chrome/browser/aboutPrivateBrowsing.properties",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/aboutRestartRequired.dtd",
     "module": "browser/user",
     "notes": "",
     "products": [
@@ -1198,6 +1207,15 @@
   },
   {
     "file": "devtools/client/netmonitor.properties",
+    "module": "devtools",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 3
+  },
+  {
+    "file": "devtools/client/network-throttling.properties",
     "module": "devtools",
     "notes": "",
     "products": [
@@ -2248,6 +2266,16 @@
     "tier": 3
   },
   {
+    "file": "toolkit/chrome/global/aboutStudies.properties",
+    "module": "shared/user",
+    "notes": "",
+    "products": [
+      "desktop",
+      "mobile"
+    ],
+    "tier": 1
+  },
+  {
     "file": "toolkit/chrome/global/aboutSupport.dtd",
     "module": "shared/user",
     "notes": "",
@@ -3085,11 +3113,11 @@
   },
   {
     "file": "toolkit/defines.inc",
-    "module": "shared/user",
+    "module": "shared/opt",
     "notes": "",
     "products": [
       "desktop"
     ],
-    "tier": 1
+    "tier": 2
   }
 ]

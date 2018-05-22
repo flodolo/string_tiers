@@ -3,15 +3,15 @@
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 12 |
-| browser/user | 1 | 95 |
-| devtools | 3 | 64 |
+| browser/user | 1 | 96 |
+| devtools | 3 | 65 |
 | devtools/about | 2 | 4 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 28 |
 | shared/opt | 2 | 22 |
 | shared/technical_messages | 3 | 14 |
-| shared/user | 1 | 83 |
+| shared/user | 1 | 84 |
 
 ## Modules details
 
@@ -51,6 +51,7 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHome.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutPrivateBrowsing.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutPrivateBrowsing.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutRestartRequired.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSearchReset.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSessionRestore.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutTabCrashed.dtd</sub> | <sub></sub> |
@@ -153,6 +154,7 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/memory.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/menus.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/netmonitor.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/network-throttling.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/performance.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/responsive.properties</sub> | <sub></sub> |
@@ -294,6 +296,7 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global-platform/win/platformKeys.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutReader.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutRights.dtd</sub> | <sub></sub> |
+| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutStudies.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutSupport.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/aboutSupport.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/appPicker.dtd</sub> | <sub></sub> |
