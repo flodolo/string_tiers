@@ -128,13 +128,21 @@
       ], 
       "tier": 1
     }, 
-    "browser/browser/preferences/translation.ftl": {
+    "browser/browser/preferences/syncDisconnect.ftl": {
       "module": "browser/user", 
       "notes": "", 
       "products": [
         "desktop"
       ], 
       "tier": 1
+    }, 
+    "browser/browser/preferences/translation.ftl": {
+      "module": "browser/opt", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 2
     }, 
     "browser/chrome/browser-region/region.properties": {
       "module": "browser/user", 
@@ -217,6 +225,14 @@
       "tier": 1
     }, 
     "browser/chrome/browser/accounts.properties": {
+      "module": "browser/user", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 1
+    }, 
+    "browser/chrome/browser/activity-stream/newtab.properties": {
       "module": "browser/user", 
       "notes": "", 
       "products": [
@@ -2770,12 +2786,12 @@
       "tier": 1
     }, 
     "toolkit/defines.inc": {
-      "module": "shared/user", 
+      "module": "shared/opt", 
       "notes": "", 
       "products": [
         "desktop"
       ], 
-      "tier": 1
+      "tier": 2
     }
   }, 
   "modules": {

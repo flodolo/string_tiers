@@ -144,6 +144,15 @@
     "tier": 1
   },
   {
+    "file": "browser/browser/preferences/syncDisconnect.ftl",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
     "file": "browser/browser/preferences/translation.ftl",
     "module": "browser/opt",
     "notes": "",
@@ -235,6 +244,15 @@
   },
   {
     "file": "browser/chrome/browser/accounts.properties",
+    "module": "browser/user",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 1
+  },
+  {
+    "file": "browser/chrome/browser/activity-stream/newtab.properties",
     "module": "browser/user",
     "notes": "",
     "products": [

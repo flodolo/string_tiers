@@ -14,6 +14,7 @@ browser/browser/preferences/permissions.ftl
 browser/browser/preferences/preferences.ftl
 browser/browser/preferences/selectBookmark.ftl
 browser/browser/preferences/siteDataSettings.ftl
+browser/browser/preferences/syncDisconnect.ftl
 browser/browser/preferences/translation.ftl
 browser/chrome/browser-region/region.properties
 browser/chrome/browser/aboutDialog.dtd
@@ -26,6 +27,7 @@ browser/chrome/browser/aboutSearchReset.dtd
 browser/chrome/browser/aboutSessionRestore.dtd
 browser/chrome/browser/aboutTabCrashed.dtd
 browser/chrome/browser/accounts.properties
+browser/chrome/browser/activity-stream/newtab.properties
 browser/chrome/browser/baseMenuOverlay.dtd
 browser/chrome/browser/browser.dtd
 browser/chrome/browser/browser.properties

@@ -2,21 +2,22 @@
 
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
-| browser/opt | 2 | 12 |
-| browser/user | 1 | 96 |
+| browser/opt | 2 | 13 |
+| browser/user | 1 | 97 |
 | devtools | 3 | 65 |
 | devtools/about | 2 | 4 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 28 |
-| shared/opt | 2 | 22 |
+| shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 14 |
-| shared/user | 1 | 84 |
+| shared/user | 1 | 83 |
 
 ## Modules details
 
 | Module | Tier | File | Notes |
 | ------ | ---- | ---- | ----- |
+| <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/browser/preferences/translation.ftl</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/aboutRobots.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/lightweightThemes.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/pageInfo.dtd</sub> | <sub></sub> |
@@ -45,7 +46,7 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/preferences.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/selectBookmark.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/siteDataSettings.ftl</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/translation.ftl</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/browser/preferences/syncDisconnect.ftl</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser-region/region.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutDialog.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHome.dtd</sub> | <sub></sub> |
@@ -56,6 +57,7 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSessionRestore.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutTabCrashed.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/accounts.properties</sub> | <sub></sub> |
+| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/activity-stream/newtab.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/baseMenuOverlay.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/browser.dtd</sub> | <sub>Would be good to split this in smaller logical pieces</sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/browser.properties</sub> | <sub>Would be good to split this in smaller logical pieces</sub> |
@@ -263,6 +265,7 @@
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/history.dtd</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/updates.dtd</sub> | <sub></sub> |
 | <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/chrome/mozapps/update/updates.properties</sub> | <sub></sub> |
+| <sub>shared/opt</sub> | <sub>2</sub> | <sub>toolkit/defines.inc</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>security/manager/chrome/pipnss/nsserrors.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>security/manager/chrome/pipnss/pipnss.properties</sub> | <sub></sub> |
 | <sub>shared/technical_messages</sub> | <sub>3</sub> | <sub>toolkit/chrome/global/aboutNetworking.dtd</sub> | <sub></sub> |
@@ -360,4 +363,3 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/crashreporter/crashes.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/crashreporter/crashes.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/crashreporter/crashreporter.ini</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/defines.inc</sub> | <sub></sub> |
