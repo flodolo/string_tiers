@@ -1035,6 +1035,15 @@
     "tier": 3
   },
   {
+    "file": "devtools/client/application.ftl",
+    "module": "devtools",
+    "notes": "",
+    "products": [
+      "desktop"
+    ],
+    "tier": 3
+  },
+  {
     "file": "devtools/client/boxmodel.properties",
     "module": "devtools",
     "notes": "",

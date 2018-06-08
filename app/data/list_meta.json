@@ -928,6 +928,14 @@
       ], 
       "tier": 3
     }, 
+    "devtools/client/application.ftl": {
+      "module": "devtools", 
+      "notes": "", 
+      "products": [
+        "desktop"
+      ], 
+      "tier": 3
+    }, 
     "devtools/client/boxmodel.properties": {
       "module": "devtools", 
       "notes": "", 

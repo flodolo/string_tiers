@@ -113,6 +113,7 @@ devtools/client/accessibility.properties
 devtools/client/animationinspector.properties
 devtools/client/app-manager.properties
 devtools/client/appcacheutils.properties
+devtools/client/application.ftl
 devtools/client/boxmodel.properties
 devtools/client/canvasdebugger.dtd
 devtools/client/canvasdebugger.properties

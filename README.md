@@ -4,7 +4,7 @@
 | ----------- | ---- | ----- |
 | browser/opt | 2 | 13 |
 | browser/user | 1 | 97 |
-| devtools | 3 | 65 |
+| devtools | 3 | 66 |
 | devtools/about | 2 | 4 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
@@ -134,6 +134,7 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/animationinspector.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/app-manager.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/appcacheutils.properties</sub> | <sub></sub> |
+| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/application.ftl</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/boxmodel.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/canvasdebugger.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/canvasdebugger.properties</sub> | <sub></sub> |
