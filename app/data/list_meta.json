@@ -176,14 +176,6 @@
       ], 
       "tier": 1
     }, 
-    "browser/chrome/browser/aboutPrivateBrowsing.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "browser/chrome/browser/aboutRestartRequired.dtd": {
       "module": "browser/user", 
       "notes": "", 
@@ -288,14 +280,6 @@
       ], 
       "tier": 1
     }, 
-    "browser/chrome/browser/engineManager.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "browser/chrome/browser/feeds/subscribe.dtd": {
       "module": "browser/user", 
       "notes": "", 
@@ -384,159 +368,7 @@
       ], 
       "tier": 1
     }, 
-    "browser/chrome/browser/preferences/advanced.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/applicationManager.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/applicationManager.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/blocklists.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/clearSiteData.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/clearSiteData.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/colors.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/connection.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/containers.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/containers.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/content.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/cookies.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/fonts.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/languages.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/main.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/permissions.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/preferences.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "browser/chrome/browser/preferences/preferences.properties": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/privacy.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/search.dtd": {
       "module": "browser/user", 
       "notes": "", 
       "products": [
@@ -551,38 +383,6 @@
         "desktop"
       ], 
       "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/selectBookmark.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/siteDataSettings.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/sync.dtd": {
-      "module": "browser/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "browser/chrome/browser/preferences/translation.dtd": {
-      "module": "browser/opt", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 2
     }, 
     "browser/chrome/browser/quitDialog.properties": {
       "module": "browser/user", 
@@ -1256,14 +1056,6 @@
       ], 
       "tier": 3
     }, 
-    "devtools/client/webConsole.dtd": {
-      "module": "devtools", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 3
-    }, 
     "devtools/client/webaudioeditor.dtd": {
       "module": "devtools", 
       "notes": "", 
@@ -1361,38 +1153,6 @@
       "tier": 3
     }, 
     "devtools/shared/styleinspector.properties": {
-      "module": "devtools", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 3
-    }, 
-    "devtools/shim/aboutdevtools.dtd": {
-      "module": "devtools/about", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 2
-    }, 
-    "devtools/shim/aboutdevtools.properties": {
-      "module": "devtools/about", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 2
-    }, 
-    "devtools/shim/key-shortcuts.properties": {
-      "module": "devtools", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 3
-    }, 
-    "devtools/shim/startup.properties": {
       "module": "devtools", 
       "notes": "", 
       "products": [
@@ -2305,14 +2065,6 @@
       ], 
       "tier": 1
     }, 
-    "toolkit/chrome/global/filefield.properties": {
-      "module": "shared/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "toolkit/chrome/global/filepicker.properties": {
       "module": "shared/user", 
       "notes": "", 
@@ -2564,14 +2316,6 @@
       ], 
       "tier": 1
     }, 
-    "toolkit/chrome/mozapps/extensions/about.dtd": {
-      "module": "shared/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
     "toolkit/chrome/mozapps/extensions/blocklist.dtd": {
       "module": "shared/user", 
       "notes": "", 
@@ -2589,30 +2333,6 @@
       "tier": 1
     }, 
     "toolkit/chrome/mozapps/extensions/extensions.properties": {
-      "module": "shared/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "toolkit/chrome/mozapps/extensions/newaddon.dtd": {
-      "module": "shared/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "toolkit/chrome/mozapps/extensions/newaddon.properties": {
-      "module": "shared/user", 
-      "notes": "", 
-      "products": [
-        "desktop"
-      ], 
-      "tier": 1
-    }, 
-    "toolkit/chrome/mozapps/extensions/update.properties": {
       "module": "shared/user", 
       "notes": "", 
       "products": [

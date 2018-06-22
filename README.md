@@ -2,16 +2,16 @@
 
 | Module Name | Tier | Files |
 | ----------- | ---- | ----- |
-| browser/opt | 2 | 13 |
-| browser/user | 1 | 97 |
-| devtools | 3 | 66 |
-| devtools/about | 2 | 4 |
+| browser/opt | 2 | 12 |
+| browser/user | 1 | 73 |
+| devtools | 3 | 63 |
+| devtools/about | 2 | 2 |
 | dom/accessibility | 1 | 4 |
 | dom/technical_messages | 3 | 15 |
 | mobile/user | 1 | 28 |
 | shared/opt | 2 | 23 |
 | shared/technical_messages | 3 | 14 |
-| shared/user | 1 | 83 |
+| shared/user | 1 | 78 |
 
 ## Modules details
 
@@ -22,7 +22,6 @@
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/lightweightThemes.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/pageInfo.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/pageInfo.properties</sub> | <sub></sub> |
-| <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/preferences/translation.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/safebrowsing/safebrowsing.properties</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.dtd</sub> | <sub></sub> |
 | <sub>browser/opt</sub> | <sub>2</sub> | <sub>browser/chrome/browser/translation.properties</sub> | <sub></sub> |
@@ -51,7 +50,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutDialog.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutHome.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutPrivateBrowsing.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutPrivateBrowsing.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutRestartRequired.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSearchReset.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/aboutSessionRestore.dtd</sub> | <sub></sub> |
@@ -64,7 +62,6 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/customizableui/customizableWidgets.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/downloads/downloads.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/downloads/downloads.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/engineManager.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/feeds/subscribe.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/feeds/subscribe.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/migration/migration.dtd</sub> | <sub></sub> |
@@ -73,30 +70,8 @@
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/editBookmarkOverlay.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/places/places.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/advanced.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/applicationManager.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/blocklists.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/clearSiteData.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/clearSiteData.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/colors.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/connection.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/containers.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/containers.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/content.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/cookies.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/fonts.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/languages.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/main.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/permissions.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/preferences.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/preferences.properties</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/privacy.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/search.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/security.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/selectBookmark.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/siteDataSettings.dtd</sub> | <sub></sub> |
-| <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/preferences/sync.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/quitDialog.properties</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safeMode.dtd</sub> | <sub></sub> |
 | <sub>browser/user</sub> | <sub>1</sub> | <sub>browser/chrome/browser/safebrowsing/phishing-afterload-warning-message.dtd</sub> | <sub></sub> |
@@ -175,7 +150,6 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/styleeditor.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/toolbox.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/toolbox.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webConsole.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webaudioeditor.dtd</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webaudioeditor.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/client/webconsole.properties</sub> | <sub></sub> |
@@ -189,12 +163,8 @@
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/gclicommands.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/shared.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shared/styleinspector.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shim/key-shortcuts.properties</sub> | <sub></sub> |
-| <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/shim/startup.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/startup/key-shortcuts.properties</sub> | <sub></sub> |
 | <sub>devtools</sub> | <sub>3</sub> | <sub>devtools/startup/startup.properties</sub> | <sub></sub> |
-| <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/shim/aboutdevtools.dtd</sub> | <sub></sub> |
-| <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/shim/aboutdevtools.properties</sub> | <sub></sub> |
 | <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/startup/aboutdevtools.dtd</sub> | <sub></sub> |
 | <sub>devtools/about</sub> | <sub>2</sub> | <sub>devtools/startup/aboutdevtools.properties</sub> | <sub></sub> |
 | <sub>dom/accessibility</sub> | <sub>1</sub> | <sub>dom/chrome/accessibility/AccessFu.properties</sub> | <sub></sub> |
@@ -316,7 +286,6 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/dialogOverlay.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/editMenuOverlay.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/fallbackMenubar.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/filefield.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/filepicker.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/findbar.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/global/findbar.properties</sub> | <sub></sub> |
@@ -339,13 +308,9 @@
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/settingsChange.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/unknownContentType.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/downloads/unknownContentType.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/about.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/blocklist.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/extensions.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/extensions.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/newaddon.dtd</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/newaddon.properties</sub> | <sub></sub> |
-| <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/update.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/xpinstallConfirm.dtd</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/extensions/xpinstallConfirm.properties</sub> | <sub></sub> |
 | <sub>shared/user</sub> | <sub>1</sub> | <sub>toolkit/chrome/mozapps/handling/handling.dtd</sub> | <sub></sub> |

@@ -15,7 +15,7 @@ def diff(a, b):
 
 def print_array(list):
     if list:
-        print(', '.join(list))
+        print('\n'.join(list))
     else:
         print('(no files)')
 
